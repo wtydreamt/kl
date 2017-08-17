@@ -136,10 +136,7 @@ class CommonModel extends  Model
         }
     }
 
-        public function add($tableName,$arr)
-        {
-            return $res=M($tableName)->add($arr);
-        }
+
 
         public function del($tableName,$where){
             return $res=M($tableName)->where($where)->delete();
@@ -166,6 +163,26 @@ class CommonModel extends  Model
         $result=$User->join($sql)->field($field)->where($where)->order("'$id $sort'")->find();
         //echo $User->_sql();die;
         return $result;
-    }         
+    }
+
+    public function adddata($tableName,$data){
+        $table=M($tableName);
+        $res=$table->add($data);
+        $message=array();
+        if(!$res){
+            return $message=array("message"=>"网络繁忙稍后再试","status"=>"false");
+        }else{
+            return $message=array("message"=>$res,"status"=>"true");
+        }
+    } 
+
+    public function generalquery($tableName,$where,$field=true,$type="all"){
+           $res=$type=="all"?$res=M($tableName)->where($where)->field($field)->select():$res=M($tableName)->where($where)->field($field)->find();
+           if($res){
+             return $message=array("message"=>$res,"status"=>"true");
+           }else{
+             return $message=array("message"=>"","status"=>"false");
+           }
+    }        
 }
 

@@ -1,5 +1,4 @@
 <?php
-// 本类由系统自动生成，仅供测试用途
 namespace Home\Controller;
 use Think\Controller;
 class PowerController extends Controller {
@@ -8,5 +7,10 @@ class PowerController extends Controller {
     }
     public function rolelist(){
            $this->display();
+    }
+    public function addrole(){
+    	$data=I();
+    	$res=D("Common")->adddata("role",$data);
+    	echo json_encode($res);
     }
 }

@@ -236,16 +236,6 @@
 
 								<b class="arrow"></b>
 							</li>
-
-							<li class="">
-								<a href="elements.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									擅长领域
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
 							<li class="">
 								<a href="buttons.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -264,75 +254,8 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="">
-								<a href="jquery-ui.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									jQuery UI
-								</a>
 
-								<b class="arrow"></b>
-							</li>
 
-							<li class="">
-								<a href="nestable-list.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									可拖拽列表
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-									三级菜单
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="">
-										<a href="#">
-											<i class="menu-icon fa fa-leaf green"></i>
-											第一级
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="#" class="dropdown-toggle">
-											<i class="menu-icon fa fa-pencil orange"></i>
-
-											第四级
-											<b class="arrow fa fa-angle-down"></b>
-										</a>
-
-										<b class="arrow"></b>
-
-										<ul class="submenu">
-											<li class="">
-												<a href="#">
-													<i class="menu-icon fa fa-plus purple"></i>
-													添加商品
-												</a>
-
-												<b class="arrow"></b>
-											</li>
-
-											<li class="">
-												<a href="#">
-													<i class="menu-icon fa fa-eye pink"></i>
-													查看商品
-												</a>
-
-												<b class="arrow"></b>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
 						</ul>
 					</li>
 
@@ -366,7 +289,6 @@
 							</li>
 						</ul>
 					</li>
-
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-pencil-square-o"></i>
@@ -415,48 +337,10 @@
 							</li>
 						</ul>
 					</li>
-
-					<li class="">
-						<a href="widgets.html">
-							<i class="menu-icon fa fa-list-alt"></i>
-							<span class="menu-text"> 插件 </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-
-					<li class="">
-						<a href="calendar.html">
-							<i class="menu-icon fa fa-calendar"></i>
-
-							<span class="menu-text">
-								日历
-
-								<!-- #section:basics/sidebar.layout.badge -->
-								<span class="badge badge-transparent tooltip-error" title="有2件重要事件">
-									<i class="ace-icon fa fa-exclamation-triangle red bigger-130"></i>
-								</span>
-
-								<!-- /section:basics/sidebar.layout.badge -->
-							</span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-
-					<li class="">
-						<a href="gallery.html">
-							<i class="menu-icon fa fa-picture-o"></i>
-							<span class="menu-text"> 相册 </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-
 					<li class="">
 						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-tag"></i>
-							<span class="menu-text"> 更多页面 </span>
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> 活动管理 </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -465,65 +349,28 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="profile.html">
+								<a href="<?php echo U('Power/index');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									用户信息
+									赛事介绍
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="pricing.html">
+								<a href="<?php echo U('Power/rolelist');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									售价单
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="invoice.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									购物车
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="timeline.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									时间轴
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-
-							<li class="">
-								<a href="login.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									登录注册
+									奖项设置
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 						</ul>
 					</li>
-
 					<li class="">
 						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-file-o"></i>
-
-							<span class="menu-text">
-								其他页面
-
-								<!-- #section:basics/sidebar.layout.badge -->
-								<span class="badge badge-primary">5</span>
-
-								<!-- /section:basics/sidebar.layout.badge -->
-							</span>
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> vip策略 </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -532,51 +379,76 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="faq.html">
+								<a href="<?php echo U('Power/index');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									帮助页面
+									发布观点
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="error-404.html">
+								<a href="<?php echo U('Power/rolelist');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									404错误页面
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="error-500.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									500错误页面
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="grid.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									网格
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="blank.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									空白页面
+									设置课程
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 						</ul>
 					</li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> 分类管理 </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="<?php echo U('Power/index');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									观点分类
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="<?php echo U('Power/rolelist');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									标签设置
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> 实战回顾 </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="<?php echo U('Power/index');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									实战辅导
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>																
+					
 				</ul><!-- /.nav-list -->
 
 				<!-- #section:basics/sidebar.layout.minimize -->
@@ -602,12 +474,12 @@
 
 					<!-- #section:basics/content.searchbox -->
 					<div class="nav-search" id="nav-search">
-						<form class="form-search">
+			<!-- 			<form class="form-search">
 							<span class="input-icon">
 								<input type="text" placeholder="请输入关键字 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
 								<i class="ace-icon fa fa-search nav-search-icon"></i>
 							</span>
-						</form>
+						</form> -->
 					</div><!-- /.nav-search -->
 
 					<!-- /section:basics/content.searchbox -->
@@ -624,12 +496,19 @@
 									<form class="form-horizontal" role="form">
 									<!-- #section:elements.form -->
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 提交部门：</label>
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 角色名称：</label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入部门名称" class="col-xs-10 col-sm-5" />
+											<input type="text" id="form-field-1" placeholder="输入角色名称" name="name" class="col-xs-10 col-sm-5" />
 										</div>
 									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 角色描述：</label>
+
+										<div class="col-sm-9">
+											<input type="text" id="form-field-1" placeholder="输入角色描述" name="desc" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>									
 									<h3 class="header smaller lighter grey">
 										选择权限
 									</h3>
@@ -677,6 +556,23 @@
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
+<script type="text/javascript" src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.min.js'></script>
+		<script type="text/javascript">
+			$("[type='button']").click(function(){
+				var url="<?php echo U('Home/Power/addrole');?>";
+				var name=$("[name='name'").val();
+				var desc=$("[name='desc'").val();
+				var send={name:name,desc:desc}
+				$.post(url,send,function(message){
+					var message=$.parseJSON(message);
+					if(message.status=="true"){
+						alert("添加成功");
+					}else{
+						alert("服务器繁忙稍后再试");
+					}
+				})
+			})
+		</script>
 
 			<div class="footer">
 				<div class="footer-inner">
@@ -721,3 +617,17 @@
 		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.ui.touch-punch.min.js"></script>
 		<script src="/gitkunl/kl/kuluncom/Public/assets/js/ace-elements.min.js"></script>
 		<script src="/gitkunl/kl/kuluncom/Public/assets/js/ace.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/chosen.jquery.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/fuelux/fuelux.spinner.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/bootstrap-datepicker.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/bootstrap-timepicker.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/moment.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/daterangepicker.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/bootstrap-datetimepicker.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/bootstrap-colorpicker.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.knob.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.autosize.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.inputlimiter.1.3.1.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.maskedinput.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/bootstrap-tag.min.js"></script>
+		<script src="/gitkunl/kl/kuluncom/Public/assets/js/typeahead.jquery.min.js"></script>
