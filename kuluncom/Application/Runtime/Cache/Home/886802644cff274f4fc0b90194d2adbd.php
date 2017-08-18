@@ -409,7 +409,7 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="<?php echo U('Power/index');?>">
+								<a href="<?php echo U('Category/viewpoint');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									观点分类
 								</a>
@@ -418,7 +418,7 @@
 							</li>
 
 							<li class="">
-								<a href="<?php echo U('Power/rolelist');?>">
+								<a href="<?php echo U('Category/label');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									标签设置
 								</a>

@@ -58,12 +58,12 @@ class CommonModel extends  Model
         $upload->exts = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
         $upload->rootPath = './';
         $upload->savePath = '/Public/'.$names.'/'; // 设置附件上传目录    // 上传文件
-        $info = $upload->upload($_FILES);
+        $info = $upload->uploadOne($_FILES[$filename]);
         if (!$info) {// 上传错误提示错误信息
             $error=$upload->getError();
             return $data=array("msg"=>"0","error"=>$error);
         } else {
-            $path ='Uploads'. $info[$filename]['savepath'] . $info[$filename]['savename'];
+            $path ='Uploads'.$info['savepath'].$info['savename'];
             return $data=array("msg"=>"1","success"=>$path);
         }
     }
@@ -183,6 +183,14 @@ class CommonModel extends  Model
            }else{
              return $message=array("message"=>"","status"=>"false");
            }
-    }        
+    } 
+    public function generasave($tableName,$where,$data){
+          $res=M($tableName)->where($where)->save($data);
+          if($res!==false){
+            return true;
+          }else{
+            return false;
+          }
+    }       
 }
 

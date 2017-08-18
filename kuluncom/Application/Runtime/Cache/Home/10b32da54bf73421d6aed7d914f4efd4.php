@@ -303,7 +303,7 @@
 							<li class="">
 								<a href="form-elements.html">
 									<i class="menu-icon fa fa-caret-right"></i>
-									表单组件
+									新建节点
 								</a>
 
 								<b class="arrow"></b>
@@ -370,6 +370,27 @@
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> 讲师中心 </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="<?php echo U('Lecturer/index');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									个人资料
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>					
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
 							<span class="menu-text"> vip策略 </span>
 
 							<b class="arrow fa fa-angle-down"></b>
@@ -379,7 +400,7 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="<?php echo U('Power/index');?>">
+								<a href="<?php echo U('Strategy/index');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									发布观点
 								</a>
@@ -409,7 +430,7 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="<?php echo U('Power/index');?>">
+								<a href="<?php echo U('Category/viewpoint');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									观点分类
 								</a>
@@ -418,7 +439,7 @@
 							</li>
 
 							<li class="">
-								<a href="<?php echo U('Power/rolelist');?>">
+								<a href="<?php echo U('Category/labe');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									标签设置
 								</a>
@@ -448,7 +469,35 @@
 							</li>
 						</ul>
 					</li>																
-					
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> 站点管理 </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="<?php echo U('Site/index');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									首页推荐
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="<?php echo U('Site/banner');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									banner图
+								</a>
+
+								<b class="arrow"></b>
+							</li>							
+						</ul>
+					</li>							
 				</ul><!-- /.nav-list -->
 
 				<!-- #section:basics/sidebar.layout.minimize -->

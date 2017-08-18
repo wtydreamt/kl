@@ -1,0 +1,123 @@
+			<div class="main-content">
+				<!-- #section:basics/content.breadcrumbs -->
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="{:U('Home/Site/chief')}">推荐首席讲师</a>
+						</li>
+					</ul><!-- /.breadcrumb -->
+
+					<!-- #section:basics/content.searchbox -->
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<a href="{:U('Home/Site/chieflist')}" class="nav-search-input">推荐列表</a>
+							</span>
+						</form>
+					</div><!-- /.nav-search -->
+
+					<!-- /section:basics/content.searchbox -->
+				</div>
+
+				<div class="page-content">
+					<div class="page-content-area">
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<form class="form-horizontal" role="form" action="{:U('Home/Site/chief')}"  enctype="multipart/form-data" method="post">
+									<!-- #section:elements.form -->
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 推荐理由：</label>
+
+										<div class="col-sm-9">
+											<input type="text" name="reason" id="form-field-1" placeholder="推荐理由" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="limited">封面图：</label>
+										<div class="col-sm-9">
+											<div class="pos-rel">
+												<input type="file" name="cover_img"  class="col-xs-10 col-sm-5" />
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-tags">选择推荐讲师：</label>
+										<div class="col-sm-2">
+											<div class="pos-rel">
+												<select class="form-control" id="form-field-select-1" name="u_id">
+																<option value="0">选择讲师</option>
+																<if condition="!empty($admin_user)">
+																	<foreach name="admin_user" item="v">
+																		<option value="{$v.u_id}">{$v.nickname}</option>
+																	</foreach>
+																</if>
+															</select>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1-1">选择推荐位： </label>
+
+										<div class="col-sm-9">
+												<div class="radio" style="float: left">
+													<label>
+														<input name="position" type="radio" value="1" class="ace" />
+														<span class="lbl"> 推荐位1</span>
+													</label>
+												</div>
+
+												<div class="radio" style="float: left">
+													<label>
+														<input name="position" type="radio" value="2" class="ace" />
+														<span class="lbl"> 推荐位2</span>
+													</label>
+												</div>
+												<div class="radio" style="float: left">
+													<label>
+														<input name="position" type="radio" value="3" class="ace" />
+														<span class="lbl"> 推荐位3</span>
+													</label>
+												</div>												
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1-1">是否显示： </label>
+
+										<div class="col-sm-9">
+												<div class="radio" style="float: left">
+													<label>
+														<input name="is_show" type="radio" value="1" class="ace" />
+														<span class="lbl"> 显示</span>
+													</label>
+												</div>
+
+												<div class="radio" style="float: left">
+													<label>
+														<input name="is_show" type="radio" value="2" class="ace" />
+														<span class="lbl"> 不显示</span>
+													</label>
+												</div>
+										</div>
+									</div>									
+									
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<input class="btn btn-info" type="submit" value="立即提交">
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+
+								</form>
+
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content-area -->
+				</div><!-- /.page-content -->
+			</div><!-- /.main-content -->
