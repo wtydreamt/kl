@@ -10,23 +10,13 @@
 
   <!-- 轮播项目 -->
   <div class="carousel-inner">
+  <foreach name="banner" item="val">
     <div class="item">
      <a href="/">
-     	 <img alt="First slide" src="__PUBLIC__/index/images/inder_baner01.png" style="width: 100%; max-height: 430px;">
+     	 <img alt="First slide" src="__ROOT__/{$val.banner_img}" style="width: 100%; max-height: 430px;">
      </a>
     </div>
-    <div class="item">
-      <a href="/">
-      	 <img alt="First slide" src="__PUBLIC__/index/images/inder_baner02.png" style="width: 100%;max-height: 430px;">
-      </a>
-     
-    </div>
-    <div class="item">
-        <a href="/">
-      	 <img alt="First slide" src="__PUBLIC__/index/images/inder_baner03.png" style="width: 100%;max-height: 430px;">
-      </a>
-     
-    </div>
+  </foreach>
   </div>
 
   <!-- 项目切换按钮 -->
@@ -71,32 +61,33 @@
             <li class="he_h2">
                 <h2 class="btc"><span></span>涨停热点</h2>
             </li>
+          <foreach name="content" item="con">
           <li>
           	<div class="zt_com">
           		<a href="文章详情.html">
-          			<h3>大魔王大魔王大魔王大魔王大魔王大魔王大魔</h3>
-          			<p>大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王大魔王</p>
+          			<h3>{$con.title}</h3>
+          			<p>{$con.content}</p>
           		</a>
           	</div>
           	<div class="zt_sb">
           		<div class="fl sb_date_l">
           		<a href="/">
-          			<img src="__PUBLIC__/index/images/bx.png" alt="" style="width: 30px;">
-          			大魔王
+          			<img src="__ROOT__/{$con.head_img}" alt="" style="width: 30px;">
+          			{$con.nickname}
           		</a>
           		
           		</div>
           		<div class="fr sb_date_r">
           			<span>
-          				今天 05：16 
+          				{$con.ftime} 
           			</span>
           			<span>
-          				1888 阅读
+          				{$con.read}  阅读
           			</span>
           		</div>
           	</div>
           </li>
-        
+            </foreach>
         </ul>
         <p class="klts text-center">
             <img src="__PUBLIC__/index/images/bx.png" alt=""> 想看更多的请点击我们的公众号！
