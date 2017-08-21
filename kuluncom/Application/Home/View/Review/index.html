@@ -4,7 +4,7 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="{:U('Home/Category/labeadd')}">新增标签</a>
+							<a href="{:U('Home/Review/index')}">实战回顾</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
@@ -12,7 +12,7 @@
 					<div class="nav-search" id="nav-search">
 						<form class="form-search">
 							<span class="input-icon">
-								<a href="{:U('Home/Category/labe')}" class="nav-search-input">标签分类</a>
+								<a href="{:U('Home/Review/index')}" class="nav-search-input">实战回顾</a>
 							</span>
 						</form>
 					</div><!-- /.nav-search -->
@@ -21,28 +21,38 @@
 				</div>
 
 				<div class="page-content">
-					<!-- /section:settings.box -->
 					<div class="page-content-area">
 
 						<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
-								<div class="row center">
-									<form class="form-horizontal" role="form">
-									<!-- #section:elements.form -->
+								<form class="form-horizontal" role="form" action="{:U('Home/Review/index')}"  enctype="multipart/form-data" method="post">
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 标签名称：</label>
-
+										<label class="col-sm-3 control-label no-padding-right" for="limited">实战数据：</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" id="form-field-1" placeholder="标签名称" class="col-xs-10 col-sm-5" />
+											<div class="pos-rel">
+												<input type="file" name="review_img"  class="col-xs-10 col-sm-5" />
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-tags">操盘体系：</label>
+										<div class="col-sm-2">
+											<div class="pos-rel">
+												<select class="form-control" id="form-field-select-1" name="s_id">
+																<option value="0">选择操盘体系</option>
+																<if condition="!empty($system)">
+																	<foreach name="system" item="v">
+																		<option value="{$v.id}">{$v.name}</option>
+																	</foreach>
+																</if>
+															</select>
+											</div>
 										</div>
 									</div>
 									<div class="clearfix form-actions">
 										<div class="col-md-offset-3 col-md-9">
-											<button class="btn btn-info" type="button">
-												<i class="ace-icon fa fa-check bigger-110"></i>
-												立即提交
-											</button>
+											<input class="btn btn-info" type="submit" value="立即提交">
 											&nbsp; &nbsp; &nbsp;
 											<button class="btn" type="reset">
 												<i class="ace-icon fa fa-undo bigger-110"></i>
@@ -50,23 +60,11 @@
 											</button>
 										</div>
 									</div>
-								</form>
-								</div><!-- /.row -->
 
-								<!-- PAGE CONTENT ENDS -->
+								</form>
+
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
-<script type="text/javascript" src='__PUBLIC__/assets/js/jquery.min.js'></script>
-		<script type="text/javascript">
-			$("[type='button']").click(function(){
-				var url="{:U('Home/Category/labeadd')}";
-				var name=$("[name='name'").val();
-				var send={name:name}
-				$.post(url,send,function(message){
-					alert(message);
-				})
-			})
-		</script>

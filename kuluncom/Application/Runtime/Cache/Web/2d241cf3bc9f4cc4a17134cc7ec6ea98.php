@@ -64,66 +64,19 @@
 
     </div>
      
-   <!-- 轮播-->
-   <div id="myNiceCarousel" class="carousel slide" data-ride="carousel">
-  <!-- 圆点指示器 -->
-  <ol class="carousel-indicators">
-    <li data-target="#myNiceCarousel" data-slide-to="0"></li>
-    <li data-target="#myNiceCarousel" data-slide-to="1"></li>
-    <li data-target="#myNiceCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- 轮播项目 -->
-  <div class="carousel-inner">
-  <?php if(is_array($banner)): foreach($banner as $key=>$val): ?><div class="item">
-     <a href="/">
-     	 <img alt="First slide" src="/gitkunl/kl/kuluncom/<?php echo ($val["banner_img"]); ?>" style="width: 100%; max-height: 430px;">
-     </a>
-    </div><?php endforeach; endif; ?>
-  </div>
-
-  <!-- 项目切换按钮 -->
-  <a class="left carousel-control" href="#myNiceCarousel" data-slide="prev">
-    <span class="icon icon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#myNiceCarousel" data-slide="next">
-    <span class="icon icon-chevron-right"></span>
-  </a>
-</div>
-
-     <!-- 轮播-->
+  
     <div class="container klcontainer">
-        <h1 class="text-center">
-            易启学炒股，就上昆仑财富
-        </h1>
-
-        <ul class="zb-list-ul">
-            <li>
-                <h2 class="btc"><span></span>牛股直播</h2>
-            </li>
-            <li class="bner-con">
-            	<div class="col-xs-6">
-            		<a href="/Index/Teacher/details.html"><img src="/gitkunl/kl/kuluncom/<?php echo ($chief["1"]["cover_img"]); ?>" class="hover_optin"></a>
-            	</div>
-            	<div class="col-xs-3">
-            		<p>	
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["0"]["cover_img"]); ?>"></a>
-            		</p>
-            		<p>
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["1"]["cover_img"]); ?>"></a>
-            		</p>
-            	</div>
-            	<div class="col-xs-3">
-            			<a href="/Index/Teacher/details.html">
-            				<img src="/gitkunl/kl/kuluncom/<?php echo ($chief["3"]["cover_img"]); ?>" class="hover_optin" >
-            			</a>
-            	</div>
-            </li>
-        </ul>
+   		<div class="kl_naber_no">
+   			<ul>
+   				<li><a href="" class="active">最新</a></li>
+   				<li><a href="">大盘分析</a></li>
+   				<li><a href="">热门题材</a></li>
+   				<li><a href="">个股精讲</a></li>
+   				<li><a href="">知识技巧</a></li>
+   				<li><a href="">个人心得</a></li>
+   			</ul>
+   		</div>
           <ul class="zb-list-ul sb_list">
-            <li class="he_h2">
-                <h2 class="btc"><span></span>涨停热点</h2>
-            </li>
           <?php if(is_array($content)): foreach($content as $key=>$con): ?><li>
           	<div class="zt_com">
           		<a href="<?php echo U('Index/info');?>?id=<?php echo ($con["id"]); ?>">
@@ -141,20 +94,20 @@
           		</div>
           		<div class="fr sb_date_r">
           			<span>
-          				<?php echo ($con["ftime"]); ?> 
+          				<?php echo ($con["ftime"]); ?>
           			</span>
           			<span>
-          				<?php echo ($con["read"]); ?>  阅读
+          				<?php echo ($con["read"]); ?> 阅读
           			</span>
           		</div>
           	</div>
           </li><?php endforeach; endif; ?>
         </ul>
         <p class="klts text-center">
-            <img src="/gitkunl/kl/kuluncom/Public/index/images/bx.png" alt=""> 想看更多的请点击我们的公众号！
+            <img src="images/bx.png" alt=""> 想看更多的请点击我们的公众号！
         </p>
     </div>
-
+  
     <footer>
         <div class="bg-grayq">
             <div class="container pb-36">

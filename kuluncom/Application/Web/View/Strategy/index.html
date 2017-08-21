@@ -1,0 +1,47 @@
+
+  
+    <div class="container klcontainer">
+   		<div class="kl_naber_no">
+   			<ul>
+   				<li><a href="" class="active">最新</a></li>
+   				<li><a href="">大盘分析</a></li>
+   				<li><a href="">热门题材</a></li>
+   				<li><a href="">个股精讲</a></li>
+   				<li><a href="">知识技巧</a></li>
+   				<li><a href="">个人心得</a></li>
+   			</ul>
+   		</div>
+          <ul class="zb-list-ul sb_list">
+          <foreach name="content" item="con">
+          <li>
+          	<div class="zt_com">
+          		<a href="{:U('Index/info')}?id={$con.id}">
+          			<h3>{$con.title}</h3>
+          			<p>{$con.content}</p>
+          		</a>
+          	</div>
+          	<div class="zt_sb">
+          		<div class="fl sb_date_l">
+          		<a href="/">
+          			<img src="__ROOT__/{$con.head_img}" alt="" style="width: 30px;">
+          			{$con.nickname}
+          		</a>
+          		
+          		</div>
+          		<div class="fr sb_date_r">
+          			<span>
+          				{$con.ftime}
+          			</span>
+          			<span>
+          				{$con.read} 阅读
+          			</span>
+          		</div>
+          	</div>
+          </li>
+          </foreach>
+        </ul>
+        <p class="klts text-center">
+            <img src="images/bx.png" alt=""> 想看更多的请点击我们的公众号！
+        </p>
+    </div>
+  

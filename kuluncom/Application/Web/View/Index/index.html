@@ -40,19 +40,19 @@
             </li>
             <li class="bner-con">
             	<div class="col-xs-6">
-            		<a href="/Index/Teacher/details.html"><img src="__PUBLIC__/index/images/baner02.png" class="hover_optin"></a>
+            		<a href="/Index/Teacher/details.html"><img src="__ROOT__/{$chief.1.cover_img}" class="hover_optin"></a>
             	</div>
             	<div class="col-xs-3">
             		<p>	
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="__PUBLIC__/index/images/baner02.png"></a>
+            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="__ROOT__/{$chief.2.0.cover_img}"></a>
             		</p>
             		<p>
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="__PUBLIC__/index/images/baner02.png"></a>
+            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="__ROOT__/{$chief.2.1.cover_img}"></a>
             		</p>
             	</div>
             	<div class="col-xs-3">
             			<a href="/Index/Teacher/details.html">
-            				<img src="__PUBLIC__/index/images/baner03.png" class="hover_optin" >
+            				<img src="__ROOT__/{$chief.3.cover_img}" class="hover_optin" >
             			</a>
             	</div>
             </li>
@@ -64,7 +64,7 @@
           <foreach name="content" item="con">
           <li>
           	<div class="zt_com">
-          		<a href="文章详情.html">
+          		<a href="{:U('Index/info')}?id={$con.id}">
           			<h3>{$con.title}</h3>
           			<p>{$con.content}</p>
           		</a>

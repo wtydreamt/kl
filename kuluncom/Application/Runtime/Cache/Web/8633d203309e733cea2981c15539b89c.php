@@ -63,98 +63,116 @@
         </div>
 
     </div>
-     
-   <!-- 轮播-->
-   <div id="myNiceCarousel" class="carousel slide" data-ride="carousel">
-  <!-- 圆点指示器 -->
-  <ol class="carousel-indicators">
-    <li data-target="#myNiceCarousel" data-slide-to="0"></li>
-    <li data-target="#myNiceCarousel" data-slide-to="1"></li>
-    <li data-target="#myNiceCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- 轮播项目 -->
-  <div class="carousel-inner">
-  <?php if(is_array($banner)): foreach($banner as $key=>$val): ?><div class="item">
-     <a href="/">
-     	 <img alt="First slide" src="/gitkunl/kl/kuluncom/<?php echo ($val["banner_img"]); ?>" style="width: 100%; max-height: 430px;">
-     </a>
-    </div><?php endforeach; endif; ?>
-  </div>
-
-  <!-- 项目切换按钮 -->
-  <a class="left carousel-control" href="#myNiceCarousel" data-slide="prev">
-    <span class="icon icon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#myNiceCarousel" data-slide="next">
-    <span class="icon icon-chevron-right"></span>
-  </a>
+       	<div class="hs_com">
+  		 <div class="container kl_sbcontern">
+  		 	<div class="col-lg-8 sbcontern_l">
+  		 			<h3><?php echo ($content["title"]); ?></h3>
+  		 	<div class="uu_sp">
+  		 		<div class="fl">
+  		 			<span class="kl_scj" >
+  		 			<img src="/gitkunl/kl/kuluncom/<?php echo ($content["head_img"]); ?>" alt=""  style="width: 30px;">
+  		 				<?php echo ($content["nickname"]); ?>
+  		 			</span>
+  		 			<span class="ls_date" >
+  		 				<?php echo ($content["ftime"]); ?>
+  		 			</span>
+  		 		</div> 
+  		 		<div class="fr sb_fxx">
+  		 			<span class="liulan">
+  		 				<img src="/gitkunl/kl/kuluncom/Public/index/images/listicon.png"/>  73
+  		 			</span>
+  		 				<span class="zan">
+  		 				<img src="/gitkunl/kl/kuluncom/Public/index/images/zanicon.jpg" alt="" />&nbsp; 73
+  		 			</span>
+  		 			<span class="fx">
+  		 				<img src="/gitkunl/kl/kuluncom/Public/index/images/share.png" alt="" />&nbsp;分享
+  		 			</span>
+  		 		</div>
+  		 	</div>
+  		 	<hr />
+  		 	<div class="sb_content">
+  		 		<?php echo ($content["content"]); ?>
+  		 	</div>
+  		 	<p class="c_te">【风险提示：以上内容仅代表个人观点，不构成投资建议，股市有风险，投资需谨慎!】</p>
+  		 </div>
+  		 	<div class="col-lg-3 sbcontern_r fr">
+  		 		<div class="m_right_box" data-reactid=".2.0.1.0">
+	<div class="right_part03 clx paddBotno" data-reactid=".2.0.1.0.0">
+		<div class="option_person_pic fl" data-reactid=".2.0.1.0.0.0">
+			<img src="/gitkunl/kl/kuluncom/<?php echo ($lecture["head_img"]); ?>" width="100" height="100" data-reactid=".2.0.1.0.0.0.0">
+		</div>
+		<div class="option_person_con fl" data-reactid=".2.0.1.0.0.1">
+			<em class="nikename" data-reactid=".2.0.1.0.0.1.0"><a href="/newhome//adviser/index?advisor_id=51" data-reactid=".2.0.1.0.0.1.0.0"><?php echo ($lecture["nickname"]); ?></a></em><i class="icon-v" data-reactid=".2.0.1.0.0.1.1"></i><span data-reactid=".2.0.1.0.0.1.2">钻石投顾</span>
+			<div class="person_btn" data-reactid=".2.0.1.0.0.1.3">
+				<div id="popQa" style="display:none;" data-reactid=".2.0.1.0.0.1.3.0">
+					<div data-reactid=".2.0.1.0.0.1.3.0.0">
+						<div class="question_pop" data-reactid=".2.0.1.0.0.1.3.0.0.0">
+							<h1 data-reactid=".2.0.1.0.0.1.3.0.0.0.0">向史月波高控盘顾问提问</h1>
+							<input type="text" placeholder="请输入股票代码或名称" class="search_inpt" data-reactid=".2.0.1.0.0.1.3.0.0.0.1">
+							<div class="question_text" id="qa-51" data-reactid=".2.0.1.0.0.1.3.0.0.0.2">
+								<textarea placeholder="请描述您的问题" data-reactid=".2.0.1.0.0.1.3.0.0.0.2.0"></textarea>
+								<p class="introduction_num" data-reactid=".2.0.1.0.0.1.3.0.0.0.2.1">
+									<span data-reactid=".2.0.1.0.0.1.3.0.0.0.2.1.0">还可输入</span><span class="introduction_num_cur" data-reactid=".2.0.1.0.0.1.3.0.0.0.2.1.1">0</span><span data-reactid=".2.0.1.0.0.1.3.0.0.0.2.1.2">字</span>
+								</p>
+							</div>
+						</div>
+						<div class="question_search" data-reactid=".2.0.1.0.0.1.3.0.0.1">
+							<h2 data-reactid=".2.0.1.0.0.1.3.0.0.1.0">搜索结果</h2>
+							<ul class="number" data-reactid=".2.0.1.0.0.1.3.0.0.1.1">
+								<div data-reactid=".2.0.1.0.0.1.3.0.0.1.1.0">
+								</div>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<a class="questions" href="javascript:;" data-reactid=".2.0.1.0.0.1.3.1">向TA提问</a><a href="javascript:;" class="fllow" data-reactid=".2.0.1.0.0.1.3.2">+关注</a>
+			</div>
+		</div>
+		<p class="advisor_autograph" data-reactid=".2.0.1.0.0.2">
+			<span data-reactid=".2.0.1.0.0.2.0">顾问签名：</span><span data-reactid=".2.0.1.0.0.2.1"><?php echo ($lecture["autograph"]); ?></span>
+		</p>
+	</div>
+	<div class="right_part01" data-reactid=".2.0.1.0.1">
+		<div class="tit02" data-reactid=".2.0.1.0.1.0">
+			<img src="/gitkunl/kl/kuluncom/Public/index/images/tit02.png" data-reactid=".2.0.1.0.1.0.0"><span data-reactid=".2.0.1.0.1.0.1">顾问简介</span>
+		</div>
+		<div class="person_intro " data-reactid=".2.0.1.0.1.1">
+			<p data-reactid=".2.0.1.0.1.1.0">
+				<?php echo ($lecture["describe"]); ?>
+			</p>
+		</div>
+	</div>
+	<div class="right_part02" data-reactid=".2.0.1.0.2">
+		<div class="tit02" data-reactid=".2.0.1.0.2.0">
+			<img src="/gitkunl/kl/kuluncom/Public/index/images/titic03.png" data-reactid=".2.0.1.0.2.0.0"><span data-reactid=".2.0.1.0.2.0.1">顾问信息</span>
+		</div>
+		<div class="person_intro infomation" data-reactid=".2.0.1.0.2.1">
+			<p data-reactid=".2.0.1.0.2.1.0">
+				<span data-reactid=".2.0.1.0.2.1.0.0">所属机构：</span><span data-reactid=".2.0.1.0.2.1.0.1"><?php echo ($lecture["mechanism"]); ?></span>
+			</p>
+			<p data-reactid=".2.0.1.0.2.1.1">
+				<span data-reactid=".2.0.1.0.2.1.1.0">从业资格：</span><span data-reactid=".2.0.1.0.2.1.1.1"><?php echo ($lecture["card"]); ?></span>
+			</p>
+			<p data-reactid=".2.0.1.0.2.1.2">
+				<span data-reactid=".2.0.1.0.2.1.2.0">从业年限：</span><span data-reactid=".2.0.1.0.2.1.2.1"><?php echo ($lecture["Industry_time"]); ?>年以上</span>
+			</p>
+		</div>
+	</div>
+	<div class="right_part03" data-reactid=".2.0.1.0.3">
+		<div class="tit02" data-reactid=".2.0.1.0.3.0">
+			<img src="/gitkunl/kl/kuluncom/Public/index/images/titic02.png" data-reactid=".2.0.1.0.3.0.0"><span data-reactid=".2.0.1.0.3.0.1">擅长领域</span>
+		</div>
+		<div class="person_intro link clx" id="expertList" data-reactid=".2.0.1.0.3.1">
+			<div class="expertList clx" data-reactid=".2.0.1.0.3.1.0">
+      <?php if(is_array($labe)): foreach($labe as $key=>$l): ?><span href="javascript:;"><?php echo ($l["name"]); ?></span><?php endforeach; endif; ?>
+			</div>
+		</div>
+	</div>
 </div>
-
-     <!-- 轮播-->
-    <div class="container klcontainer">
-        <h1 class="text-center">
-            易启学炒股，就上昆仑财富
-        </h1>
-
-        <ul class="zb-list-ul">
-            <li>
-                <h2 class="btc"><span></span>牛股直播</h2>
-            </li>
-            <li class="bner-con">
-            	<div class="col-xs-6">
-            		<a href="/Index/Teacher/details.html"><img src="/gitkunl/kl/kuluncom/<?php echo ($chief["1"]["cover_img"]); ?>" class="hover_optin"></a>
-            	</div>
-            	<div class="col-xs-3">
-            		<p>	
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["0"]["cover_img"]); ?>"></a>
-            		</p>
-            		<p>
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["1"]["cover_img"]); ?>"></a>
-            		</p>
-            	</div>
-            	<div class="col-xs-3">
-            			<a href="/Index/Teacher/details.html">
-            				<img src="/gitkunl/kl/kuluncom/<?php echo ($chief["3"]["cover_img"]); ?>" class="hover_optin" >
-            			</a>
-            	</div>
-            </li>
-        </ul>
-          <ul class="zb-list-ul sb_list">
-            <li class="he_h2">
-                <h2 class="btc"><span></span>涨停热点</h2>
-            </li>
-          <?php if(is_array($content)): foreach($content as $key=>$con): ?><li>
-          	<div class="zt_com">
-          		<a href="<?php echo U('Index/info');?>?id=<?php echo ($con["id"]); ?>">
-          			<h3><?php echo ($con["title"]); ?></h3>
-          			<p><?php echo ($con["content"]); ?></p>
-          		</a>
-          	</div>
-          	<div class="zt_sb">
-          		<div class="fl sb_date_l">
-          		<a href="/">
-          			<img src="/gitkunl/kl/kuluncom/<?php echo ($con["head_img"]); ?>" alt="" style="width: 30px;">
-          			<?php echo ($con["nickname"]); ?>
-          		</a>
-          		
-          		</div>
-          		<div class="fr sb_date_r">
-          			<span>
-          				<?php echo ($con["ftime"]); ?> 
-          			</span>
-          			<span>
-          				<?php echo ($con["read"]); ?>  阅读
-          			</span>
-          		</div>
-          	</div>
-          </li><?php endforeach; endif; ?>
-        </ul>
-        <p class="klts text-center">
-            <img src="/gitkunl/kl/kuluncom/Public/index/images/bx.png" alt=""> 想看更多的请点击我们的公众号！
-        </p>
-    </div>
-
+  		 	</div>
+  		 </div>
+  	</div>
+    
     <footer>
         <div class="bg-grayq">
             <div class="container pb-36">

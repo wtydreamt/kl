@@ -1,0 +1,54 @@
+			<div class="main-content">
+				<!-- #section:basics/content.breadcrumbs -->
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="{:U('Home/Lecturer/edit')}">大赛设置</a>
+						</li>
+					</ul><!-- /.breadcrumb -->
+
+					<!-- #section:basics/content.searchbox -->
+					<!-- /.nav-search -->
+
+					<!-- /section:basics/content.searchbox -->
+				</div>
+
+				<div class="page-content">
+					<div class="page-content-area">
+
+					<!-- /section:settings.box -->
+					<div class="page-content-area">
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<h4 class="header red clearfix">
+									大赛介绍&&奖项设置
+								</h4>
+
+								<form class="form-horizontal" role="form" action="{:U('Home/Strategy/addcontent')}"  enctype="multipart/form-data" method="post">
+								<textarea id="editor" name="content" style="height: 300px;width: 100%"></textarea>
+								<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<input class="btn btn-info" type="submit" value="立即提交">
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+								</div>								
+								</form>
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content-area -->
+					</div><!-- /.page-content-area -->
+				</div><!-- /.page-content -->
+			</div><!-- /.main-content -->
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+    <script>
+	var ue = UE.getEditor('editor');    
+    </script>

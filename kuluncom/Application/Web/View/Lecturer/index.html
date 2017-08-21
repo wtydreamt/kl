@@ -1,0 +1,29 @@
+    <div class="container klcontainer">
+     	<ul class="lists kl-news-list">
+          <foreach name="lecturer" item="val">
+		        <li>
+				<a href="{:U('lecturer/lecturer')}?u_id={$val.u_id}">
+					<img src="__ROOT__/{$val.head_img}" class="fl tlit-img">	
+					<div class="kl-tab-title">	
+						<div class="kl-js-title">
+						  	<div class="kl-mz">
+						  		{$val.nickname}					  		<img src="__PUBLIC__/index/images/jp.png">
+						  	</div>
+						  	<div class="kl-gzs">
+						  		{$val.describe}
+						  	</div>
+						  </div>
+						  <div class="hui-news-list-titile">
+                                {$val.autograph}						
+					      </div>
+					</div>
+																
+                    </a>
+				</li>
+            </foreach> 
+		</ul>
+        <p class="klts text-center">
+            <img src="__PUBLIC__/index/images/bx.png" alt=""> 想看更多的请点击我们的公众号！
+        </p>
+    </div>
+    

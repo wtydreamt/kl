@@ -63,98 +63,63 @@
         </div>
 
     </div>
-     
-   <!-- 轮播-->
-   <div id="myNiceCarousel" class="carousel slide" data-ride="carousel">
-  <!-- 圆点指示器 -->
-  <ol class="carousel-indicators">
-    <li data-target="#myNiceCarousel" data-slide-to="0"></li>
-    <li data-target="#myNiceCarousel" data-slide-to="1"></li>
-    <li data-target="#myNiceCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- 轮播项目 -->
-  <div class="carousel-inner">
-  <?php if(is_array($banner)): foreach($banner as $key=>$val): ?><div class="item">
-     <a href="/">
-     	 <img alt="First slide" src="/gitkunl/kl/kuluncom/<?php echo ($val["banner_img"]); ?>" style="width: 100%; max-height: 430px;">
-     </a>
-    </div><?php endforeach; endif; ?>
-  </div>
-
-  <!-- 项目切换按钮 -->
-  <a class="left carousel-control" href="#myNiceCarousel" data-slide="prev">
-    <span class="icon icon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#myNiceCarousel" data-slide="next">
-    <span class="icon icon-chevron-right"></span>
-  </a>
-</div>
-
-     <!-- 轮播-->
-    <div class="container klcontainer">
-        <h1 class="text-center">
-            易启学炒股，就上昆仑财富
-        </h1>
-
-        <ul class="zb-list-ul">
-            <li>
-                <h2 class="btc"><span></span>牛股直播</h2>
-            </li>
-            <li class="bner-con">
-            	<div class="col-xs-6">
-            		<a href="/Index/Teacher/details.html"><img src="/gitkunl/kl/kuluncom/<?php echo ($chief["1"]["cover_img"]); ?>" class="hover_optin"></a>
-            	</div>
-            	<div class="col-xs-3">
-            		<p>	
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["0"]["cover_img"]); ?>"></a>
-            		</p>
-            		<p>
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["1"]["cover_img"]); ?>"></a>
-            		</p>
-            	</div>
-            	<div class="col-xs-3">
-            			<a href="/Index/Teacher/details.html">
-            				<img src="/gitkunl/kl/kuluncom/<?php echo ($chief["3"]["cover_img"]); ?>" class="hover_optin" >
-            			</a>
-            	</div>
-            </li>
-        </ul>
-          <ul class="zb-list-ul sb_list">
-            <li class="he_h2">
-                <h2 class="btc"><span></span>涨停热点</h2>
-            </li>
-          <?php if(is_array($content)): foreach($content as $key=>$con): ?><li>
-          	<div class="zt_com">
-          		<a href="<?php echo U('Index/info');?>?id=<?php echo ($con["id"]); ?>">
-          			<h3><?php echo ($con["title"]); ?></h3>
-          			<p><?php echo ($con["content"]); ?></p>
-          		</a>
-          	</div>
-          	<div class="zt_sb">
-          		<div class="fl sb_date_l">
-          		<a href="/">
-          			<img src="/gitkunl/kl/kuluncom/<?php echo ($con["head_img"]); ?>" alt="" style="width: 30px;">
-          			<?php echo ($con["nickname"]); ?>
-          		</a>
-          		
-          		</div>
-          		<div class="fr sb_date_r">
-          			<span>
-          				<?php echo ($con["ftime"]); ?> 
-          			</span>
-          			<span>
-          				<?php echo ($con["read"]); ?>  阅读
-          			</span>
-          		</div>
-          	</div>
-          </li><?php endforeach; endif; ?>
-        </ul>
-        <p class="klts text-center">
-            <img src="/gitkunl/kl/kuluncom/Public/index/images/bx.png" alt=""> 想看更多的请点击我们的公众号！
-        </p>
-    </div>
-
+       	<div class="px_com container">
+  		 <div class="tempwar_border bgcolor_White clear">
+			        <div class="wrap_tank_title"><h2 class="inner_10_rl">股票培训高级课</h2></div><!--wrap_tank_title-->
+			        <div class="mooc_peg_section clear">
+				        <div class="mooc_peg_rt float_right"><a href="#" class="mt_10"><img src="http://static.yxcps.cn/images/inner_banner_sm.png" alt=""></a></div><!--mooc_peg_rt end-->
+		<div class="mooc_peg_lt float_left" style="width: 100%;">
+			<div class="mooc_peg_box">
+		    <div class="mooc_peg_tank">
+				<dl class="mooc_peg_tank_dl clear">
+		            <dt>讲 师：</dt><dd class="current"><a href="" ck="vip_course_list_q_讲 师不限" refkc="vip_course_list_q_讲 师不限">不限</a></dd>
+		            <dd><a href="/" >杨卓董</a></dd>
+		              <dd><a href="/" >赵梅地</a></dd>
+		            <dd><a href="/" >杨卓董</a></dd>
+		              <dd><a href="/" >赵梅地</a></dd>
+		            <dd><a href="/" >杨卓董</a></dd>
+		              <dd><a href="/" >赵梅地</a></dd>
+		              
+		        
+		            </dl>
+			</div>
+		    </div>
+		</div><!--mooc_peg_lt end-->
+					        </div><!--mooc_peg_section end-->
+							<div class="mooc_peg_section">
+								<div class="mooc_peg_sift">
+									<ul class="mooc_peg_sift_ul clear">
+										<li class="current">			
+                                        <a ck="vip_course_list_sort_begin_time" refkc="vip_course_list_sort_begin_time" href="http://www.yxcps.cn/highercourse/index|"><span>最近更新</span></a>
+                                        </li>
+										<li>	
+                                        <a ck="vip_course_list_sort_sale_num" refkc="vip_course_list_sort_sale_num" href="http://www.yxcps.cn/highercourse/index||sort-sale_num"><span>购买人数</span></a></li>
+									</ul>
+								</div><!--inner_10-->
+							</div><!--mooc_peg_section end-->
+		<!--@-->
+		<div class="guide_less clear ">
+		       <ul class="teach_section_ul  clay_ul clear mb_20 ">
+		<li>
+		         <div class="clay_ulbox">
+		           	<div class="clay_imgs"><a href="课程培训详情.html" target="_blank"><img onerror="showImgDelay(this);" src="http://sf.yxcps.cn/temp/385840F0_20170731091917547.jpg" alt=""></a></div>
+		           	<div class="section_less"><em><a href="课程培训详情.html" target="_blank">朱超高级课月课</a></em><p class="author"><a href="javascript:;">朱超</a></p><p><span class="collect float_right f_col_Red  f_bold">
+		           	0.00元</span><span class="icon icon-user out-left-0"></span>0人购买</p></div>
+				</div>
+			</li>
+	
+		</ul>
+		</div>
+					        <!--@-->
+		       <!--pagelist-->
+		       <div class="mb_20  f_align_ct">
+		         <div class="cell-pages out-left-0">
+		                <a href="?pageSize=20&amp;pager.offset=0">首页</a><a href="javascript:;" class="current">1</a><a href="?pageSize=20&amp;pager.offset=0">尾页</a></div>
+		         </div> 
+		    <!--pagelist end-->			        
+		</div>
+  	</div>
+   
     <footer>
         <div class="bg-grayq">
             <div class="container pb-36">

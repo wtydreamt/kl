@@ -63,98 +63,33 @@
         </div>
 
     </div>
-     
-   <!-- 轮播-->
-   <div id="myNiceCarousel" class="carousel slide" data-ride="carousel">
-  <!-- 圆点指示器 -->
-  <ol class="carousel-indicators">
-    <li data-target="#myNiceCarousel" data-slide-to="0"></li>
-    <li data-target="#myNiceCarousel" data-slide-to="1"></li>
-    <li data-target="#myNiceCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- 轮播项目 -->
-  <div class="carousel-inner">
-  <?php if(is_array($banner)): foreach($banner as $key=>$val): ?><div class="item">
-     <a href="/">
-     	 <img alt="First slide" src="/gitkunl/kl/kuluncom/<?php echo ($val["banner_img"]); ?>" style="width: 100%; max-height: 430px;">
-     </a>
-    </div><?php endforeach; endif; ?>
-  </div>
-
-  <!-- 项目切换按钮 -->
-  <a class="left carousel-control" href="#myNiceCarousel" data-slide="prev">
-    <span class="icon icon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#myNiceCarousel" data-slide="next">
-    <span class="icon icon-chevron-right"></span>
-  </a>
-</div>
-
-     <!-- 轮播-->
-    <div class="container klcontainer">
-        <h1 class="text-center">
-            易启学炒股，就上昆仑财富
-        </h1>
-
-        <ul class="zb-list-ul">
-            <li>
-                <h2 class="btc"><span></span>牛股直播</h2>
-            </li>
-            <li class="bner-con">
-            	<div class="col-xs-6">
-            		<a href="/Index/Teacher/details.html"><img src="/gitkunl/kl/kuluncom/<?php echo ($chief["1"]["cover_img"]); ?>" class="hover_optin"></a>
-            	</div>
-            	<div class="col-xs-3">
-            		<p>	
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["0"]["cover_img"]); ?>"></a>
-            		</p>
-            		<p>
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["1"]["cover_img"]); ?>"></a>
-            		</p>
-            	</div>
-            	<div class="col-xs-3">
-            			<a href="/Index/Teacher/details.html">
-            				<img src="/gitkunl/kl/kuluncom/<?php echo ($chief["3"]["cover_img"]); ?>" class="hover_optin" >
-            			</a>
-            	</div>
-            </li>
-        </ul>
-          <ul class="zb-list-ul sb_list">
-            <li class="he_h2">
-                <h2 class="btc"><span></span>涨停热点</h2>
-            </li>
-          <?php if(is_array($content)): foreach($content as $key=>$con): ?><li>
-          	<div class="zt_com">
-          		<a href="<?php echo U('Index/info');?>?id=<?php echo ($con["id"]); ?>">
-          			<h3><?php echo ($con["title"]); ?></h3>
-          			<p><?php echo ($con["content"]); ?></p>
-          		</a>
-          	</div>
-          	<div class="zt_sb">
-          		<div class="fl sb_date_l">
-          		<a href="/">
-          			<img src="/gitkunl/kl/kuluncom/<?php echo ($con["head_img"]); ?>" alt="" style="width: 30px;">
-          			<?php echo ($con["nickname"]); ?>
-          		</a>
-          		
-          		</div>
-          		<div class="fr sb_date_r">
-          			<span>
-          				<?php echo ($con["ftime"]); ?> 
-          			</span>
-          			<span>
-          				<?php echo ($con["read"]); ?>  阅读
-          			</span>
-          		</div>
-          	</div>
-          </li><?php endforeach; endif; ?>
-        </ul>
+         <div class="container klcontainer">
+     	<ul class="lists kl-news-list">
+          <?php if(is_array($lecturer)): foreach($lecturer as $key=>$val): ?><li>
+				<a href="<?php echo U('lecturer/lecturer');?>?u_id=<?php echo ($val["u_id"]); ?>">
+					<img src="/gitkunl/kl/kuluncom/<?php echo ($val["head_img"]); ?>" class="fl tlit-img">	
+					<div class="kl-tab-title">	
+						<div class="kl-js-title">
+						  	<div class="kl-mz">
+						  		<?php echo ($val["nickname"]); ?>					  		<img src="/gitkunl/kl/kuluncom/Public/index/images/jp.png">
+						  	</div>
+						  	<div class="kl-gzs">
+						  		<?php echo ($val["describe"]); ?>
+						  	</div>
+						  </div>
+						  <div class="hui-news-list-titile">
+                                <?php echo ($val["autograph"]); ?>						
+					      </div>
+					</div>
+																
+                    </a>
+				</li><?php endforeach; endif; ?> 
+		</ul>
         <p class="klts text-center">
             <img src="/gitkunl/kl/kuluncom/Public/index/images/bx.png" alt=""> 想看更多的请点击我们的公众号！
         </p>
     </div>
-
+    
     <footer>
         <div class="bg-grayq">
             <div class="container pb-36">

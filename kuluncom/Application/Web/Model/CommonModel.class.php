@@ -184,8 +184,15 @@ class CommonModel extends  Model
            }
     }
     public function queryjoin($tableName,$tableName1,$field1,$field2,$where,$field=true,$type="all"){
-        return   M($tableName)->where($where)->join($tableName1." ON kl_".$tableName.".".$field1."=".$tableName1.".".$field2)->field($field)->select();
+        return   $res=$type=="all"?M($tableName)->where($where)->join($tableName1." ON kl_".$tableName.".".$field1."=".$tableName1.".".$field2)->field($field)->select():M($tableName)->where($where)->join($tableName1." ON kl_".$tableName.".".$field1."=".$tableName1.".".$field2)->field($field)->find();
             
+    }
+    public function qeruylecturer($where=true){
+        $res=M("admin_user")->where($where)->find();
+        $labe=M("label")->where(array("id"=>array("in",$res['labe'])))->select();
+        $res['labe']=$labe;
+        return $res;
+
     }        
 }
 

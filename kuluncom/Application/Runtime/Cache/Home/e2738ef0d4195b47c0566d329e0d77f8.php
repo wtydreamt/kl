@@ -349,18 +349,9 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="<?php echo U('Power/index');?>">
+								<a href="<?php echo U('Activity/index');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									赛事介绍
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="<?php echo U('Power/rolelist');?>">
-									<i class="menu-icon fa fa-caret-right"></i>
-									奖项设置
+									赛事设置
 								</a>
 
 								<b class="arrow"></b>
@@ -437,11 +428,18 @@
 
 								<b class="arrow"></b>
 							</li>
-
 							<li class="">
 								<a href="<?php echo U('Category/labe');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									标签设置
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="<?php echo U('Category/system');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									操盘体系
 								</a>
 
 								<b class="arrow"></b>
@@ -460,7 +458,7 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="<?php echo U('Power/index');?>">
+								<a href="<?php echo U('Review/index');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									实战辅导
 								</a>

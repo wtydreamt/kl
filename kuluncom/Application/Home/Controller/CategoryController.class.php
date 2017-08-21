@@ -38,5 +38,18 @@ class CategoryController extends Controller {
 		}else{
 			$this->display("labeadd");
 		}    	
+    }
+    public function system(){
+		$data=I();
+		if($data && isset($data)){
+			$res=D("Common")->adddata("system",$data);
+			if($res['status']=="true"){
+				echo "添加成功";
+			}else{
+				echo "添加失败稍后再试";
+			}
+		}else{
+			$this->display("system");
+		}     	
     }       
 }
