@@ -481,7 +481,7 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="<?php echo U('Site/index');?>">
+								<a href="<?php echo U('Site/chief');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									首页推荐
 								</a>
