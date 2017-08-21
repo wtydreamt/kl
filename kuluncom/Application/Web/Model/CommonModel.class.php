@@ -6,7 +6,7 @@
  * Date: 2017/3/29
  * Time: 9:47
  */
-namespace Home\Model;
+namespace Web\Model;
 use Think\Model;
 class CommonModel extends  Model
 {
@@ -41,8 +41,7 @@ class CommonModel extends  Model
             ->order($order)
             ->limit($limit)
             ->select();
-//        echo $Model->_sql();die;
-        return $result;
+            return $result;
     }
 
 
@@ -183,6 +182,10 @@ class CommonModel extends  Model
            }else{
              return $message=array("message"=>"","status"=>"false");
            }
+    }
+    public function queryjoin($tableName,$tableName1,$field1,$field2,$where,$field=true,$type="all"){
+        return   M($tableName)->where($where)->join($tableName1." ON kl_".$tableName.".".$field1."=".$tableName1.".".$field2)->field($field)->select();
+            
     }        
 }
 
