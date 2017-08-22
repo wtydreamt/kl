@@ -1,0 +1,1472 @@
+[ 2017-08-22T10:03:35+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:03:45+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.034179s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.028320s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.006836s ]
+
+[ 2017-08-22T10:03:46+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.051758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:04:09+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ReviewController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_system` [ RunTime:0.046875s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`name` FROM `kl_system`  [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:04:49+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:04:53+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.023437s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.010742s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.005860s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:04:57+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T10:04:59+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Curriculum/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:05:03+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Curriculum/%E8%AF%BE%E7%A8%8B%E5%9F%B9%E8%AE%AD%E8%AF%A6%E6%83%85.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 非法操作:课程培训详情
+
+[ 2017-08-22T10:05:15+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Curriculum/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:05:16+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Curriculum/%E5%A4%A7%E8%B5%9B%E6%B4%BB%E5%8A%A8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:大赛活动
+
+[ 2017-08-22T10:05:21+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Strategy/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004882s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:05:26+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Strategy/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:05:28+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Strategy/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:05:30+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.005860s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:05:36+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Lecturer/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005860s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `u_id`,`nickname`,`autograph`,`describe`,`head_img` FROM `kl_admin_user`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:05:40+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/lecturer/lecturer.html?u_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.004883s ]
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`laud`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id  WHERE ( kl_content.u_id = '4' ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT * FROM `kl_admin_user` WHERE ( `u_id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_label` [ RunTime:0.027343s ]
+SQL: SELECT * FROM `kl_label` WHERE ( `id` IN ('1','2','3') )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:06:04+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.005859s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:08:28+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ReviewController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_system` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`name` FROM `kl_system`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:12:16+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ReviewController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `kl_review` [ RunTime:0.004883s ]
+SQL: INSERT INTO `kl_review` (`s_id`,`review_img`,`u_id`) VALUES (1,'Uploads/Public/review_img/2017-08-22/599b9300cb9c0.jpg',4) [ RunTime:0.011719s ]
+
+[ 2017-08-22T10:12:17+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ReviewController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_system` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`name` FROM `kl_system`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:15:31+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.003906s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T10:15:36+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_review` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`u_id`,`review_img`,`s_id` FROM `kl_review`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T10:16:05+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_review` [ RunTime:0.004882s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`u_id`,`review_img`,`s_id` FROM `kl_review`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:16:07+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Curriculum/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:20:52+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Lecturer/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `u_id`,`nickname`,`autograph`,`describe`,`head_img` FROM `kl_admin_user`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:20:55+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_review` [ RunTime:0.005860s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`u_id`,`review_img`,`s_id` FROM `kl_review`  [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:20:59+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Web/Curriculum/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:21:16+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:22:48+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:25:30+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ReviewController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.013672s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_system` [ RunTime:0.003907s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`name` FROM `kl_system`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:25:39+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:25:54+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:26:02+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2017-08-22T10:26:55+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:27:19+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:27:49+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:28:03+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:28:11+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T10:28:19+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:28:35+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T10:28:46+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:29:07+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:29:23+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:29:54+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:30:08+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:30:27+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:30:41+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T10:33:59+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Lecturer/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id`,`labe`,`nickname`,`number`,`password`,`address`,`describe`,`addtime`,`adduser`,`openid`,`card`,`mechanism`,`head_img`,`img_field`,`u_sex`,`Industry_time`,`autograph`,`age` FROM `kl_admin_user` WHERE ( `u_id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_label` [ RunTime:0.005859s ]
+SQL: SELECT `id`,`name` FROM `kl_label` WHERE ( `id` IN ('1','2','3') )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:34:07+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Strategy/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_viewpoint` [ RunTime:0.019532s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`name` FROM `kl_viewpoint`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T10:34:50+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:38:58+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:39:09+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004882s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `kl_activity_img` [ RunTime:0.003907s ]
+ERR: 1146:Table 'kunluns.kl_activity_img' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_activity_img`
+SQL: INSERT INTO `kl_activity_img` (`content`,`activity_img`,`u_id`) VALUES ('&lt;p&gt;范德�\�&lt;br/&gt;&lt;/p&gt;','Uploads/Public/activity_img/2017-08-22/599b994dbba2a.png','4') [ RunTime:0.000000s ]
+ERR: 1146:Table 'kunluns.kl_activity_img' doesn't exist
+ [ SQL语句 ] : INSERT INTO `kl_activity_img` (`content`,`activity_img`,`u_id`) VALUES ('&lt;p&gt;范德�\�&lt;br/&gt;&lt;/p&gt;','Uploads/Public/activity_img/2017-08-22/599b994dbba2a.png','4')
+
+[ 2017-08-22T10:39:09+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/activity_img/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Activity_img
+
+[ 2017-08-22T10:39:51+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T10:40:05+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:40:17+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `kl_activity_img` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_activity_img' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_activity_img`
+SQL: INSERT INTO `kl_activity_img` (`content`,`activity_img`,`u_id`) VALUES ('&lt;p&gt;发送到发生的发&lt;br/&gt;&lt;/p&gt;','Uploads/Public/activity_img/2017-08-22/599b9991efd95.png','4') [ RunTime:0.000976s ]
+ERR: 1146:Table 'kunluns.kl_activity_img' doesn't exist
+ [ SQL语句 ] : INSERT INTO `kl_activity_img` (`content`,`activity_img`,`u_id`) VALUES ('&lt;p&gt;发送到发生的发&lt;br/&gt;&lt;/p&gt;','Uploads/Public/activity_img/2017-08-22/599b9991efd95.png','4')
+
+[ 2017-08-22T10:40:18+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:40:43+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:40:55+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `kl_activity` [ RunTime:0.004883s ]
+SQL: INSERT INTO `kl_activity` (`content`,`activity_img`,`u_id`) VALUES ('&lt;p&gt;发送到发生的发&lt;br/&gt;&lt;/p&gt;','Uploads/Public/activity_img/2017-08-22/599b99b75cbea.png',4) [ RunTime:0.000000s ]
+
+[ 2017-08-22T10:40:55+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T10:42:53+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `kl_activity` [ RunTime:0.012695s ]
+SQL: INSERT INTO `kl_activity` (`content`,`activity_img`,`u_id`) VALUES ('&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;实盘大赛�\�&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;上海证券·优品投资杯凤凰实盘炒股大赛是由凤凰财经事业部与优品投资联合举办上海证券协办的A股投资比赛。参赛选手需是凤凰网用户，且在上海证券开立证券账户方可完成报名。大赛旨在挖掘民间“草根”操盘高手，为其提供一个展现自我风采、相互学习的大舞台�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; padding-top: 10px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;赛制�\�&lt;/strong&gt;分为日赛、周赛、月赛和总决赛，所有比赛按照自然周、自然月统计排名，天天都有比赛，月月都有奖。具体奖金金额请参见“奖项设置”�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; padding-top: 10px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;报名规则�\�&lt;/strong&gt;选手进入实盘赛，需要满足以下条�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;1、年�\�18周岁，具备独立的民事责任承担能力�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;2、与主办方或主办方指定的代理方签订实盘资金操作协议；&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;3、不存在证券市场禁入情况�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;4、上海证券用户可以直接报名参加比赛，非上海证券用户需要通过凤凰网，或直接在上海证券开户后方可参赛�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;5、参赛没有资金限额，但资产量�\�1万以上才能进入排行榜，才具有领奖资格�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;如果出现选手无法获得有效联系、或者不满足实盘赛参与条件的，主办方不另作补偿，将从其他选手中依次选取�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; padding-top: 40px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;模拟�\�&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; padding-top: 10px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;赛事介绍�\�&lt;/strong&gt;凤凰炒股大赛是由凤凰网财经事业部与优品财富联合举办的A股投资比赛。只要是凤凰的注册用户就可以参加。大赛旨在挖掘民�\�&amp;quot;草根&amp;quot;操盘高手，为其提供一个展现自我风采、相互学习的大舞台�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; padding-top: 10px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;赛制�\�&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;日赛�\�&lt;/strong&gt;每个交易日都有比赛，日冠军奖�\�100积分�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;周赛�\�&lt;/strong&gt;所有选手一起参与，按自然周的周收益进行排名�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;月赛�\�&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;海选赛�\�&lt;/strong&gt;6�\�1日，海选赛正式开赛，所有参赛选手群英汇，一起比拼。海选赛�\�1000名将升级进入7月精英赛。月末最后一个交易日盘后清算完成后所有选手持股将被强行平仓，总收益率和总资金保留�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;精英�\�&amp;amp;挑战赛：&lt;/strong&gt;7月：周赛维持不变；月赛将分为两个赛事：精英赛和挑战赛�\�6月海选赛的前1000名将可以参加精英赛，其余选手和新报名的选手参加挑战赛。月末最后一个交易日清算完成后所有选手持股同样将被强行平仓，送收益率和总资金保留。精英赛�\�600名降入挑战赛，挑战赛�\�600名升入精英赛�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;8月�\�9月�\�10月升降级和平仓规则与7月相同，10月新报名用户只能参加挑战赛�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; padding-top: 10px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;报名规则�\�&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;1、凤凰网用户可以直接登录交易平台；非凤凰网用户可以快速注册凤凰网账号；用户还可以使用第三方账号登录，我们提供QQ和微博等第三方登录方式�\�&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(53, 53, 53); font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, Tahoma, Arial, &amp;#39;Microsoft Yahei&amp;#39;, &amp;#39;PingFang SC&amp;#39;, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;WenQuanYi Micro Hei&amp;#39;, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 23.0769px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot;&gt;2、用户进入模拟大赛平台后，需要进行手机号验证才能正式参加比赛，大赛官方也将以注册手机号作为发奖依据�\�&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','Uploads/Public/activity_img/2017-08-22/599b9a2d7b062.jpg',4) [ RunTime:0.001953s ]
+
+[ 2017-08-22T10:42:53+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T12:09:48+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Activity/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Application\Home\Controller\ActivityController.class.php on line 12 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T12:18:03+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.014649s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.006836s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T12:18:20+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.005860s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:18:23+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php/Web/Lecturer/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `u_id`,`nickname`,`autograph`,`describe`,`head_img` FROM `kl_admin_user`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T12:18:27+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php/Web/Review/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_review` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `id`,`u_id`,`review_img`,`s_id` FROM `kl_review`  [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T12:18:53+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:19:26+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:19:28+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php/web/index/index.html
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:19:31+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php/web/lecturer/index.html
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:19:34+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php/web/lecturer/lecturer.html?u_id=4
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:23:06+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:23:13+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php/web/lecturer/index.html
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:23:17+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php/web/review/index.html
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:23:24+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php/web/review/index.html
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T12:35:51+08:00 ] ::1 /gitkunl/kl/kuluncom/webapp/web.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.005860s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.006836s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T12:36:44+08:00 ] ::1 /gitkunl/kl/kuluncom/webapp/web.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.006836s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T12:39:13+08:00 ] ::1 /gitkunl/kl/kuluncom/web.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_banner` [ RunTime:0.004882s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `banner_img` FROM `kl_banner`  [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `kl_content` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT kl_content.u_id,kl_content.id,`title`,`content`,`head_img`,`ftime`,`nickname`,`read` FROM `kl_content` INNER JOIN kl_admin_user ON kl_content.u_id=kl_admin_user.u_id   [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `kl_chief` [ RunTime:0.004883s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 1 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cover_img`,`reason`,`u_id`,`is_show`,`position` FROM `kl_chief` WHERE ( `position` = 2 )  [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
