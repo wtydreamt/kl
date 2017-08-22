@@ -23,14 +23,14 @@ return  array(
     'APP_SUB_DOMAIN_RULES'  =>  array(), // 子域名部署规则
     'APP_DOMAIN_SUFFIX'     =>  '', // 域名后缀 如果是com.cn net.cn 之类的后缀必须设置    
     'ACTION_SUFFIX'         =>  '', // 操作方法后缀
-    'MULTI_MODULE'          =>  true, // 是否允许多模块 如果为false 则必须设置 DEFAULT_MODULE
+    'MULTI_MODULE'          =>  false, // 是否允许多模块 如果为false 则必须设置 DEFAULT_MODULE
     'MODULE_DENY_LIST'      =>  array('Common','Runtime'),
     'CONTROLLER_LEVEL'      =>  1,
 
     /* Cookie设置 */
-    'COOKIE_EXPIRE'         =>  0,    // Cookie有效期
+    'COOKIE_EXPIRE'         =>  time()*24*3600,    // Cookie有效期
     'COOKIE_DOMAIN'         =>  '',      // Cookie有效域名
-    'COOKIE_PATH'           =>  '/',     // Cookie路径
+    'COOKIE_PATH'           =>  '/Kunlunadmin/',     // Cookie路径
     'COOKIE_PREFIX'         =>  '',      // Cookie前缀 避免冲突
 
     /* 默认设定 */
@@ -39,9 +39,9 @@ return  array(
     'DEFAULT_V_LAYER'       =>  'View', // 默认的视图层名称
     'DEFAULT_LANG'          =>  'zh-cn', // 默认语言
     'DEFAULT_THEME'         =>  '',	// 默认模板主题名称
-    'DEFAULT_MODULE'        =>  'Home',  // 默认模块
-    'DEFAULT_CONTROLLER'    =>  'Login', // 默认控制器名称
-    'DEFAULT_ACTION'        =>  'index', // 默认操作名称
+    'DEFAULT_MODULE'        =>  DEFAULT_MODULE,  // 默认模块
+    'DEFAULT_CONTROLLER'    =>  DEFAULT_CONTROLLER, // 默认控制器名称
+    'DEFAULT_ACTION'        =>  DEFAULT_ACTION, // 默认操作名称
     'DEFAULT_CHARSET'       =>  'utf-8', // 默认输出编码
     'DEFAULT_TIMEZONE'      =>  'PRC',	// 默认时区
     'DEFAULT_AJAX_RETURN'   =>  'JSON',  // 默认AJAX 数据返回格式,可选JSON XML ...

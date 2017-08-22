@@ -1231,3 +1231,2236 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
 
+[ 2017-08-22T12:54:19+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/login/login.html
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T15:12:13+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/login/login.html
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+
+[ 2017-08-22T15:13:11+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+ERR: 没有定义数据库配置
+
+[ 2017-08-22T15:13:43+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+ERR: 没有定义数据库配置
+
+[ 2017-08-22T15:14:03+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+ERR: 没有定义数据库配置
+
+[ 2017-08-22T15:14:30+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 没有定义数据库配置
+
+[ 2017-08-22T15:14:46+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_role` [ RunTime:0.053711s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `r_id`,`name`,`desc`,`u_id` FROM `kl_role`  [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T15:18:06+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T15:20:23+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_role` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `r_id`,`name`,`desc`,`u_id` FROM `kl_role`  [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T15:20:26+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T15:21:39+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T15:22:30+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8] Undefined index: number D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = null ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T15:22:57+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T15:23:18+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T15:24:21+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T15:24:38+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_role` [ RunTime:0.004882s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `r_id`,`name`,`desc`,`u_id` FROM `kl_role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T15:25:32+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_role` [ RunTime:0.004882s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `r_id`,`name`,`desc`,`u_id` FROM `kl_role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T15:26:23+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/home/personnel/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_role` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `r_id`,`name`,`desc`,`u_id` FROM `kl_role`  [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T15:26:32+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Power/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T15:26:38+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Personnel/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_role` [ RunTime:0.004883s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `r_id`,`name`,`desc`,`u_id` FROM `kl_role`  [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T15:35:29+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Home/Personnel/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_role` [ RunTime:0.005859s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT `r_id`,`name`,`desc`,`u_id` FROM `kl_role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T15:44:13+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T16:07:26+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004882s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T16:07:26+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:12:39+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:12:57+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006835s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:12:57+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T17:43:30+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:43:47+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:44:45+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T17:44:55+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:45:06+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.007812s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:45:07+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:46:20+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:46:29+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T17:46:48+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T17:47:03+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:47:53+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.007812s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:47:53+08:00 ] ::1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:52:37+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:52:50+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:52:50+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:53:24+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:55:03+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:55:14+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004882s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:55:14+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T17:56:00+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:56:11+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005860s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:56:11+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T17:57:06+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T17:57:06+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:01:22+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:01:28+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:01:39+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:01:39+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:03:03+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:03:10+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:03:19+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:03:34+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:03:52+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:03:52+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:05:02+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:06:33+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:06:34+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:07:11+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+
+[ 2017-08-22T18:07:14+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:07:17+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:07:28+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:07:28+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:10:19+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005860s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:10:20+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T18:11:37+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:11:39+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:11:47+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:11:47+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:12:52+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:12:52+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:13:37+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:13:47+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:13:48+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:13:59+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:14:05+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:14:22+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:14:22+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:14:36+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:15:03+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:15:15+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.007812s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:15:16+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:15:27+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:15:38+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:15:39+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:16:08+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:17:02+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:17:17+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:17:28+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.007812s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:17:28+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:18:12+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:18:27+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:18:48+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:18:48+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:19:29+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:19:31+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:19:44+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.006836s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.006836s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:19:44+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:21:15+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:21:26+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 11 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:21:26+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:21:55+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:22:00+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:23:48+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T18:23:55+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:24:16+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:24:29+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:24:30+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:26:28+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:26:29+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:27:29+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:27:35+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:27:47+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005860s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:27:47+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:28:50+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:29:02+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005860s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:29:03+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-08-22T18:29:44+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:30:38+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:30:49+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:31:23+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:31:24+08:00 ] 192.168.1.110 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:31:40+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:36:10+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:42:53+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:43:01+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:43:15+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:43:15+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:43:57+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:44:07+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:44:07+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:47:25+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:47:25+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:47:51+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.015625s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:47:51+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:48:02+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:48:15+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:48:15+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:50:05+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:50:05+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:50:40+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T18:50:44+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T18:50:47+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:50:49+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:51:01+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:51:01+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T18:56:02+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:56:13+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:56:13+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:56:50+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:57:02+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:57:03+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:58:22+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T18:58:35+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T18:59:33+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T18:59:44+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.003906s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T19:00:55+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8] Undefined index: number D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004882s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = null ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T19:00:55+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T19:01:09+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T19:01:28+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004882s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005860s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T19:01:56+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T19:02:07+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T19:02:07+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T19:02:47+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T19:02:58+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.004883s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T19:02:58+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T19:03:04+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T19:05:14+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T19:05:24+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005860s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T19:05:25+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T19:06:45+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T19:06:58+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.005859s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T19:06:58+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T19:07:37+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-22T19:07:51+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\LoginController.class.php on line 10 and defined D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 220 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Common\functions.php 第 221 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\gitkunl\kl\kuluncom\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `kl_common` [ RunTime:0.005859s ]
+ERR: 1146:Table 'kunluns.kl_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kl_common`
+SQL: SHOW COLUMNS FROM `kl_admin_user` [ RunTime:0.004883s ]
+SQL: SELECT `u_id` FROM `kl_admin_user` WHERE ( `number` = '13361205810' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2017-08-22T19:07:51+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\gitkunl\kl\kuluncom\Kunlunadmin\Home\Controller\IndexController.class.php 第 6 行.
+
+[ 2017-08-22T19:09:43+08:00 ] 127.0.0.1 /gitkunl/kl/kuluncom/index.php/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+

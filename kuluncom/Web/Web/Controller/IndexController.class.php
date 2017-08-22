@@ -11,7 +11,6 @@ class IndexController extends Controller {
     $this->assign("content",$content);
 	$this->display();
     }
-
     public function banner(){
     	 $banner_img=D("Common")->generalquery("banner",true,"banner_img","all");
     	if($banner_img['status']=="true"){

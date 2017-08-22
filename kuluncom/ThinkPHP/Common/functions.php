@@ -1172,6 +1172,7 @@ function cookie($name, $value='', $option=null) {
         elseif (is_string($option))
             parse_str($option, $option);
         $config     = array_merge($config, array_change_key_case($option));
+        // print_r($config);die;
     }
     // 清除指定前缀的所有cookie
     if (is_null($name)) {

@@ -63,16 +63,51 @@
         </div>
 
     </div>
-     <div class="container klcontainer">
-     	<ul class="col-lg-12 sz_com">
-        <?php if(is_array($review)): foreach($review as $key=>$val): ?><li>
-     			<a src="/gitkunl/kl/kuluncom/<?php echo ($val["review_img"]); ?>" data-toggle="lightbox"><img src="/gitkunl/kl/kuluncom/<?php echo ($val["review_img"]); ?>"></a>
-     		</li><?php endforeach; endif; ?> 
-     	</ul>
-        <p class="klts text-center ">
+     
+  
+    <div class="container klcontainer">
+   		<div class="kl_naber_no">
+   			<ul>
+   				<li><a href="" class="active">最新</a></li>
+   				<li><a href="">大盘分析</a></li>
+   				<li><a href="">热门题材</a></li>
+   				<li><a href="">个股精讲</a></li>
+   				<li><a href="">知识技巧</a></li>
+   				<li><a href="">个人心得</a></li>
+   			</ul>
+   		</div>
+          <ul class="zb-list-ul sb_list">
+          <?php if(is_array($content)): foreach($content as $key=>$con): ?><li>
+          	<div class="zt_com">
+          		<a href="<?php echo U('Index/info');?>?id=<?php echo ($con["id"]); ?>">
+          			<h3><?php echo ($con["title"]); ?></h3>
+          			<p><?php echo ($con["content"]); ?></p>
+          		</a>
+          	</div>
+          	<div class="zt_sb">
+          		<div class="fl sb_date_l">
+          		<a href="/">
+          			<img src="/gitkunl/kl/kuluncom/<?php echo ($con["head_img"]); ?>" alt="" style="width: 30px;">
+          			<?php echo ($con["nickname"]); ?>
+          		</a>
+          		
+          		</div>
+          		<div class="fr sb_date_r">
+          			<span>
+          				<?php echo ($con["ftime"]); ?>
+          			</span>
+          			<span>
+          				<?php echo ($con["read"]); ?> 阅读
+          			</span>
+          		</div>
+          	</div>
+          </li><?php endforeach; endif; ?>
+        </ul>
+        <p class="klts text-center">
             <img src="images/bx.png" alt=""> 想看更多的请点击我们的公众号！
         </p>
-</div>
+    </div>
+  
     <footer>
         <div class="bg-grayq">
             <div class="container pb-36">

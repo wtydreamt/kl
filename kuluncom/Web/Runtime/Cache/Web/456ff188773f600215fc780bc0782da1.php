@@ -51,7 +51,7 @@
                             <li ><a href="<?php echo U('Lecturer/index');?>">金牌讲师</a></li>
                              <li ><a href="<?php echo U('Review/index');?>">实战辅导</a></li>
                               <li ><a href="<?php echo U('Curriculum/index');?>">课程培训</a></li>
-                               <li ><a href="大赛活动.html">大赛活动</a></li>
+                               <li ><a href="<?php echo U('Activity/index');?>">大赛活动</a></li>
                                 <li ><a href="<?php echo U('Strategy/index');?>">VIP投资策略</a></li>
                                 <!-- <li ><a href="jsJp.html">金牌讲师</a></li>-->
                         </ul>
