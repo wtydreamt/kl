@@ -16,6 +16,7 @@ class ActivityController extends Controller {
 				$data['activity_img']=$arr['success'];
 			}
 			$data['u_id']=$this->u_id;
+			$data['content']=$_POST['content'];
 			$res=D("Common")->adddata("activity",$data);
 			if($res['status']=="true"){
 				// echo "添加成功";

@@ -509,72 +509,63 @@
 
 
 
-     
-			<div class="main-content">
-				<!-- #section:basics/content.breadcrumbs -->
-				<div class="breadcrumbs" id="breadcrumbs">
-					<ul class="breadcrumb">
-						<li>
-							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Review/index');?>">实战回顾</a>
-						</li>
-					</ul><!-- /.breadcrumb -->
-
-					<!-- #section:basics/content.searchbox -->
-					<div class="nav-search" id="nav-search">
-						<form class="form-search">
-							<span class="input-icon">
-								<a href="<?php echo U('Review/index');?>" class="nav-search-input">实战回顾</a>
-							</span>
-						</form>
-					</div><!-- /.nav-search -->
-
-					<!-- /section:basics/content.searchbox -->
+     <div class="main-content">
+	<div class="breadcrumbs" id="breadcrumbs">
+		<ul class="breadcrumb">
+			<li>
+				<i class="ace-icon fa fa-home home-icon"></i>
+				<a href="<?php echo U('Review/index');?>">实战回顾</a>
+			</li>
+		</ul><!-- /.breadcrumb -->
+		<div class="nav-search" id="nav-search">
+			<form class="form-search">
+				<span class="input-icon">
+					<a href="<?php echo U('Review/index');?>" class="nav-search-input">实战回顾</a>
+				</span>
+			</form>
+		</div><!-- /.nav-search -->
+	</div>
+	<div class="page-content">
+		<div class="page-content-area">
+			<div class="row">
+				<div class="col-xs-12">
+					<!-- PAGE CONTENT BEGINS -->
+					<form class="form-horizontal" role="form" action="<?php echo U('Review/index');?>"  enctype="multipart/form-data" method="post">
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="limited">实战数据：</label>
+							<div class="col-sm-9">
+								<div class="pos-rel">
+									<input type="file" name="review_img"  class="col-xs-10 col-sm-5" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-tags">操盘体系：</label>
+							<div class="col-sm-2">
+								<div class="pos-rel">
+									<select class="form-control" id="form-field-select-1" name="s_id">
+													<option value="0">选择操盘体系</option>
+													<?php if(!empty($system)): if(is_array($system)): foreach($system as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>"><?php echo ($v["name"]); ?></option><?php endforeach; endif; endif; ?>
+												</select>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix form-actions">
+							<div class="col-md-offset-3 col-md-9">
+								<input class="btn btn-info" type="submit" value="立即提交">
+								&nbsp; &nbsp; &nbsp;
+								<button class="btn" type="reset">
+									<i class="ace-icon fa fa-undo bigger-110"></i>
+									重置
+								</button>
+							</div>
+						</div>
+					</form>
 				</div>
-
-				<div class="page-content">
-					<div class="page-content-area">
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<form class="form-horizontal" role="form" action="<?php echo U('Review/index');?>"  enctype="multipart/form-data" method="post">
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="limited">实战数据：</label>
-										<div class="col-sm-9">
-											<div class="pos-rel">
-												<input type="file" name="review_img"  class="col-xs-10 col-sm-5" />
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-tags">操盘体系：</label>
-										<div class="col-sm-2">
-											<div class="pos-rel">
-												<select class="form-control" id="form-field-select-1" name="s_id">
-																<option value="0">选择操盘体系</option>
-																<?php if(!empty($system)): if(is_array($system)): foreach($system as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>"><?php echo ($v["name"]); ?></option><?php endforeach; endif; endif; ?>
-															</select>
-											</div>
-										</div>
-									</div>
-									<div class="clearfix form-actions">
-										<div class="col-md-offset-3 col-md-9">
-											<input class="btn btn-info" type="submit" value="立即提交">
-											&nbsp; &nbsp; &nbsp;
-											<button class="btn" type="reset">
-												<i class="ace-icon fa fa-undo bigger-110"></i>
-												重置
-											</button>
-										</div>
-									</div>
-
-								</form>
-
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-					</div><!-- /.page-content-area -->
-				</div><!-- /.page-content -->
-			</div><!-- /.main-content -->
+			</div>
+		</div>
+	</div>
+</div>
 
 
 			<div class="footer">

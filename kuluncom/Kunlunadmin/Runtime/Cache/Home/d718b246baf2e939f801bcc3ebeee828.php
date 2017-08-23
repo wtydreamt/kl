@@ -229,7 +229,7 @@
 						<ul class="submenu">
 
 							<li class="">
-								<a href="<?php echo U('Home/Personnel/index');?>">
+								<a href="<?php echo U('Personnel/index');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									添加人员
 								</a>
@@ -515,7 +515,7 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Home/Index/index');?>">昆仑财富首页</a>
+							<a href="<?php echo U('Index/index');?>">昆仑财富首页</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 

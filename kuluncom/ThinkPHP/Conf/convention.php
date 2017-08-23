@@ -30,7 +30,7 @@ return  array(
     /* Cookie设置 */
     'COOKIE_EXPIRE'         =>  time()*24*3600,    // Cookie有效期
     'COOKIE_DOMAIN'         =>  '',      // Cookie有效域名
-    'COOKIE_PATH'           =>  '/Kunlunadmin/',     // Cookie路径
+    'COOKIE_PATH'           =>  COOKIT_PATH,     // Cookie路径
     'COOKIE_PREFIX'         =>  '',      // Cookie前缀 避免冲突
 
     /* 默认设定 */

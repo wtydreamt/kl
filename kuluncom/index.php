@@ -5,6 +5,7 @@ define('APP_DEBUG',true);
 define('APP_PATH','./Kunlunadmin/');
 define('DEFAULT_MODULE','Home');  
 define('DEFAULT_CONTROLLER','Login');
-define('DEFAULT_ACTION','index'); 
+define('DEFAULT_ACTION','index');
+define('COOKIT_PATH',substr($_SERVER['PHP_SELF'],0,strpos($_SERVER['PHP_SELF'],"/index.php")));
 require './ThinkPHP/ThinkPHP.php';
 

@@ -5,5 +5,6 @@ define('APP_DEBUG',true);
 define('APP_PATH','./Web/');
 define('DEFAULT_MODULE','Web');  
 define('DEFAULT_CONTROLLER','Index'); 
-define('DEFAULT_ACTION','index'); 
+define('DEFAULT_ACTION','index');
+define('COOKIT_PATH',substr($_SERVER['PHP_SELF'],0,strpos($_SERVER['PHP_SELF'],"/web.php")));
 require './ThinkPHP/ThinkPHP.php';
