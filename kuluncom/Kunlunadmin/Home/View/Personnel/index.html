@@ -4,7 +4,7 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="{:U('Home/Personnel/index')}">添加人员</a>
+							<a href="{:U('Personnel/index')}">添加人员</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
@@ -87,7 +87,7 @@
 <script type="text/javascript" src='__PUBLIC__/assets/js/jquery.min.js'></script>
 		<script type="text/javascript">
 			$("[type='button']").click(function(){
-				var url="{:U('Home/Personnel/addpeople')}";
+				var url="{:U('Personnel/addpeople')}";
 				var r_id=$("#form-field-select-1").find("option:selected").val();
 				var password=$("[name='password'").val();
 				var number=$("[name='number'").val();

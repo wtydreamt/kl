@@ -515,63 +515,332 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Lecturer/edit');?>">大赛设置</a>
+							<a href="<?php echo U('Site/banner');?>">banner列表</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
 					<!-- #section:basics/content.searchbox -->
-					<!-- /.nav-search -->
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<a href="<?php echo U('Site/banneradd');?>" class="nav-search-input">新增banner</a>
+							</span>
+						</form>
+					</div><!-- /.nav-search -->
 
 					<!-- /section:basics/content.searchbox -->
 				</div>
 
 				<div class="page-content">
-					<div class="page-content-area">
-
 					<!-- /section:settings.box -->
 					<div class="page-content-area">
+									<div class="col-xs-12">
 
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<h4 class="header red clearfix">
-									大赛介绍&&奖项设置
-								</h4>
+										<div class="table-responsive">
 
-								<form class="form-horizontal" role="form" action="<?php echo U('Activity/index');?>"  enctype="multipart/form-data" method="post">
-								<textarea id="editor" name="content" style="height: 300px;width: 100%"></textarea>
-								<div class="space-4"></div>
-								<div class="form-group">
-										<label class="col-sm-3" for="limited">奖项设置：</label>
-										<div class="col-sm-9">
-											<div class="pos-rel">
-												<input type="file" name="activity_img"  class="col-xs-10 col-sm-5" />
+											<table id="sample-table-2" class="table table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+														<th class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</th>
+														<th>部门</th>
+				                                        <th>差旅单号</th>
+				                                        <th>名称</th>
+				                                        <th>关联订单号</th>
+				                                        <th>差旅单状态</th>
+				                                        <th>创建人</th>
+				                                        <th>创建日期</th>
+														<th>操作</th>
+													</tr>
+												</thead>
+
+												<tbody>
+													<tr>
+														<td class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</td>
+
+														<td>商务研发部</td>
+				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
+				                                        <td class="hidden-480">C1234567891234</td>
+				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
+				                                        <td>未提交</td>
+				                                        <td>张国立</td>
+				                                        <td>2012-08-01</td>
+														<td>
+															<div class="hidden-sm hidden-xs btn-group">
+																<button class="btn btn-xs btn-success" title="">
+																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-info">
+																	<i class="ace-icon fa fa-pencil bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-danger">
+																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-warning">
+																	<i class="ace-icon fa fa-flag bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-success">
+																	<i class="ace-icon fa fa-check bigger-120"></i>
+																</button>
+															</div>
+														</td>
+													</tr>
+
+													<tr>
+														<td class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</td>
+
+														<td>商务研发部</td>
+				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
+				                                        <td class="hidden-480">C1234567891234</td>
+				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
+				                                        <td>未提交</td>
+				                                        <td>张国立</td>
+				                                        <td>2012-08-01</td>
+														<td>
+															<div class="hidden-sm hidden-xs btn-group">
+																<button class="btn btn-xs btn-success" title="">
+																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-info">
+																	<i class="ace-icon fa fa-pencil bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-danger">
+																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-warning">
+																	<i class="ace-icon fa fa-flag bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-success">
+																	<i class="ace-icon fa fa-check bigger-120"></i>
+																</button>
+															</div>
+														</td>
+													</tr>
+
+													<tr>
+														<td class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</td>
+
+														<td>商务研发部</td>
+				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
+				                                        <td class="hidden-480">C1234567891234</td>
+				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
+				                                        <td>未提交</td>
+				                                        <td>张国立</td>
+				                                        <td>2012-08-01</td>
+														<td>
+															<div class="hidden-sm hidden-xs btn-group">
+																<button class="btn btn-xs btn-success" title="">
+																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-info">
+																	<i class="ace-icon fa fa-pencil bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-danger">
+																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-warning">
+																	<i class="ace-icon fa fa-flag bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-success">
+																	<i class="ace-icon fa fa-check bigger-120"></i>
+																</button>
+															</div>
+														</td>
+													</tr>
+
+													<tr>
+														<td class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</td>
+
+														<td>商务研发部</td>
+				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
+				                                        <td class="hidden-480">C1234567891234</td>
+				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
+				                                        <td>未提交</td>
+				                                        <td>张国立</td>
+				                                        <td>2012-08-01</td>
+														<td>
+															<div class="hidden-sm hidden-xs btn-group">
+																<button class="btn btn-xs btn-success" title="">
+																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-info">
+																	<i class="ace-icon fa fa-pencil bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-danger">
+																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-warning">
+																	<i class="ace-icon fa fa-flag bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-success">
+																	<i class="ace-icon fa fa-check bigger-120"></i>
+																</button>
+															</div>
+														</td>
+													</tr>
+
+													<tr>
+														<td class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</td>
+
+														<td>商务研发部</td>
+				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
+				                                        <td class="hidden-480">C1234567891234</td>
+				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
+				                                        <td>未提交</td>
+				                                        <td>张国立</td>
+				                                        <td>2012-08-01</td>
+														<td>
+															<div class="hidden-sm hidden-xs btn-group">
+																<button class="btn btn-xs btn-success" title="">
+																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-info">
+																	<i class="ace-icon fa fa-pencil bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-danger">
+																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-warning">
+																	<i class="ace-icon fa fa-flag bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-success">
+																	<i class="ace-icon fa fa-check bigger-120"></i>
+																</button>
+															</div>
+														</td>
+													</tr>
+
+													<tr>
+														<td class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</td>
+
+														<td>商务研发部</td>
+				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
+				                                        <td class="hidden-480">C1234567891234</td>
+				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
+				                                        <td>未提交</td>
+				                                        <td>张国立</td>
+				                                        <td>2012-08-01</td>
+														<td>
+															<div class="hidden-sm hidden-xs btn-group">
+																<button class="btn btn-xs btn-success" title="">
+																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-info">
+																	<i class="ace-icon fa fa-pencil bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-danger">
+																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-warning">
+																	<i class="ace-icon fa fa-flag bigger-120"></i>
+																</button>
+
+																<button class="btn btn-xs btn-success">
+																	<i class="ace-icon fa fa-check bigger-120"></i>
+																</button>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+
+											<div class="modal-footer no-margin-top">
+
+												<ul class="pagination pull-right no-margin">
+													<li class="prev disabled">
+														<a href="#">
+															<i class="ace-icon fa fa-angle-double-left"></i>
+														</a>
+													</li>
+
+													<li class="active">
+														<a href="#">1</a>
+													</li>
+
+													<li>
+														<a href="#">2</a>
+													</li>
+
+													<li>
+														<a href="#">3</a>
+													</li>
+
+													<li class="next">
+														<a href="#">
+															<i class="ace-icon fa fa-angle-double-right"></i>
+														</a>
+													</li>
+												</ul>
 											</div>
+
 										</div>
-								</div>								
-								<div class="clearfix form-actions">
-										<div class="col-md-offset-3 col-md-9">
-											<input class="btn btn-info" type="submit" value="立即提交">
-											&nbsp; &nbsp; &nbsp;
-											<button class="btn" type="reset">
-												<i class="ace-icon fa fa-undo bigger-110"></i>
-												重置
-											</button>
-										</div>
-								</div>								
-								</form>
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-					</div><!-- /.page-content-area -->
+
+										
+
+
+									</div>
+
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
-    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/ueditor.config.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/ueditor.all.min.js"> </script>
-    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/lang/zh-cn/zh-cn.js"></script>
-    <script>
-	var ue = UE.getEditor('editor');    
-    </script>
+
 			<div class="footer">
 				<div class="footer-inner">
 					<!-- #section:basics/footer -->

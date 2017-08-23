@@ -229,7 +229,7 @@
 						<ul class="submenu">
 
 							<li class="">
-								<a href="<?php echo U('Home/Personnel/index');?>">
+								<a href="<?php echo U('Personnel/index');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									添加人员
 								</a>
@@ -515,7 +515,7 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Home/Personnel/index');?>">添加人员</a>
+							<a href="<?php echo U('Personnel/index');?>">添加人员</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
@@ -594,7 +594,7 @@
 <script type="text/javascript" src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.min.js'></script>
 		<script type="text/javascript">
 			$("[type='button']").click(function(){
-				var url="<?php echo U('Home/Personnel/addpeople');?>";
+				var url="<?php echo U('Personnel/addpeople');?>";
 				var r_id=$("#form-field-select-1").find("option:selected").val();
 				var password=$("[name='password'").val();
 				var number=$("[name='number'").val();

@@ -515,12 +515,18 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Lecturer/edit');?>">大赛设置</a>
+							<a href="<?php echo U('Site/chief');?>">推荐首席讲师</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
 					<!-- #section:basics/content.searchbox -->
-					<!-- /.nav-search -->
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<a href="<?php echo U('Site/chieflist');?>" class="nav-search-input">推荐列表</a>
+							</span>
+						</form>
+					</div><!-- /.nav-search -->
 
 					<!-- /section:basics/content.searchbox -->
 				</div>
@@ -528,28 +534,83 @@
 				<div class="page-content">
 					<div class="page-content-area">
 
-					<!-- /section:settings.box -->
-					<div class="page-content-area">
-
 						<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
-								<h4 class="header red clearfix">
-									大赛介绍&&奖项设置
-								</h4>
+								<form class="form-horizontal" role="form" action="<?php echo U('Site/chief');?>"  enctype="multipart/form-data" method="post">
+									<!-- #section:elements.form -->
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 推荐理由：</label>
 
-								<form class="form-horizontal" role="form" action="<?php echo U('Activity/index');?>"  enctype="multipart/form-data" method="post">
-								<textarea id="editor" name="content" style="height: 300px;width: 100%"></textarea>
-								<div class="space-4"></div>
-								<div class="form-group">
-										<label class="col-sm-3" for="limited">奖项设置：</label>
+										<div class="col-sm-9">
+											<input type="text" name="reason" id="form-field-1" placeholder="推荐理由" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="limited">封面图：</label>
 										<div class="col-sm-9">
 											<div class="pos-rel">
-												<input type="file" name="activity_img"  class="col-xs-10 col-sm-5" />
+												<input type="file" name="cover_img"  class="col-xs-10 col-sm-5" />
 											</div>
 										</div>
-								</div>								
-								<div class="clearfix form-actions">
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-tags">选择推荐讲师：</label>
+										<div class="col-sm-2">
+											<div class="pos-rel">
+												<select class="form-control" id="form-field-select-1" name="u_id">
+																<option value="0">选择讲师</option>
+																<?php if(!empty($admin_user)): if(is_array($admin_user)): foreach($admin_user as $key=>$v): ?><option value="<?php echo ($v["u_id"]); ?>"><?php echo ($v["nickname"]); ?></option><?php endforeach; endif; endif; ?>
+															</select>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1-1">选择推荐位： </label>
+
+										<div class="col-sm-9">
+												<div class="radio" style="float: left">
+													<label>
+														<input name="position" type="radio" value="1" class="ace" />
+														<span class="lbl"> 推荐位1</span>
+													</label>
+												</div>
+
+												<div class="radio" style="float: left">
+													<label>
+														<input name="position" type="radio" value="2" class="ace" />
+														<span class="lbl"> 推荐位2</span>
+													</label>
+												</div>
+												<div class="radio" style="float: left">
+													<label>
+														<input name="position" type="radio" value="3" class="ace" />
+														<span class="lbl"> 推荐位3</span>
+													</label>
+												</div>												
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1-1">是否显示： </label>
+
+										<div class="col-sm-9">
+												<div class="radio" style="float: left">
+													<label>
+														<input name="is_show" type="radio" value="1" class="ace" />
+														<span class="lbl"> 显示</span>
+													</label>
+												</div>
+
+												<div class="radio" style="float: left">
+													<label>
+														<input name="is_show" type="radio" value="2" class="ace" />
+														<span class="lbl"> 不显示</span>
+													</label>
+												</div>
+										</div>
+									</div>									
+									
+									<div class="clearfix form-actions">
 										<div class="col-md-offset-3 col-md-9">
 											<input class="btn btn-info" type="submit" value="立即提交">
 											&nbsp; &nbsp; &nbsp;
@@ -558,20 +619,16 @@
 												重置
 											</button>
 										</div>
-								</div>								
+									</div>
+
 								</form>
+
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 					</div><!-- /.page-content-area -->
-					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
-    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/ueditor.config.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/ueditor.all.min.js"> </script>
-    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/lang/zh-cn/zh-cn.js"></script>
-    <script>
-	var ue = UE.getEditor('editor');    
-    </script>
+
 			<div class="footer">
 				<div class="footer-inner">
 					<!-- #section:basics/footer -->
