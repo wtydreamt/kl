@@ -32,7 +32,7 @@
 				<!-- /section:basics/sidebar.mobile.toggle -->
 				<div class="navbar-header pull-left">
 					<!-- #section:basics/navbar.layout.brand -->
-					<a href="<?php echo U('Home/Index/index');?>" class="navbar-brand">
+					<a href="<?php echo U('Index/index');?>" class="navbar-brand">
 						<small>
 							<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo.png" alt="" />
 						</small>
@@ -229,7 +229,7 @@
 						<ul class="submenu">
 
 							<li class="">
-								<a href="<?php echo U('Home/Personnel/index');?>">
+								<a href="<?php echo U('Personnel/index');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									添加人员
 								</a>
@@ -400,7 +400,7 @@
 							</li>
 
 							<li class="">
-								<a href="<?php echo U('Power/rolelist');?>">
+								<a href="<?php echo U('Strategy/curriculum');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									设置课程
 								</a>
@@ -515,7 +515,7 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Home/Power/index');?>">角色添加</a>
+							<a href="<?php echo U('Power/index');?>">角色添加</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 

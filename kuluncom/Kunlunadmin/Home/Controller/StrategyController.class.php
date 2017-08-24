@@ -32,4 +32,30 @@ class StrategyController extends Controller {
 		}    	
     }
 
+    public function curriculum(){
+    	$data=I();
+		if($data && isset($data)){
+			$data['desc']=$_POST['desc'];
+			$data['u_id']=$this->u_id;
+			$arr=D("Common")->fileUpload("img",'img');
+			if($arr['msg']=="1"){
+				$data['img']=$arr['success'];
+			}			
+			$res=D("Common")->adddata("curriculum",$data);
+			if($res['status']=="true"){
+				$this->redirect('Strategy/curriculum', "", 0, '');
+			}else{
+				$this->redirect('Strategy/curriculum', "", 1, '发布失败');
+			}
+		}else{
+			$this->display("curriculum");
+		}     	
+    }
+
+    public function clist(){
+    	$curriculum=D("Common")->generalquery("curriculum",array("u_id"=>$this->u_id),"name,ketime,fxrade,kegrade,starttime","all");
+    	$curriculum=$curriculum['status']=="true"?$curriculum['message']:"";
+    	$this->assign("curriculum",$curriculum); 
+    	$this->display('clist');
+    }
 }

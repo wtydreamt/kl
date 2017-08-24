@@ -491,56 +491,108 @@
 
 
 
-     			<div class="main-content">
-				<!-- #section:basics/content.breadcrumbs -->
-				<div class="breadcrumbs" id="breadcrumbs">
-					<ul class="breadcrumb">
-						<li>
-							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Index/index');?>">昆仑财富首页</a>
-						</li>
-					</ul><!-- /.breadcrumb -->
+     <div class="main-content">
+	<div class="breadcrumbs" id="breadcrumbs">
+		<ul class="breadcrumb">
+			<li>
+				<i class="ace-icon fa fa-home home-icon"></i>
+				<a href="<?php echo U('Strategy/curriculum');?>">设置课程</a>
+			</li>
+		</ul><!-- /.breadcrumb -->
+		<div class="nav-search" id="nav-search">
+			<form class="form-search">
+				<span class="input-icon">
+					<a href="<?php echo U('Strategy/clist');?>" class="nav-search-input">我的课程</a>
+				</span>
+			</form>
+		</div><!-- /.nav-search -->
+	</div>
+	<div class="page-content">
+		<div class="page-content-area">
+			<div class="row">
+				<div class="col-xs-12">
+					<!-- PAGE CONTENT BEGINS -->
+					<form class="form-horizontal" role="form" action="<?php echo U('Strategy/curriculum');?>"  enctype="multipart/form-data" method="post">
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 课程名称：</label>
 
-					<!-- #section:basics/content.searchbox -->
-					<div class="nav-search" id="nav-search">
-						<form class="form-search">
-							<span class="input-icon">
-								<input type="text" placeholder="请输入关键字 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-								<i class="ace-icon fa fa-search nav-search-icon"></i>
-							</span>
-						</form>
-					</div><!-- /.nav-search -->
-
-					<!-- /section:basics/content.searchbox -->
-				</div>
-
-				<div class="page-content">
-					<!-- /section:settings.box -->
-					<div class="page-content-area">
-
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<div class="alert alert-block alert-info">
-									<button type="button" class="close" data-dismiss="alert">
-										<i class="ace-icon fa fa-times"></i>
-									</button>
-
-									<i class="ace-icon fa fa-check green"></i>
-
-									<strong class="green">最新公告：</strong>
-									昆仑财富平台讲师官方唯一指定入口，讲师认证账号加V
+							<div class="col-sm-9">
+								<input type="text" id="form-field-1" placeholder="课程名称" name="name" class="col-xs-10 col-sm-5" />
+							</div>
+						</div>					
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="limited">课程封面：</label>
+							<div class="col-sm-9">
+								<div class="pos-rel">
+									<input type="file" name="img"  class="col-xs-10 col-sm-5" />
 								</div>
-								<div class="row center">
-									<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo_2.png" />
-								</div><!-- /.row -->
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 课时：</label>
 
-								<!-- PAGE CONTENT ENDS -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-					</div><!-- /.page-content-area -->
-				</div><!-- /.page-content -->
-			</div><!-- /.main-content -->
+							<div class="col-sm-9">
+								<input type="text" id="form-field-1" placeholder="课时" name="ketime" class="col-xs-10 col-sm-5" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 课程等级：</label>
+
+							<div class="col-sm-9">
+								<input type="text" id="form-field-1" placeholder="课程等级：（高 中 低）" name="kegrade" class="col-xs-10 col-sm-5" />
+							</div>
+						</div>						
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 风险等级：</label>
+
+							<div class="col-sm-9">
+								<input type="text" id="form-field-1" placeholder="风险等级" name="fxrade" class="col-xs-10 col-sm-5" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 开班日期：</label>
+
+							<div class="col-sm-9">
+								<input type="text" id="form-field-1" placeholder="开班日期" name="starttime" class="col-xs-10 col-sm-5" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 课程价格：</label>
+
+							<div class="col-sm-9">
+								<input type="text" id="form-field-1" placeholder="课程价格" name="price" class="col-xs-10 col-sm-5" />
+							</div>
+						</div>						
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 课程介绍：</label>
+							<div class="col-sm-9">
+							</div>
+						</div>						
+						<textarea id="editor" name="desc" placeholder="课程介绍" style="width:100%; height: 300px"></textarea>
+						<div class="space-4"></div>																											
+						<div class="clearfix form-actions">
+							<div class="col-md-offset-3 col-md-9">
+								<input class="btn btn-info" type="submit" value="立即提交">
+								&nbsp; &nbsp; &nbsp;
+								<button class="btn" type="reset">
+									<i class="ace-icon fa fa-undo bigger-110"></i>
+									重置
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="/gitkunl/kl/kuluncom/Public/ueditor/lang/zh-cn/zh-cn.js"></script>
+    <script>
+	var ue = UE.getEditor('editor');    
+    </script>
+
 			<div class="footer">
 				<div class="footer-inner">
 					<!-- #section:basics/footer -->

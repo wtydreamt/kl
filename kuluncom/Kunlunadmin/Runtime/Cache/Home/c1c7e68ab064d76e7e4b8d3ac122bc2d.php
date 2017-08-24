@@ -32,7 +32,7 @@
 				<!-- /section:basics/sidebar.mobile.toggle -->
 				<div class="navbar-header pull-left">
 					<!-- #section:basics/navbar.layout.brand -->
-					<a href="<?php echo U('Home/Index/index');?>" class="navbar-brand">
+					<a href="<?php echo U('Index/index');?>" class="navbar-brand">
 						<small>
 							<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo.png" alt="" />
 						</small>
@@ -400,7 +400,7 @@
 							</li>
 
 							<li class="">
-								<a href="<?php echo U('Power/rolelist');?>">
+								<a href="<?php echo U('Strategy/curriculum');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									设置课程
 								</a>

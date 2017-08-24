@@ -100,14 +100,13 @@
 		<!--@-->
 		<div class="guide_less clear ">
 		       <ul class="teach_section_ul  clay_ul clear mb_20 ">
-		<li>
+		       <?php if(is_array($curriculum)): foreach($curriculum as $key=>$v): ?><li>
 		         <div class="clay_ulbox">
 		           	<div class="clay_imgs"><a href="课程培训详情.html" target="_blank"><img onerror="showImgDelay(this);" src="http://sf.yxcps.cn/temp/385840F0_20170731091917547.jpg" alt=""></a></div>
-		           	<div class="section_less"><em><a href="课程培训详情.html" target="_blank">朱超高级课月课</a></em><p class="author"><a href="javascript:;">朱超</a></p><p><span class="collect float_right f_col_Red  f_bold">
-		           	0.00元</span><span class="icon icon-user out-left-0"></span>0人购买</p></div>
+		           	<div class="section_less"><em><a href="课程培训详情.html" target="_blank"><?php echo ($v["name"]); ?></a></em><p class="author"><a href="javascript:;"><?php echo ($v["nickname"]); ?></a></p><p><span class="collect float_right f_col_Red  f_bold">
+		           	<?php echo ($v["price"]); ?>元</span><span class="icon icon-user out-left-0"></span>0人购买</p></div>
 				</div>
-			</li>
-	
+				</li><?php endforeach; endif; ?>
 		</ul>
 		</div>
 					        <!--@-->

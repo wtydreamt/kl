@@ -16,7 +16,7 @@
 
 	</head>
 		<body class="no-skin">
-		<div id="navbar" class="navbar navbar-default" style="background-color: red">
+		<div id="navbar" class="navbar navbar-default">
 			<div class="navbar-container" id="navbar-container">
 
 				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler">
@@ -30,9 +30,9 @@
 				</button>
 
 				<!-- /section:basics/sidebar.mobile.toggle -->
-				<div class="navbar-header pull-left" >
+				<div class="navbar-header pull-left">
 					<!-- #section:basics/navbar.layout.brand -->
-					<a href="<?php echo U('Index/index');?>" class="navbar-brand">
+					<a href="<?php echo U('Home/Index/index');?>" class="navbar-brand">
 						<small>
 							<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo.png" alt="" />
 						</small>
@@ -43,7 +43,7 @@
 					<ul class="nav ace-nav">
 
 						<li class="green">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="background-color: red">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
 								<span class="badge badge-success">5</span>
 							</a>
@@ -154,7 +154,7 @@
 
 						<!-- #section:basics/navbar.user_menu -->
 						<li class="light-blue">
-							<a data-toggle="dropdown" href="#" class="dropdown-toggle" style="background-color: red">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
 								<img class="nav-user-photo" src="/gitkunl/kl/kuluncom/Public/assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									欢迎您<br />
@@ -244,6 +244,7 @@
 
 								<b class="arrow"></b>
 							</li>
+
 							<li class="">
 								<a href="treeview.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -252,8 +253,12 @@
 
 								<b class="arrow"></b>
 							</li>
+
+
+
 						</ul>
 					</li>
+
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
@@ -261,7 +266,9 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
+
 						<b class="arrow"></b>
+
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Power/index');?>">
@@ -289,7 +296,9 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
+
 						<b class="arrow"></b>
+
 						<ul class="submenu">
 							<li class="">
 								<a href="form-elements.html">
@@ -305,8 +314,10 @@
 									<i class="menu-icon fa fa-caret-right"></i>
 									向导提示 &amp; 验证
 								</a>
+
 								<b class="arrow"></b>
 							</li>
+
 							<li class="">
 								<a href="wysiwyg.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -315,6 +326,7 @@
 
 								<b class="arrow"></b>
 							</li>
+
 							<li class="">
 								<a href="dropzone.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -374,7 +386,9 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
+
 						<b class="arrow"></b>
+
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Strategy/index');?>">
@@ -384,8 +398,9 @@
 
 								<b class="arrow"></b>
 							</li>
+
 							<li class="">
-								<a href="<?php echo U('Strategy/curriculum');?>">
+								<a href="<?php echo U('Power/rolelist');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									设置课程
 								</a>
@@ -401,7 +416,9 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
+
 						<b class="arrow"></b>
+
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Category/viewpoint');?>">
@@ -485,6 +502,7 @@
 	<!-- 			<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
 					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
 				</div> -->
+
 			</div>
 
 			<!-- /section:basics/sidebar -->
@@ -497,7 +515,7 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Index/index');?>">昆仑财富首页</a>
+							<a href="<?php echo U('Lecturer/edit');?>">编辑个人资料</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
@@ -505,8 +523,7 @@
 					<div class="nav-search" id="nav-search">
 						<form class="form-search">
 							<span class="input-icon">
-								<input type="text" placeholder="请输入关键字 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-								<i class="ace-icon fa fa-search nav-search-icon"></i>
+								<a href="<?php echo U('Lecturer/index');?>" class="nav-search-input">个人资料</a>
 							</span>
 						</form>
 					</div><!-- /.nav-search -->
@@ -515,32 +532,127 @@
 				</div>
 
 				<div class="page-content">
-					<!-- /section:settings.box -->
 					<div class="page-content-area">
 
 						<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
-								<div class="alert alert-block alert-info">
-									<button type="button" class="close" data-dismiss="alert">
-										<i class="ace-icon fa fa-times"></i>
-									</button>
+								<form class="form-horizontal" role="form" action="<?php echo U('Lecturer/edit');?>"  enctype="multipart/form-data" method="post">
+									<!-- #section:elements.form -->
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 昵称：</label>
 
-									<i class="ace-icon fa fa-check green"></i>
+										<div class="col-sm-9">
+											<input type="text" name="nickname" value="<?php echo ($admin_user["nickname"]); ?>" id="form-field-1" placeholder="输入部门名称" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="limited">头像：</label>
+										<div class="col-sm-9">
+											<div class="pos-rel">
+												<input type="file" name="head_img"  class="col-xs-10 col-sm-5" />
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1-1">地址： </label>
 
-									<strong class="green">最新公告：</strong>
-									昆仑财富平台讲师官方唯一指定入口，讲师认证账号加V
-								</div>
-								<div class="row center">
-									<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo_2.png" />
-								</div><!-- /.row -->
+										<div class="col-sm-9">
+											<input type="text" name="address" value="<?php echo ($admin_user["address"]); ?>" id="form-field-1-1" placeholder="输入差旅单名称" class=" col-xs-10 col-sm-5" />
+										</div>
+									</div>
 
-								<!-- PAGE CONTENT ENDS -->
+									<!-- /section:elements.form -->
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-2">年龄： </label>
+
+										<div class="col-sm-9">
+											<input type="text" name="age" value="<?php echo ($admin_user["age"]); ?>" id="form-field-2" placeholder="年龄" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly">所属机构：</label>
+
+										<div class="col-sm-9">
+											<input type="text" name="mechanism" value="<?php echo ($admin_user["mechanism"]); ?>" id="form-field-2" placeholder="所属机构" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+
+
+									<div class="space-4"></div>
+
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly">从业年限： </label>
+
+										<div class="col-sm-9">
+											<input type="text" name="Industry_time" value="<?php echo ($admin_user["Industry_time"]); ?>" id="form-field-2" placeholder="从业年限" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="typeahead">个人签名：</label>
+
+										<div class="col-sm-9">
+											<!-- #section:plugins/bootstrap.typeahead-js -->
+											<div class="pos-rel">
+												<input type="text" name="autograph" value="<?php echo ($admin_user["autograph"]); ?>" id="form-field-2" placeholder="个人签名" class="col-xs-10 col-sm-5" />
+											</div>
+
+											<!-- /section:plugins/bootstrap.typeahead-js -->
+										</div>
+									</div>
+
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="limited">个人简介：</label>
+										<div class="col-sm-9">
+											<div class="pos-rel">
+												<textarea class="form-control limited autosize-transition" name="describe" id="limited" maxlength="300"><?php echo ($admin_user["describe"]); ?></textarea>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-tags">擅长领域：</label>
+										<div class="col-sm-2">
+											<?php if(!empty($label)): if(is_array($label)): foreach($label as $key=>$v): ?><div class="checkbox" style="float: left">
+														<label>
+															<input name="labe[]" value="<?php echo ($v["id"]); ?>" type="checkbox"  class="ace" />
+															<span class="lbl"> <?php echo ($v["name"]); ?></span>
+														</label>
+													</div><?php endforeach; endif; endif; ?>																															
+										</div>
+									</div>
+
+
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<input class="btn btn-info" type="submit" value="立即提交">
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+
+								</form>
+
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
+
 			<div class="footer">
 				<div class="footer-inner">
 					<!-- #section:basics/footer -->

@@ -163,7 +163,6 @@ class CommonModel extends  Model
         //echo $User->_sql();die;
         return $result;
     }
-
     public function adddata($tableName,$data){
         $table=M($tableName);
         $res=$table->add($data);
@@ -174,7 +173,6 @@ class CommonModel extends  Model
             return $message=array("message"=>$res,"status"=>"true");
         }
     } 
-
     public function generalquery($tableName,$where,$field=true,$type="all"){
            $res=$type=="all"?$res=M($tableName)->where($where)->field($field)->select():$res=M($tableName)->where($where)->field($field)->find();
            if($res){

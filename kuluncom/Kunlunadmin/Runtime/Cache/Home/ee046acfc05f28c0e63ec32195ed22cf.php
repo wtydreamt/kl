@@ -16,7 +16,7 @@
 
 	</head>
 		<body class="no-skin">
-		<div id="navbar" class="navbar navbar-default" style="background-color: red">
+		<div id="navbar" class="navbar navbar-default">
 			<div class="navbar-container" id="navbar-container">
 
 				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler">
@@ -30,9 +30,9 @@
 				</button>
 
 				<!-- /section:basics/sidebar.mobile.toggle -->
-				<div class="navbar-header pull-left" >
+				<div class="navbar-header pull-left">
 					<!-- #section:basics/navbar.layout.brand -->
-					<a href="<?php echo U('Index/index');?>" class="navbar-brand">
+					<a href="<?php echo U('Home/Index/index');?>" class="navbar-brand">
 						<small>
 							<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo.png" alt="" />
 						</small>
@@ -43,7 +43,7 @@
 					<ul class="nav ace-nav">
 
 						<li class="green">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="background-color: red">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
 								<span class="badge badge-success">5</span>
 							</a>
@@ -154,7 +154,7 @@
 
 						<!-- #section:basics/navbar.user_menu -->
 						<li class="light-blue">
-							<a data-toggle="dropdown" href="#" class="dropdown-toggle" style="background-color: red">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
 								<img class="nav-user-photo" src="/gitkunl/kl/kuluncom/Public/assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									欢迎您<br />
@@ -244,6 +244,7 @@
 
 								<b class="arrow"></b>
 							</li>
+
 							<li class="">
 								<a href="treeview.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -252,8 +253,12 @@
 
 								<b class="arrow"></b>
 							</li>
+
+
+
 						</ul>
 					</li>
+
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
@@ -261,7 +266,9 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
+
 						<b class="arrow"></b>
+
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Power/index');?>">
@@ -289,7 +296,9 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
+
 						<b class="arrow"></b>
+
 						<ul class="submenu">
 							<li class="">
 								<a href="form-elements.html">
@@ -305,8 +314,10 @@
 									<i class="menu-icon fa fa-caret-right"></i>
 									向导提示 &amp; 验证
 								</a>
+
 								<b class="arrow"></b>
 							</li>
+
 							<li class="">
 								<a href="wysiwyg.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -315,6 +326,7 @@
 
 								<b class="arrow"></b>
 							</li>
+
 							<li class="">
 								<a href="dropzone.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -374,7 +386,9 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
+
 						<b class="arrow"></b>
+
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Strategy/index');?>">
@@ -384,6 +398,7 @@
 
 								<b class="arrow"></b>
 							</li>
+
 							<li class="">
 								<a href="<?php echo U('Strategy/curriculum');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -401,7 +416,9 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
+
 						<b class="arrow"></b>
+
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Category/viewpoint');?>">
@@ -485,6 +502,7 @@
 	<!-- 			<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
 					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
 				</div> -->
+
 			</div>
 
 			<!-- /section:basics/sidebar -->
@@ -497,7 +515,7 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Index/index');?>">昆仑财富首页</a>
+							<a href="<?php echo U('Lecturer/index');?>">个人中心</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
@@ -505,8 +523,7 @@
 					<div class="nav-search" id="nav-search">
 						<form class="form-search">
 							<span class="input-icon">
-								<input type="text" placeholder="请输入关键字 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-								<i class="ace-icon fa fa-search nav-search-icon"></i>
+								<a href="<?php echo U('Lecturer/edit');?>" class="nav-search-input">编辑个人资料</a>
 							</span>
 						</form>
 					</div><!-- /.nav-search -->
@@ -515,32 +532,153 @@
 				</div>
 
 				<div class="page-content">
-					<!-- /section:settings.box -->
 					<div class="page-content-area">
-
 						<div class="row">
 							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<div class="alert alert-block alert-info">
-									<button type="button" class="close" data-dismiss="alert">
-										<i class="ace-icon fa fa-times"></i>
-									</button>
+								<div id="user-profile-2" class="user-profile">
+										<div class="tabbable">
+											<ul class="nav nav-tabs padding-18">
+												<li class="active">
+													<a data-toggle="tab" href="#home">
+														<i class="green icon-user bigger-120"></i>
+														详细资料
+													</a>
+												</li>
+											</ul>
 
-									<i class="ace-icon fa fa-check green"></i>
+											<div class="tab-content no-border padding-24">
+												<div id="home" class="tab-pane in active">
+													<div class="row">
+														<div class="col-xs-12 col-sm-3 center">
+															<span class="profile-picture">
+																<img class="editable img-responsive" alt="Alex's Avatar" id="avatar2" src="/gitkunl/kl/kuluncom/<?php echo ($data["admin_user"]["head_img"]); ?>" />
+															</span>
 
-									<strong class="green">最新公告：</strong>
-									昆仑财富平台讲师官方唯一指定入口，讲师认证账号加V
-								</div>
-								<div class="row center">
-									<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo_2.png" />
-								</div><!-- /.row -->
+															<div class="space space-4"></div>
 
-								<!-- PAGE CONTENT ENDS -->
+
+
+														</div><!-- /span -->
+
+														<div class="col-xs-12 col-sm-9">
+
+															<div class="profile-user-info">
+																<div class="profile-info-row">
+																	<div class="profile-info-name"> 账号 </div>
+
+																	<div class="profile-info-value">
+																		<span><?php echo ($data["admin_user"]["number"]); ?></span>
+																	</div>
+																</div>															
+																<div class="profile-info-row">
+																	<div class="profile-info-name"> 用户名 </div>
+
+																	<div class="profile-info-value">
+																		<span><?php echo ($data["admin_user"]["nickname"]); ?></span>
+																	</div>
+																</div>
+
+																<div class="profile-info-row">
+																	<div class="profile-info-name"> 地址 </div>
+
+																	<div class="profile-info-value">
+																		<i class="icon-map-marker light-orange bigger-110"></i>
+																		<span><?php echo ($data["admin_user"]["address"]); ?></span>
+																	</div>
+																</div>
+
+																<div class="profile-info-row">
+																	<div class="profile-info-name"> 年龄 </div>
+
+																	<div class="profile-info-value">
+																		<span><?php echo ($data["admin_user"]["age"]); ?></span>
+																	</div>
+																</div>
+
+																<div class="profile-info-row">
+																	<div class="profile-info-name"> 从业年限 </div>
+
+																	<div class="profile-info-value">
+																		<span><?php echo ($data["admin_user"]["Industry_time"]); ?></span>
+																	</div>
+																</div>
+																<div class="profile-info-row">
+																	<div class="profile-info-name"> 从业资格 </div>
+
+																	<div class="profile-info-value">
+																		<span><?php echo ($data["admin_user"]["card"]); ?></span>
+																	</div>
+																</div>																
+															</div>
+
+															<div class="hr hr-8 dotted"></div>
+
+															<div class="profile-user-info">
+																<div class="profile-info-row">
+																	<div class="profile-info-name"> 个性签名 </div>
+
+																	<div class="profile-info-value">
+																		<a href="#" target="_blank"><?php echo ($data["admin_user"]["autograph"]); ?></a>
+																	</div>
+																</div>
+															</div>
+														</div><!-- /span -->
+													</div><!-- /row-fluid -->
+
+													<div class="space-20"></div>
+
+													<div class="row">
+														<div class="col-xs-12 col-sm-6">
+															<div class="widget-box transparent">
+																<div class="widget-header widget-header-small">
+																	<h4 class="smaller">
+																		<i class="icon-check bigger-110"></i>
+																		个人简介
+																	</h4>
+																</div>
+
+																<div class="widget-body">
+																	<div class="widget-main">
+																		<p>
+																			<?php echo ($data["admin_user"]["describe"]); ?>
+																		</p>
+
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div class="col-xs-12 col-sm-6">
+															<div class="widget-box transparent">
+																<div class="widget-header widget-header-small header-color-blue2">
+																	<h4 class="smaller">
+																		<i class="icon-lightbulb bigger-120"></i>
+																		擅长领域(标签)
+																	</h4>
+																</div>
+
+																<div class="widget-body">
+																	<div class="widget-main padding-16">
+																		<div class="clearfix">
+																	<?php if(is_array($data["label"])): foreach($data["label"] as $key=>$v): echo ($v["name"]); ?>&nbsp&nbsp<?php endforeach; endif; ?>																																							
+																		</div>
+
+																		<div class="hr hr-16"></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div><!-- #home -->
+											</div>
+										</div>
+									</div>
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
+
 			<div class="footer">
 				<div class="footer-inner">
 					<!-- #section:basics/footer -->
