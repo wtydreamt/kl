@@ -1,0 +1,58 @@
+  	<div class="px_com container">
+  		 <div class="tempwar_border bgcolor_White clear">
+			        <div class="wrap_tank_title"><h2 class="inner_10_rl">股票培训高级课</h2></div><!--wrap_tank_title-->
+			        <div class="mooc_peg_section clear">
+				        <div class="mooc_peg_rt float_right"><a href="#" class="mt_10"><img src="http://static.yxcps.cn/images/inner_banner_sm.png" alt=""></a></div><!--mooc_peg_rt end-->
+		<div class="mooc_peg_lt float_left" style="width: 100%;">
+			<div class="mooc_peg_box">
+		    <div class="mooc_peg_tank">
+				<dl class="mooc_peg_tank_dl clear">
+		            <dt>讲 师：</dt><dd class="current"><a href="{:U('Curriculum/index')}" ck="vip_course_list_q_讲 师不限" refkc="vip_course_list_q_讲 师不限">不限</a></dd>
+		            <foreach name="uinfo" item="u">
+		            <dd><a href="{:U('Curriculum/index')}?uid={$u.u_id}" >{$u.nickname}</a></dd>
+		            </foreach>
+		            </dl>
+			</div>
+		    </div>
+		</div><!--mooc_peg_lt end-->
+					        </div><!--mooc_peg_section end-->
+							<div class="mooc_peg_section">
+								<div class="mooc_peg_sift">
+		<!-- 							<ul class="mooc_peg_sift_ul clear">
+										<li class="current">			
+                                        <a ck="vip_course_list_sort_begin_time" refkc="vip_course_list_sort_begin_time" href="http://www.yxcps.cn/highercourse/index|"><span>最近更新</span></a>
+                                        </li>
+										<li>	
+                                        <a ck="vip_course_list_sort_sale_num" refkc="vip_course_list_sort_sale_num" href="http://www.yxcps.cn/highercourse/index||sort-sale_num"><span>购买人数</span></a></li>
+									</ul> -->
+								</div><!--inner_10-->
+							</div><!--mooc_peg_section end-->
+		<!--@-->
+		<div class="guide_less clear ">
+		       <ul class="teach_section_ul  clay_ul clear mb_20 ">
+		       <foreach name="curriculum" item="v">
+				<li>
+		         <div class="clay_ulbox">
+		           	<div class="clay_imgs"><a href="{:U('Curriculum/info')}?id={$v.id}"><img onerror="showImgDelay(this);" src="__ROOT__/{$v.img}" alt="图片加载中"></a></div>
+		           	<div class="section_less"><em><a href="课程培训详情.html" target="_blank">{$v.name}</a></em><p class="author"><a href="javascript:;">{$v.nickname}</a></p><p><span class="collect float_right f_col_Red  f_bold">
+		           	{$v.price}元</span><span class="icon icon-user out-left-0"></span>0人购买</p></div>
+				</div>
+				</li>
+				</foreach>
+		</ul>
+		</div>
+					        <!--@-->
+		       <!--pagelist-->
+		       <div class="mb_20  f_align_ct">
+		         <div class="cell-pages out-left-0">
+		                <a href="{:U('Curriculum/index')}?page=1">首页</a>
+		                    <for start="0" end="$page">
+    							<a href="{:U('Curriculum/index')}?page={$i+1}">{$i+1}</a>
+    						</for>
+		                
+		                <a href="{:U('Curriculum/index')}?page={$page}">尾页</a></div>
+		         </div> 
+		    <!--pagelist end-->			        
+		</div>
+  	</div>
+   

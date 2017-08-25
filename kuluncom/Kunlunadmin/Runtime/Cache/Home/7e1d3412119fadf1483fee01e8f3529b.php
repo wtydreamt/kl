@@ -473,7 +473,7 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Index/index');?>">昆仑财富首页</a>
+							<a href="<?php echo U('Personnel/index');?>">添加人员</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
@@ -497,18 +497,57 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
-								<div class="alert alert-block alert-info">
-									<button type="button" class="close" data-dismiss="alert">
-										<i class="ace-icon fa fa-times"></i>
-									</button>
-
-									<i class="ace-icon fa fa-check green"></i>
-
-									<strong class="green">最新公告：</strong>
-									昆仑财富平台讲师官方唯一指定入口，讲师认证账号加V
-								</div>
 								<div class="row center">
-									<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo_2.png" />
+									<form class="form-horizontal" role="form">
+									<!-- #section:elements.form -->
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 方法名（action）：</label>
+
+										<div class="col-sm-9">
+											<input type="text" name="action" id="form-field-1" placeholder="方法名" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 控制器（controller）：</label>
+
+										<div class="col-sm-9">
+											<input type="text" name="controller" id="form-field-1" placeholder="控制器" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">节点名：</label>
+
+										<div class="col-sm-9">
+											<input type="text" name="name" id="form-field-1" placeholder="节点名" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-tags">选择父类：</label>
+										<div class="col-sm-2">
+											<div class="pos-rel">
+												<select class="form-control" id="form-field-select-1">
+																<option value="0">一级权限</option>
+																<?php if(!empty($arr)): if(is_array($arr)): foreach($arr as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>"><?php echo ($v["str"]); echo ($v["name"]); ?></option><?php endforeach; endif; endif; ?>
+															</select>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="button">
+												<i class="ace-icon fa fa-check bigger-110"></i>
+												立即提交
+											</button>
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+								</form>
 								</div><!-- /.row -->
 
 								<!-- PAGE CONTENT ENDS -->
@@ -517,6 +556,25 @@
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
+<script type="text/javascript" src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.min.js'></script>
+		<script type="text/javascript">
+			$("[type='button']").click(function(){
+				var url="<?php echo U('Personnel/addpeople');?>";
+				var r_id=$("#form-field-select-1").find("option:selected").val();
+				var password=$("[name='password'").val();
+				var number=$("[name='number'").val();
+				var send={password:password,number:number,r_id:r_id}
+				$.post(url,send,function(message){
+					// var message=$.parseJSON(message);
+					// if(message.status=="true"){
+					// 	alert("添加成功");
+					// }else{
+					// 	alert("服务器繁忙稍后再试");
+					// }
+					alert(message);
+				})
+			})
+		</script>
 			<div class="footer">
 				<div class="footer-inner">
 					<!-- #section:basics/footer -->

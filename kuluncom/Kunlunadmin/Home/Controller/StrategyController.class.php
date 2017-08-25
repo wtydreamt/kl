@@ -53,9 +53,29 @@ class StrategyController extends Controller {
     }
 
     public function clist(){
-    	$curriculum=D("Common")->generalquery("curriculum",array("u_id"=>$this->u_id),"name,ketime,fxrade,kegrade,starttime","all");
+    	$curriculum=D("Common")->generalquery("curriculum",array("u_id"=>$this->u_id),"id,name,ketime,fxrade,kegrade,starttime","all");
     	$curriculum=$curriculum['status']=="true"?$curriculum['message']:"";
     	$this->assign("curriculum",$curriculum); 
     	$this->display('clist');
+    }
+
+    public function kmenu(){
+		$id=I("id"); 
+		$k=M("curriculum")->where(array("id"=>$id))->field("name")->find();
+		$menulist=M("menu")->where(array("kid"=>$id))->select();
+		$this->assign("menulist",$menulist); 
+		$this->assign("id",$id);  
+    	$this->display('menu');
+    }
+
+    public function menuadd(){
+    	$data=I();
+    	$res=M("menu")->add($data);
+    	if($res){
+    		echo "成功";
+    	}else{
+    		echo "失败";
+    	}
+
     }
 }

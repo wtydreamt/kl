@@ -244,7 +244,6 @@
 
 								<b class="arrow"></b>
 							</li>
-
 							<li class="">
 								<a href="treeview.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -253,12 +252,8 @@
 
 								<b class="arrow"></b>
 							</li>
-
-
-
 						</ul>
 					</li>
-
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
@@ -266,9 +261,7 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
-
 						<b class="arrow"></b>
-
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Power/index');?>">
@@ -296,41 +289,12 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
-
 						<b class="arrow"></b>
-
 						<ul class="submenu">
 							<li class="">
-								<a href="form-elements.html">
+								<a href="<?php echo U('Power/nodes');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									新建节点
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="form-wizard.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									向导提示 &amp; 验证
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="wysiwyg.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									编辑器
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="dropzone.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									文件上传
 								</a>
 
 								<b class="arrow"></b>
@@ -386,9 +350,7 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
-
 						<b class="arrow"></b>
-
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Strategy/index');?>">
@@ -398,7 +360,6 @@
 
 								<b class="arrow"></b>
 							</li>
-
 							<li class="">
 								<a href="<?php echo U('Strategy/curriculum');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -416,9 +377,7 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
-
 						<b class="arrow"></b>
-
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Category/viewpoint');?>">
@@ -502,7 +461,6 @@
 	<!-- 			<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
 					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
 				</div> -->
-
 			</div>
 
 			<!-- /section:basics/sidebar -->

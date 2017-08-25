@@ -16,7 +16,7 @@
 
 	</head>
 		<body class="no-skin">
-		<div id="navbar" class="navbar navbar-default">
+		<div id="navbar" class="navbar navbar-default" style="background-color: red">
 			<div class="navbar-container" id="navbar-container">
 
 				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler">
@@ -30,9 +30,9 @@
 				</button>
 
 				<!-- /section:basics/sidebar.mobile.toggle -->
-				<div class="navbar-header pull-left">
+				<div class="navbar-header pull-left" >
 					<!-- #section:basics/navbar.layout.brand -->
-					<a href="<?php echo U('Home/Index/index');?>" class="navbar-brand">
+					<a href="<?php echo U('Index/index');?>" class="navbar-brand">
 						<small>
 							<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo.png" alt="" />
 						</small>
@@ -43,7 +43,7 @@
 					<ul class="nav ace-nav">
 
 						<li class="green">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="background-color: red">
 								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
 								<span class="badge badge-success">5</span>
 							</a>
@@ -154,7 +154,7 @@
 
 						<!-- #section:basics/navbar.user_menu -->
 						<li class="light-blue">
-							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle" style="background-color: red">
 								<img class="nav-user-photo" src="/gitkunl/kl/kuluncom/Public/assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									欢迎您<br />
@@ -244,7 +244,6 @@
 
 								<b class="arrow"></b>
 							</li>
-
 							<li class="">
 								<a href="treeview.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -253,12 +252,8 @@
 
 								<b class="arrow"></b>
 							</li>
-
-
-
 						</ul>
 					</li>
-
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
@@ -266,9 +261,7 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
-
 						<b class="arrow"></b>
-
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Power/index');?>">
@@ -296,9 +289,7 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
-
 						<b class="arrow"></b>
-
 						<ul class="submenu">
 							<li class="">
 								<a href="form-elements.html">
@@ -314,10 +305,8 @@
 									<i class="menu-icon fa fa-caret-right"></i>
 									向导提示 &amp; 验证
 								</a>
-
 								<b class="arrow"></b>
 							</li>
-
 							<li class="">
 								<a href="wysiwyg.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -326,7 +315,6 @@
 
 								<b class="arrow"></b>
 							</li>
-
 							<li class="">
 								<a href="dropzone.html">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -386,9 +374,7 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
-
 						<b class="arrow"></b>
-
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Strategy/index');?>">
@@ -398,7 +384,6 @@
 
 								<b class="arrow"></b>
 							</li>
-
 							<li class="">
 								<a href="<?php echo U('Strategy/curriculum');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -416,9 +401,7 @@
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
-
 						<b class="arrow"></b>
-
 						<ul class="submenu">
 							<li class="">
 								<a href="<?php echo U('Category/viewpoint');?>">
@@ -502,7 +485,6 @@
 	<!-- 			<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
 					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
 				</div> -->
-
 			</div>
 
 			<!-- /section:basics/sidebar -->

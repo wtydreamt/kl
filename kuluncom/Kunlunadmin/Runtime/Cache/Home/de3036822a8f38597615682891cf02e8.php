@@ -292,33 +292,9 @@
 						<b class="arrow"></b>
 						<ul class="submenu">
 							<li class="">
-								<a href="form-elements.html">
+								<a href="<?php echo U('Power/nodes');?>">
 									<i class="menu-icon fa fa-caret-right"></i>
 									新建节点
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="form-wizard.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									向导提示 &amp; 验证
-								</a>
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="wysiwyg.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									编辑器
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="dropzone.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									文件上传
 								</a>
 
 								<b class="arrow"></b>
@@ -562,7 +538,14 @@
 							<div class="col-sm-9">
 								<input type="text" id="form-field-1" placeholder="课程价格" name="price" class="col-xs-10 col-sm-5" />
 							</div>
-						</div>						
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 视频介绍连接：</label>
+
+							<div class="col-sm-9">
+								<input type="text" id="form-field-1" placeholder="视频介绍连接" name="link" class="col-xs-10 col-sm-5" />
+							</div>
+						</div>													
 						<div class="form-group">
 							<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 课程介绍：</label>
 							<div class="col-sm-9">
