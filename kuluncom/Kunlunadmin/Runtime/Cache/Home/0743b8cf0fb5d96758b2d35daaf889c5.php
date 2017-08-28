@@ -6,17 +6,17 @@
 		<title>登录页面</title>
 		<meta name="description" content="Restyling jQuery UI Widgets and Elements" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/ace-fonts.css" />
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/ace.min.css" id="main-ace-style" />
+		<link rel="stylesheet" href="/Public/assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/Public/assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="/Public/assets/css/ace-fonts.css" />
+		<link rel="stylesheet" href="/Public/assets/css/ace.min.css" id="main-ace-style" />
 		<!--[if lte IE 9]>
 			<link rel="stylesheet" href="assets/css/ace-part2.min.css" />
 		<![endif]-->
 		<!--[if lte IE 9]>
 		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
 		<![endif]-->
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/ace-extra.min.js"></script>
+		<script src="/Public/assets/js/ace-extra.min.js"></script>
 		<!--[if lte IE 8]>
 		<script src="assets/js/html5shiv.min.js"></script>
 		<script src="assets/js/respond.min.js"></script>
