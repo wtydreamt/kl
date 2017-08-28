@@ -299,6 +299,14 @@
 
 								<b class="arrow"></b>
 							</li>
+							<li class="">
+								<a href="<?php echo U('Power/nodelist');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									节点列表
+								</a>
+
+								<b class="arrow"></b>
+							</li>							
 						</ul>
 					</li>
 					<li class="">
@@ -526,13 +534,31 @@
 										<div class="col-sm-2">
 											<div class="pos-rel">
 												<select class="form-control" id="form-field-select-1">
-																<option value="0">一级权限</option>
+																<option checked="checked" value="0">一级权限</option>
 																<?php if(!empty($arr)): if(is_array($arr)): foreach($arr as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>"><?php echo ($v["str"]); echo ($v["name"]); ?></option><?php endforeach; endif; endif; ?>
 															</select>
 											</div>
 										</div>
 									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1-1">是否显示目录： </label>
 
+										<div class="col-sm-9">
+												<div class="radio" style="float: left">
+													<label>
+														<input name="is_show" type="radio" value="1" class="ace" />
+														<span class="lbl"> 显示</span>
+													</label>
+												</div>
+
+												<div class="radio" style="float: left">
+													<label>
+														<input name="is_show" type="radio" checked="checked" value="2" class="ace" />
+														<span class="lbl"> 不显示</span>
+													</label>
+												</div>
+										</div>
+									</div>	
 
 									<div class="clearfix form-actions">
 										<div class="col-md-offset-3 col-md-9">
@@ -559,19 +585,20 @@
 <script type="text/javascript" src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.min.js'></script>
 		<script type="text/javascript">
 			$("[type='button']").click(function(){
-				var url="<?php echo U('Personnel/addpeople');?>";
-				var r_id=$("#form-field-select-1").find("option:selected").val();
-				var password=$("[name='password'").val();
-				var number=$("[name='number'").val();
-				var send={password:password,number:number,r_id:r_id}
+				var url="<?php echo U('Power/addnode');?>";
+				var id=$("#form-field-select-1").find("option:selected").val();
+				var action=$("[name='action'").val();
+				var controller=$("[name='controller'").val();
+				var name=$("[name='name'").val();
+				var is_show=$('input:radio[name="is_show"]:checked').val();
+				var send={name:name,controller:controller,action:action,pid:id,is_show:is_show}
 				$.post(url,send,function(message){
-					// var message=$.parseJSON(message);
-					// if(message.status=="true"){
-					// 	alert("添加成功");
-					// }else{
-					// 	alert("服务器繁忙稍后再试");
-					// }
-					alert(message);
+					if(message){
+						alert("添加成功");
+						window.location.reload();
+					}else{
+						alert("添加失败");
+					}
 				})
 			})
 		</script>

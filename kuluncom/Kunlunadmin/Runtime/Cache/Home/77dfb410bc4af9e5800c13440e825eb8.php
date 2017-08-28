@@ -481,18 +481,17 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Power/index');?>">角色添加</a>
+							<a href="<?php echo U('Category/system');?>">操盘体系</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
 					<!-- #section:basics/content.searchbox -->
 					<div class="nav-search" id="nav-search">
-			<!-- 			<form class="form-search">
+						<form class="form-search">
 							<span class="input-icon">
-								<input type="text" placeholder="请输入关键字 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-								<i class="ace-icon fa fa-search nav-search-icon"></i>
+								<a href="<?php echo U('Category/system');?>" class="nav-search-input">体系列表</a>
 							</span>
-						</form> -->
+						</form>
 					</div><!-- /.nav-search -->
 
 					<!-- /section:basics/content.searchbox -->
@@ -509,51 +508,12 @@
 									<form class="form-horizontal" role="form">
 									<!-- #section:elements.form -->
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 角色名称：</label>
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 体系名称：</label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入角色名称" name="name" value="<?php echo ($v["id"]); ?>" class="col-xs-10 col-sm-5" />
+											<input type="text" name="name" id="form-field-1" placeholder="体系名称" class="col-xs-10 col-sm-5" />
 										</div>
 									</div>
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 角色描述：</label>
-
-										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入角色描述" name="desc" value="<?php echo ($vs["id"]); ?>" class="col-xs-10 col-sm-5" />
-										</div>
-									</div>									
-									<h3 class="header smaller lighter grey">
-										选择权限
-									</h3>
-									
-									<div class="row">
-										<div class="col-xs-12 col-sm-3">
-											<div class="control-group" style="width:800px;" >
-											<table>
-											
-												<?php if(is_array($arr)): foreach($arr as $key=>$v): ?><tr>
-												<td>
-													<div class="checkbox" style="float: left;width:150px">
-														<label>
-															<input name="form-field-checkbox" type="checkbox" data="<?php echo ($v["id"]); ?>" value="<?php echo ($v["id"]); ?>"  class="ace power power_<?php echo ($v["id"]); ?>"/>
-															<span class="lbl"><?php echo ($v["name"]); ?></span>
-														</label>
-													</div>
-													<?php if(is_array($v["son_data"])): foreach($v["son_data"] as $key=>$vs): ?><div class="checkbox"  style="float: left;width:150px">
-															<label>
-																<input name="form-field-checkbox" type="checkbox" data="<?php echo ($vs["pid"]); ?>" value="<?php echo ($vs["id"]); ?>" class="ace powers powers_<?php echo ($vs["pid"]); ?>" />
-																<span class="lbl"><?php echo ($vs["name"]); ?></span>
-															</label>
-														</div><?php endforeach; endif; ?>			
-													</td>
-											</tr><?php endforeach; endif; ?>
-										
-											</table>
-											</div>
-										</div>
-									</div>
-
-
 									<div class="clearfix form-actions">
 										<div class="col-md-offset-3 col-md-9">
 											<button class="btn btn-info" type="button">
@@ -577,46 +537,16 @@
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
 <script type="text/javascript" src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.min.js'></script>
-<script type="text/javascript">
+		<script type="text/javascript">
 			$("[type='button']").click(function(){
-				var chk_value ="";
-				$("[type='checkbox']:checked").each(function(){
-				chk_value=chk_value+$(this).val()+",";
-				});				
-				var url="<?php echo U('Home/Power/addrole');?>";
+				var url="<?php echo U('Category/system');?>";
 				var name=$("[name='name'").val();
-				var desc=$("[name='desc'").val();
-				var send={name:name,desc:desc,n_id:chk_value}
+				var send={name:name}
 				$.post(url,send,function(message){
-					var message=$.parseJSON(message);
-					if(message.status=="true"){
-						alert("添加成功");
-					}else{
-						alert("服务器繁忙稍后再试");
-					}
+					alert(message);
 				})
 			})
-
-			$(".power").click(function(){
-				var data=$(this).attr("data");
-				var c=$(this).prop("checked");
-				if(c==true){
-					$(".powers_"+data).prop("checked",true);
-				}else{
-					$(".powers_"+data).prop("checked",false);
-				}
-			})
-			$(".powers").click(function(){
-				var data=$(this).attr("data");
-				var c=$(this).prop("checked");
-				var cs=$(".power_"+data).prop("checked");
-				if(cs!=true){
-					$(".power_"+data).prop("checked",true);
-				}
-				
-			})		
-</script>
-
+		</script>
 			<div class="footer">
 				<div class="footer-inner">
 					<!-- #section:basics/footer -->

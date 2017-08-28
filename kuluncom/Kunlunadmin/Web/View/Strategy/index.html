@@ -3,12 +3,17 @@
     <div class="container klcontainer">
    		<div class="kl_naber_no">
    			<ul>
-   				<li><a href="" class="active">最新</a></li>
-   				<li><a href="">大盘分析</a></li>
-   				<li><a href="">热门题材</a></li>
-   				<li><a href="">个股精讲</a></li>
-   				<li><a href="">知识技巧</a></li>
-   				<li><a href="">个人心得</a></li>
+    <if condition="!$id"><li><a href="{:U('Strategy/index')}" class="active">最新</a></li>
+    <else /><li><a href="{:U('Strategy/index')}">最新</a></li>
+    </if>        
+   				
+          <foreach name="viewpoint" item="vie">
+          <if condition=" $id == $vie.id ">
+   				<li><a href="{:U('Strategy/index')}?id={$vie.id}" class="active">{$vie.name}</a></li>
+           <else />
+          <li><a href="{:U('Strategy/index')}?id={$vie.id}">{$vie.name}</a></li>           
+           </if>
+          </foreach>
    			</ul>
    		</div>
           <ul class="zb-list-ul sb_list">

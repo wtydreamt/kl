@@ -108,7 +108,7 @@
 		       <div class="mb_20  f_align_ct">
 		         <div class="cell-pages out-left-0">
 		                <a href="<?php echo U('Curriculum/index');?>?page=1">首页</a>
-		                    <?php $__FOR_START_23673__=0;$__FOR_END_23673__=$page;for($i=$__FOR_START_23673__;$i < $__FOR_END_23673__;$i+=1){ ?><a href="<?php echo U('Curriculum/index');?>?page=<?php echo ($i+1); ?>"><?php echo ($i+1); ?></a><?php } ?>
+		                    <?php $__FOR_START_28388__=0;$__FOR_END_28388__=$page;for($i=$__FOR_START_28388__;$i < $__FOR_END_28388__;$i+=1){ ?><a href="<?php echo U('Curriculum/index');?>?page=<?php echo ($i+1); ?>"><?php echo ($i+1); ?></a><?php } ?>
 		                
 		                <a href="<?php echo U('Curriculum/index');?>?page=<?php echo ($page); ?>">尾页</a></div>
 		         </div> 

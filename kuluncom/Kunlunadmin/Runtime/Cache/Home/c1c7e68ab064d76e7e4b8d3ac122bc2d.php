@@ -299,6 +299,14 @@
 
 								<b class="arrow"></b>
 							</li>
+							<li class="">
+								<a href="<?php echo U('Power/nodelist');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									节点列表
+								</a>
+
+								<b class="arrow"></b>
+							</li>							
 						</ul>
 					</li>
 					<li class="">
@@ -491,7 +499,6 @@
 				</div>
 
 				<div class="page-content">
-					<!-- /section:settings.box -->
 					<div class="page-content-area">
 									<div class="col-xs-12">
 
@@ -506,18 +513,12 @@
 																<span class="lbl"></span>
 															</label>
 														</th>
-														<th>部门</th>
-				                                        <th>差旅单号</th>
-				                                        <th>名称</th>
-				                                        <th>关联订单号</th>
-				                                        <th>差旅单状态</th>
-				                                        <th>创建人</th>
-				                                        <th>创建日期</th>
-														<th>操作</th>
+														<th>角色名称</th>
+				                                        <th>拥有权限</th>
+				                                        <th>操作</th>
 													</tr>
 												</thead>
-
-												<tbody>
+												<?php if(is_array($res_role)): foreach($res_role as $key=>$v): ?><tbody>
 													<tr>
 														<td class="center">
 															<label class="position-relative">
@@ -525,242 +526,14 @@
 																<span class="lbl"></span>
 															</label>
 														</td>
-
-														<td>商务研发部</td>
-				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
-				                                        <td class="hidden-480">C1234567891234</td>
-				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
-				                                        <td>未提交</td>
-				                                        <td>张国立</td>
-				                                        <td>2012-08-01</td>
-														<td>
-															<div class="hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success" title="">
-																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-info">
-																	<i class="ace-icon fa fa-pencil bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-danger">
-																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-warning">
-																	<i class="ace-icon fa fa-flag bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-success">
-																	<i class="ace-icon fa fa-check bigger-120"></i>
-																</button>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label class="position-relative">
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>商务研发部</td>
-				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
-				                                        <td class="hidden-480">C1234567891234</td>
-				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
-				                                        <td>未提交</td>
-				                                        <td>张国立</td>
-				                                        <td>2012-08-01</td>
-														<td>
-															<div class="hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success" title="">
-																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-info">
-																	<i class="ace-icon fa fa-pencil bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-danger">
-																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-warning">
-																	<i class="ace-icon fa fa-flag bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-success">
-																	<i class="ace-icon fa fa-check bigger-120"></i>
-																</button>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label class="position-relative">
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>商务研发部</td>
-				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
-				                                        <td class="hidden-480">C1234567891234</td>
-				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
-				                                        <td>未提交</td>
-				                                        <td>张国立</td>
-				                                        <td>2012-08-01</td>
-														<td>
-															<div class="hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success" title="">
-																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-info">
-																	<i class="ace-icon fa fa-pencil bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-danger">
-																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-warning">
-																	<i class="ace-icon fa fa-flag bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-success">
-																	<i class="ace-icon fa fa-check bigger-120"></i>
-																</button>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label class="position-relative">
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>商务研发部</td>
-				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
-				                                        <td class="hidden-480">C1234567891234</td>
-				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
-				                                        <td>未提交</td>
-				                                        <td>张国立</td>
-				                                        <td>2012-08-01</td>
-														<td>
-															<div class="hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success" title="">
-																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-info">
-																	<i class="ace-icon fa fa-pencil bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-danger">
-																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-warning">
-																	<i class="ace-icon fa fa-flag bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-success">
-																	<i class="ace-icon fa fa-check bigger-120"></i>
-																</button>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label class="position-relative">
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>商务研发部</td>
-				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
-				                                        <td class="hidden-480">C1234567891234</td>
-				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
-				                                        <td>未提交</td>
-				                                        <td>张国立</td>
-				                                        <td>2012-08-01</td>
-														<td>
-															<div class="hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success" title="">
-																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-info">
-																	<i class="ace-icon fa fa-pencil bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-danger">
-																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-warning">
-																	<i class="ace-icon fa fa-flag bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-success">
-																	<i class="ace-icon fa fa-check bigger-120"></i>
-																</button>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label class="position-relative">
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>商务研发部</td>
-				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">CL1234567891234567</a></td>
-				                                        <td class="hidden-480">C1234567891234</td>
-				                                        <td class="hidden-480"><span class="label label-sm label-warning">广州北京0801</span></td>
-				                                        <td>未提交</td>
-				                                        <td>张国立</td>
-				                                        <td>2012-08-01</td>
-														<td>
-															<div class="hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success" title="">
-																	<i class="ace-icon fa fa-search-plus bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-info">
-																	<i class="ace-icon fa fa-pencil bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-danger">
-																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-warning">
-																	<i class="ace-icon fa fa-flag bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-success">
-																	<i class="ace-icon fa fa-check bigger-120"></i>
-																</button>
-															</div>
-														</td>
-													</tr>
+				                                        <td><?php echo ($v["name"]); ?></td>
+				                                        <td class="hidden-480"><span onclick="shield()" id="sor" data="<?php echo ($v["r_id"]); ?>" style="cursor:pointer;">查看</span></td>
+				                                        <td class="hidden-480">编辑</td>
+													</tr><?php endforeach; endif; ?>
 												</tbody>
 											</table>
 
-											<div class="modal-footer no-margin-top">
+<!-- 											<div class="modal-footer no-margin-top">
 
 												<ul class="pagination pull-right no-margin">
 													<li class="prev disabled">
@@ -788,7 +561,7 @@
 													</li>
 												</ul>
 											</div>
-
+ -->
 										</div>
 
 										
@@ -799,6 +572,77 @@
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
+<style>
+<script type="text/javascript" src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.min.js'></script>
+html,body {
+    margin:0;
+    height:100%;
+}
+#test {
+    width:100%;
+    height:100%;
+    background-color:#000;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    opacity:0.3;
+    /*兼容IE8及以下版本浏览器*/
+    filter: alpha(opacity=30);
+    display:none;
+}
+
+#log_window {
+    width:600px;
+    height:100px;
+    background-color:#F0F0F0;    
+    margin: auto;
+    position: absolute;
+    z-index:3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:none;
+}
+</style>
+<script>
+function shield(){
+	var r_id=$("#sor").attr("data");
+	var url="<?php echo U('Home/Power/shownode');?>";
+	var send={r_id:r_id}
+	$.post(url,send,function(message){
+	    var s = document.getElementById("test");
+	    s.style.display = "block";
+	    var l = document.getElementById("log_window");
+	    l.style.display = "block";
+	    $("#node_text").html(message);		
+	})
+
+
+}
+
+function cancel_shield(){
+    var s = document.getElementById("test");
+    s.style.display = "none";
+    
+    var l = document.getElementById("log_window");
+    l.style.display = "none";
+}
+</script>
+</head>
+
+<body>
+<!-- <a href="javascript:shield()">打开遮罩</a> -->
+<div id="test"></div>
+<div id="log_window">
+<a href="javascript:cancel_shield()">关闭</a>
+<br>
+	<div style="margin-left:30px" id="node_text"></div>
+</div>
+</body>
+</html>
+
 
 			<div class="footer">
 				<div class="footer-inner">

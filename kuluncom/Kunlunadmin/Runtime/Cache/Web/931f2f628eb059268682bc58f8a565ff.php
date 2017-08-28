@@ -15,6 +15,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- zui -->
+    <link href="/gitkunl/kl/kuluncom/Public/index/css/video-js.css" rel="stylesheet">
     <link href="/gitkunl/kl/kuluncom/Public/index/css/zui.css" rel="stylesheet">
     <link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/index/css/kui.css">
 </head>
@@ -68,12 +69,12 @@
     <div class="container klcontainer">
    		<div class="kl_naber_no">
    			<ul>
-   				<li><a href="" class="active">最新</a></li>
-   				<li><a href="">大盘分析</a></li>
-   				<li><a href="">热门题材</a></li>
-   				<li><a href="">个股精讲</a></li>
-   				<li><a href="">知识技巧</a></li>
-   				<li><a href="">个人心得</a></li>
+    <?php if(!$id): ?><li><a href="<?php echo U('Strategy/index');?>" class="active">最新</a></li>
+    <?php else: ?><li><a href="<?php echo U('Strategy/index');?>">最新</a></li><?php endif; ?>        
+   				
+          <?php if(is_array($viewpoint)): foreach($viewpoint as $key=>$vie): if( $id == $vie["id"] ): ?><li><a href="<?php echo U('Strategy/index');?>?id=<?php echo ($vie["id"]); ?>" class="active"><?php echo ($vie["name"]); ?></a></li>
+           <?php else: ?>
+          <li><a href="<?php echo U('Strategy/index');?>?id=<?php echo ($vie["id"]); ?>"><?php echo ($vie["name"]); ?></a></li><?php endif; endforeach; endif; ?>
    			</ul>
    		</div>
           <ul class="zb-list-ul sb_list">

@@ -481,18 +481,18 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="<?php echo U('Power/index');?>">角色添加</a>
+							<a href="<?php echo U('Personnel/rolelist');?>">角色列表</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
 					<!-- #section:basics/content.searchbox -->
 					<div class="nav-search" id="nav-search">
-			<!-- 			<form class="form-search">
+						<form class="form-search">
 							<span class="input-icon">
 								<input type="text" placeholder="请输入关键字 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
 								<i class="ace-icon fa fa-search nav-search-icon"></i>
 							</span>
-						</form> -->
+						</form>
 					</div><!-- /.nav-search -->
 
 					<!-- /section:basics/content.searchbox -->
@@ -501,121 +501,79 @@
 				<div class="page-content">
 					<!-- /section:settings.box -->
 					<div class="page-content-area">
+									<div class="col-xs-12">
 
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<div class="row center">
-									<form class="form-horizontal" role="form">
-									<!-- #section:elements.form -->
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 角色名称：</label>
+										<div class="table-responsive">
 
-										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入角色名称" name="name" value="<?php echo ($v["id"]); ?>" class="col-xs-10 col-sm-5" />
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 角色描述：</label>
-
-										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入角色描述" name="desc" value="<?php echo ($vs["id"]); ?>" class="col-xs-10 col-sm-5" />
-										</div>
-									</div>									
-									<h3 class="header smaller lighter grey">
-										选择权限
-									</h3>
-									
-									<div class="row">
-										<div class="col-xs-12 col-sm-3">
-											<div class="control-group" style="width:800px;" >
-											<table>
-											
-												<?php if(is_array($arr)): foreach($arr as $key=>$v): ?><tr>
-												<td>
-													<div class="checkbox" style="float: left;width:150px">
-														<label>
-															<input name="form-field-checkbox" type="checkbox" data="<?php echo ($v["id"]); ?>" value="<?php echo ($v["id"]); ?>"  class="ace power power_<?php echo ($v["id"]); ?>"/>
-															<span class="lbl"><?php echo ($v["name"]); ?></span>
-														</label>
-													</div>
-													<?php if(is_array($v["son_data"])): foreach($v["son_data"] as $key=>$vs): ?><div class="checkbox"  style="float: left;width:150px">
-															<label>
-																<input name="form-field-checkbox" type="checkbox" data="<?php echo ($vs["pid"]); ?>" value="<?php echo ($vs["id"]); ?>" class="ace powers powers_<?php echo ($vs["pid"]); ?>" />
-																<span class="lbl"><?php echo ($vs["name"]); ?></span>
+											<table id="sample-table-2" class="table table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+														<th class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
 															</label>
-														</div><?php endforeach; endif; ?>			
-													</td>
-											</tr><?php endforeach; endif; ?>
-										
+														</th>
+														<th>action</th>
+				                                        <th>controller</th>
+				                                        <th>name</th>
+													</tr>
+												</thead>
+												<?php if(is_array($arr)): foreach($arr as $key=>$v): ?><tbody>
+													<tr>
+														<td class="center">
+															<label class="position-relative">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</td>
+
+														<td><?php echo ($v["action"]); ?></td>
+				                                        <td><?php echo ($v["controller"]); ?></td>
+				                                        <td class="hidden-480"><?php echo ($v["name"]); ?></td>
+													</tr><?php endforeach; endif; ?>
+												</tbody>
 											</table>
+
+											<div class="modal-footer no-margin-top">
+
+												<ul class="pagination pull-right no-margin">
+													<li class="prev disabled">
+														<a href="#">
+															<i class="ace-icon fa fa-angle-double-left"></i>
+														</a>
+													</li>
+
+													<li class="active">
+														<a href="#">1</a>
+													</li>
+
+													<li>
+														<a href="#">2</a>
+													</li>
+
+													<li>
+														<a href="#">3</a>
+													</li>
+
+													<li class="next">
+														<a href="#">
+															<i class="ace-icon fa fa-angle-double-right"></i>
+														</a>
+													</li>
+												</ul>
 											</div>
+
 										</div>
+
+										
+
+
 									</div>
 
-
-									<div class="clearfix form-actions">
-										<div class="col-md-offset-3 col-md-9">
-											<button class="btn btn-info" type="button">
-												<i class="ace-icon fa fa-check bigger-110"></i>
-												立即提交
-											</button>
-											&nbsp; &nbsp; &nbsp;
-											<button class="btn" type="reset">
-												<i class="ace-icon fa fa-undo bigger-110"></i>
-												重置
-											</button>
-										</div>
-									</div>
-								</form>
-								</div><!-- /.row -->
-
-								<!-- PAGE CONTENT ENDS -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
-<script type="text/javascript" src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.min.js'></script>
-<script type="text/javascript">
-			$("[type='button']").click(function(){
-				var chk_value ="";
-				$("[type='checkbox']:checked").each(function(){
-				chk_value=chk_value+$(this).val()+",";
-				});				
-				var url="<?php echo U('Home/Power/addrole');?>";
-				var name=$("[name='name'").val();
-				var desc=$("[name='desc'").val();
-				var send={name:name,desc:desc,n_id:chk_value}
-				$.post(url,send,function(message){
-					var message=$.parseJSON(message);
-					if(message.status=="true"){
-						alert("添加成功");
-					}else{
-						alert("服务器繁忙稍后再试");
-					}
-				})
-			})
-
-			$(".power").click(function(){
-				var data=$(this).attr("data");
-				var c=$(this).prop("checked");
-				if(c==true){
-					$(".powers_"+data).prop("checked",true);
-				}else{
-					$(".powers_"+data).prop("checked",false);
-				}
-			})
-			$(".powers").click(function(){
-				var data=$(this).attr("data");
-				var c=$(this).prop("checked");
-				var cs=$(".power_"+data).prop("checked");
-				if(cs!=true){
-					$(".power_"+data).prop("checked",true);
-				}
-				
-			})		
-</script>
 
 			<div class="footer">
 				<div class="footer-inner">

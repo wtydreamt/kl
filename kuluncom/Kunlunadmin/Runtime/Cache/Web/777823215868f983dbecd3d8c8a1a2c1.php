@@ -15,6 +15,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- zui -->
+    <link href="/gitkunl/kl/kuluncom/Public/index/css/video-js.css" rel="stylesheet">
     <link href="/gitkunl/kl/kuluncom/Public/index/css/zui.css" rel="stylesheet">
     <link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/index/css/kui.css">
 </head>
