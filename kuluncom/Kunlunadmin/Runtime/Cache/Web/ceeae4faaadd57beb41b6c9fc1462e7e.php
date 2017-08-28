@@ -8,16 +8,16 @@
 " />
     <meta name="description" content="昆仑财富
 " />
-    <link rel="shortcut icon" href="/gitkunl/kl/kuluncom/Public/index/images/ybtx_favicon.ico" />
+    <link rel="shortcut icon" href="/Public/index/images/ybtx_favicon.ico" />
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- zui -->
-    <link href="/gitkunl/kl/kuluncom/Public/index/css/video-js.css" rel="stylesheet">
-    <link href="/gitkunl/kl/kuluncom/Public/index/css/zui.css" rel="stylesheet">
-    <link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/index/css/kui.css">
+    <link href="/Public/index/css/video-js.css" rel="stylesheet">
+    <link href="/Public/index/css/zui.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Public/index/css/kui.css">
 </head>
 
 <body>
@@ -41,7 +41,7 @@
                         </button>
                         <!-- 品牌名称或logo -->
                         <a class="navbar-brand " href="your/nice/url">
-                            <img src="/gitkunl/kl/kuluncom/Public/index/images/logo.png" alt="" class="kllogo">
+                            <img src="/Public/index/images/logo.png" alt="" class="kllogo">
                         </a>
                     </div>
                     <!-- 导航项目 -->
@@ -78,7 +78,7 @@
   <div class="carousel-inner">
   <?php if(is_array($banner)): foreach($banner as $key=>$val): ?><div class="item">
      <a href="/">
-     	 <img alt="First slide" src="/gitkunl/kl/kuluncom/<?php echo ($val["banner_img"]); ?>" style="width: 100%; max-height: 430px;">
+     	 <img alt="First slide" src="/<?php echo ($val["banner_img"]); ?>" style="width: 100%; max-height: 430px;">
      </a>
     </div><?php endforeach; endif; ?>
   </div>
@@ -104,19 +104,19 @@
             </li>
             <li class="bner-con">
             	<div class="col-xs-6">
-            		<a href="/Index/Teacher/details.html"><img src="/gitkunl/kl/kuluncom/<?php echo ($chief["1"]["cover_img"]); ?>" class="hover_optin"></a>
+            		<a href="/Index/Teacher/details.html"><img src="/<?php echo ($chief["1"]["cover_img"]); ?>" class="hover_optin"></a>
             	</div>
             	<div class="col-xs-3">
             		<p>	
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["0"]["cover_img"]); ?>"></a>
+            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/<?php echo ($chief["2"]["0"]["cover_img"]); ?>"></a>
             		</p>
             		<p>
-            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/gitkunl/kl/kuluncom/<?php echo ($chief["2"]["1"]["cover_img"]); ?>"></a>
+            			<a href="/Index/Teacher/details.html"><img class="hover_optin" src="/<?php echo ($chief["2"]["1"]["cover_img"]); ?>"></a>
             		</p>
             	</div>
             	<div class="col-xs-3">
             			<a href="/Index/Teacher/details.html">
-            				<img src="/gitkunl/kl/kuluncom/<?php echo ($chief["3"]["cover_img"]); ?>" class="hover_optin" >
+            				<img src="/<?php echo ($chief["3"]["cover_img"]); ?>" class="hover_optin" >
             			</a>
             	</div>
             </li>
@@ -135,7 +135,7 @@
           	<div class="zt_sb">
           		<div class="fl sb_date_l">
           		<a href="/">
-          			<img src="/gitkunl/kl/kuluncom/<?php echo ($con["head_img"]); ?>" alt="" style="width: 30px;">
+          			<img src="/<?php echo ($con["head_img"]); ?>" alt="" style="width: 30px;">
           			<?php echo ($con["nickname"]); ?>
           		</a>
           		
@@ -152,7 +152,7 @@
           </li><?php endforeach; endif; ?>
         </ul>
         <p class="klts text-center">
-            <img src="/gitkunl/kl/kuluncom/Public/index/images/bx.png" alt=""> 想看更多的请点击我们的公众号！
+            <img src="/Public/index/images/bx.png" alt=""> 想看更多的请点击我们的公众号！
         </p>
     </div>
 
@@ -164,12 +164,9 @@
                         <li>
                             <h2 class="text-wthir pb-2">合作伙伴</h2>
                         </li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
+                        <li><a href="" class="text-wthir with-padding">凤凰网大赛</a></li>
+                        <li><a href="" class="text-wthir with-padding">益学堂</a></li>
+                        <li><a href="" class="text-wthir with-padding">红顾问</a></li>
 
 
                     </ul>
@@ -205,7 +202,7 @@
                 </div>
                 <div class="col-lg-4">
                     <h2 class="text-wthir pb-2 text-center">关注我们</h2>
-                    <img class="ewm center-block  with-padding" src="/gitkunl/kl/kuluncom/Public/index/images/ewm.jpg" alt="昆仑财富-公众号">
+                    <img class="ewm center-block  with-padding" src="/Public/index/images/ewm.jpg" alt="昆仑财富-公众号">
                 </div>
             </div>
         </div>
@@ -220,10 +217,10 @@
 <!--  关注公众号-->
 <div class="sb_gzh">
 	<h5>扫一扫关注公众号</h5>
-	<img src="/gitkunl/kl/kuluncom/Public/index/images/ewm.jpg"/>
+	<img src="/Public/index/images/ewm.jpg"/>
 </div>
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/jquery-1.11.0.min.js"></script>
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/zui.min.js"></script>
+    <script src="/Public/index/js/jquery-1.11.0.min.js"></script>
+    <script src="/Public/index/js/zui.min.js"></script>
     <script>
         $(document).ready(function() {
         	

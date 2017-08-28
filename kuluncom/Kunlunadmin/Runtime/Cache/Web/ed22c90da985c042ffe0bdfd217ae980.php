@@ -8,16 +8,16 @@
 " />
     <meta name="description" content="昆仑财富
 " />
-    <link rel="shortcut icon" href="/gitkunl/kl/kuluncom/Public/index/images/ybtx_favicon.ico" />
+    <link rel="shortcut icon" href="/Public/index/images/ybtx_favicon.ico" />
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- zui -->
-    <link href="/gitkunl/kl/kuluncom/Public/index/css/video-js.css" rel="stylesheet">
-    <link href="/gitkunl/kl/kuluncom/Public/index/css/zui.css" rel="stylesheet">
-    <link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/index/css/kui.css">
+    <link href="/Public/index/css/video-js.css" rel="stylesheet">
+    <link href="/Public/index/css/zui.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Public/index/css/kui.css">
 </head>
 
 <body>
@@ -41,7 +41,7 @@
                         </button>
                         <!-- 品牌名称或logo -->
                         <a class="navbar-brand " href="your/nice/url">
-                            <img src="/gitkunl/kl/kuluncom/Public/index/images/logo.png" alt="" class="kllogo">
+                            <img src="/Public/index/images/logo.png" alt="" class="kllogo">
                         </a>
                     </div>
                     <!-- 导航项目 -->
@@ -96,7 +96,7 @@
 		       <ul class="teach_section_ul  clay_ul clear mb_20 ">
 		       <?php if(is_array($curriculum)): foreach($curriculum as $key=>$v): ?><li>
 		         <div class="clay_ulbox">
-		           	<div class="clay_imgs"><a href="<?php echo U('Curriculum/info');?>?id=<?php echo ($v["id"]); ?>"><img onerror="showImgDelay(this);" src="/gitkunl/kl/kuluncom/<?php echo ($v["img"]); ?>" alt="图片加载中"></a></div>
+		           	<div class="clay_imgs"><a href="<?php echo U('Curriculum/info');?>?id=<?php echo ($v["id"]); ?>"><img onerror="showImgDelay(this);" src="/<?php echo ($v["img"]); ?>" alt="图片加载中"></a></div>
 		           	<div class="section_less"><em><a href="课程培训详情.html" target="_blank"><?php echo ($v["name"]); ?></a></em><p class="author"><a href="javascript:;"><?php echo ($v["nickname"]); ?></a></p><p><span class="collect float_right f_col_Red  f_bold">
 		           	<?php echo ($v["price"]); ?>元</span><span class="icon icon-user out-left-0"></span>0人购买</p></div>
 				</div>
@@ -108,7 +108,7 @@
 		       <div class="mb_20  f_align_ct">
 		         <div class="cell-pages out-left-0">
 		                <a href="<?php echo U('Curriculum/index');?>?page=1">首页</a>
-		                    <?php $__FOR_START_28388__=0;$__FOR_END_28388__=$page;for($i=$__FOR_START_28388__;$i < $__FOR_END_28388__;$i+=1){ ?><a href="<?php echo U('Curriculum/index');?>?page=<?php echo ($i+1); ?>"><?php echo ($i+1); ?></a><?php } ?>
+		                    <?php $__FOR_START_2128676682__=0;$__FOR_END_2128676682__=$page;for($i=$__FOR_START_2128676682__;$i < $__FOR_END_2128676682__;$i+=1){ ?><a href="<?php echo U('Curriculum/index');?>?page=<?php echo ($i+1); ?>"><?php echo ($i+1); ?></a><?php } ?>
 		                
 		                <a href="<?php echo U('Curriculum/index');?>?page=<?php echo ($page); ?>">尾页</a></div>
 		         </div> 
@@ -124,12 +124,9 @@
                         <li>
                             <h2 class="text-wthir pb-2">合作伙伴</h2>
                         </li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
+                        <li><a href="" class="text-wthir with-padding">凤凰网大赛</a></li>
+                        <li><a href="" class="text-wthir with-padding">益学堂</a></li>
+                        <li><a href="" class="text-wthir with-padding">红顾问</a></li>
 
 
                     </ul>
@@ -165,7 +162,7 @@
                 </div>
                 <div class="col-lg-4">
                     <h2 class="text-wthir pb-2 text-center">关注我们</h2>
-                    <img class="ewm center-block  with-padding" src="/gitkunl/kl/kuluncom/Public/index/images/ewm.jpg" alt="昆仑财富-公众号">
+                    <img class="ewm center-block  with-padding" src="/Public/index/images/ewm.jpg" alt="昆仑财富-公众号">
                 </div>
             </div>
         </div>
@@ -180,10 +177,10 @@
 <!--  关注公众号-->
 <div class="sb_gzh">
 	<h5>扫一扫关注公众号</h5>
-	<img src="/gitkunl/kl/kuluncom/Public/index/images/ewm.jpg"/>
+	<img src="/Public/index/images/ewm.jpg"/>
 </div>
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/jquery-1.11.0.min.js"></script>
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/zui.min.js"></script>
+    <script src="/Public/index/js/jquery-1.11.0.min.js"></script>
+    <script src="/Public/index/js/zui.min.js"></script>
     <script>
         $(document).ready(function() {
         	

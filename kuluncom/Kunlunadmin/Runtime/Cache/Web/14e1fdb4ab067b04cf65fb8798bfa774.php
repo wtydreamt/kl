@@ -8,16 +8,16 @@
 " />
     <meta name="description" content="昆仑财富
 " />
-    <link rel="shortcut icon" href="/gitkunl/kl/kuluncom/Public/index/images/ybtx_favicon.ico" />
+    <link rel="shortcut icon" href="/Public/index/images/ybtx_favicon.ico" />
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- zui -->
-    <link href="/gitkunl/kl/kuluncom/Public/index/css/video-js.css" rel="stylesheet">
-    <link href="/gitkunl/kl/kuluncom/Public/index/css/zui.css" rel="stylesheet">
-    <link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/index/css/kui.css">
+    <link href="/Public/index/css/video-js.css" rel="stylesheet">
+    <link href="/Public/index/css/zui.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Public/index/css/kui.css">
 </head>
 
 <body>
@@ -41,7 +41,7 @@
                         </button>
                         <!-- 品牌名称或logo -->
                         <a class="navbar-brand " href="your/nice/url">
-                            <img src="/gitkunl/kl/kuluncom/Public/index/images/logo.png" alt="" class="kllogo">
+                            <img src="/Public/index/images/logo.png" alt="" class="kllogo">
                         </a>
                     </div>
                     <!-- 导航项目 -->
@@ -70,7 +70,7 @@
   			</div>
   			<div class="col-md-8 ywd_bt">
   				<div class="col-md-5 ywd_img">
-  					<img src="/gitkunl/kl/kuluncom/<?php echo ($res["img"]); ?>" alt="" class="img-thumbnail">	
+  					<img src="/<?php echo ($res["img"]); ?>" alt="" class="img-thumbnail">	
   			   </div>
   			   <div class="col-md-7 ywd_tab">
   					<ul class="ywd_ul">
@@ -148,7 +148,7 @@
                    <ul class="sloc_order_klassul">
                    <?php if(is_array($lists)): foreach($lists as $key=>$l): ?><li class="">
 	                        <div class="sloc_order_l fl ">
-	                        	<a target="_blank" href="" ><img alt="" src="/gitkunl/kl/kuluncom/<?php echo ($l["img"]); ?>"></a>
+	                        	<a target="_blank" href="" ><img alt="" src="/<?php echo ($l["img"]); ?>"></a>
 	                        </div>
 	                         <div class="sloc_order_r fl">
 	                        	<a target="_blank" href="<?php echo U('Curriculum/info');?>?id=<?php echo ($l["id"]); ?>" ><?php echo ($l["name"]); ?></a>
@@ -199,7 +199,7 @@
   						<ul class="kl_comments_ul">
 <!--   							 <li>
 								<div class="user_comments_li">
-							 	<div class="user_comments_li_lt float_left "><div class="user_comments_photo"><a href="#"><img  src="/gitkunl/kl/kuluncom/Public/index/images/head_sculpture.png"></a></div></div>
+							 	<div class="user_comments_li_lt float_left "><div class="user_comments_photo"><a href="#"><img  src="/Public/index/images/head_sculpture.png"></a></div></div>
 								<div class="user_comments_li_rt float_left">
 								  	<div class="user_comments_id">
 								  		<span><a href="javascript:void(0);"><strong class="f_s16">
@@ -274,9 +274,9 @@
 	  </div>
 </div>
 
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/jquery-1.11.0.min.js"></script>
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/zui.min.js"></script>
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/video.min.js"></script>  
+    <script src="/Public/index/js/jquery-1.11.0.min.js"></script>
+    <script src="/Public/index/js/zui.min.js"></script>
+    <script src="/Public/index/js/video.min.js"></script>  
     <script>  
       $('.kl_tabnaber li').click(function() {
             var i = $(this).index();
@@ -306,12 +306,9 @@
                         <li>
                             <h2 class="text-wthir pb-2">合作伙伴</h2>
                         </li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
+                        <li><a href="" class="text-wthir with-padding">凤凰网大赛</a></li>
+                        <li><a href="" class="text-wthir with-padding">益学堂</a></li>
+                        <li><a href="" class="text-wthir with-padding">红顾问</a></li>
 
 
                     </ul>
@@ -347,7 +344,7 @@
                 </div>
                 <div class="col-lg-4">
                     <h2 class="text-wthir pb-2 text-center">关注我们</h2>
-                    <img class="ewm center-block  with-padding" src="/gitkunl/kl/kuluncom/Public/index/images/ewm.jpg" alt="昆仑财富-公众号">
+                    <img class="ewm center-block  with-padding" src="/Public/index/images/ewm.jpg" alt="昆仑财富-公众号">
                 </div>
             </div>
         </div>
@@ -362,10 +359,10 @@
 <!--  关注公众号-->
 <div class="sb_gzh">
 	<h5>扫一扫关注公众号</h5>
-	<img src="/gitkunl/kl/kuluncom/Public/index/images/ewm.jpg"/>
+	<img src="/Public/index/images/ewm.jpg"/>
 </div>
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/jquery-1.11.0.min.js"></script>
-    <script src="/gitkunl/kl/kuluncom/Public/index/js/zui.min.js"></script>
+    <script src="/Public/index/js/jquery-1.11.0.min.js"></script>
+    <script src="/Public/index/js/zui.min.js"></script>
     <script>
         $(document).ready(function() {
         	
