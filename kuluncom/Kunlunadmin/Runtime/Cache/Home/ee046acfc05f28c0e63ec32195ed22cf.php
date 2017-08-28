@@ -236,7 +236,7 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
+<!-- 							<li class="">
 								<a href="buttons.html">
 									<i class="menu-icon fa fa-caret-right"></i>
 									人员列表
@@ -251,7 +251,7 @@
 								</a>
 
 								<b class="arrow"></b>
-							</li>
+							</li> -->
 						</ul>
 					</li>
 					<li class="">
@@ -299,6 +299,14 @@
 
 								<b class="arrow"></b>
 							</li>
+							<li class="">
+								<a href="<?php echo U('Power/nodelist');?>">
+									<i class="menu-icon fa fa-caret-right"></i>
+									节点列表
+								</a>
+
+								<b class="arrow"></b>
+							</li>							
 						</ul>
 					</li>
 					<li class="">

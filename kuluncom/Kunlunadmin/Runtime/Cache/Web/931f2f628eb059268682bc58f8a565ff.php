@@ -117,12 +117,9 @@
                         <li>
                             <h2 class="text-wthir pb-2">合作伙伴</h2>
                         </li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
-                        <li><a href="" class="text-wthir with-padding">凤凰财经</a></li>
+                        <li><a href="" class="text-wthir with-padding">凤凰网大赛</a></li>
+                        <li><a href="" class="text-wthir with-padding">益学堂</a></li>
+                        <li><a href="" class="text-wthir with-padding">红顾问</a></li>
 
 
                     </ul>
