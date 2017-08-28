@@ -8,11 +8,11 @@
 		<meta name="description" content="This is page-header (.page-header &gt; h1)" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/ace.min.css" id="main-ace-style" />
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/ace-skins.min.css" />
-		<link rel="stylesheet" href="/gitkunl/kl/kuluncom/Public/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="/Public/assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/Public/assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="/Public/assets/css/ace.min.css" id="main-ace-style" />
+		<link rel="stylesheet" href="/Public/assets/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="/Public/assets/css/ace-rtl.min.css" />
 
 	</head>
 		<body class="no-skin">
@@ -34,7 +34,7 @@
 					<!-- #section:basics/navbar.layout.brand -->
 					<a href="<?php echo U('Index/index');?>" class="navbar-brand">
 						<small>
-							<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/logo.png" alt="" />
+							<img src="/Public/assets/avatars/logo.png" alt="" />
 						</small>
 					</a>
 				</div>
@@ -58,7 +58,7 @@
 									<ul class="dropdown-menu dropdown-navbar">
 										<li>
 											<a href="#">
-												<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+												<img src="/Public/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
 												<span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">B2C:</span>
@@ -75,7 +75,7 @@
 
 										<li>
 											<a href="#">
-												<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+												<img src="/Public/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
 												<span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">积分商城:</span>
@@ -92,7 +92,7 @@
 
 										<li>
 											<a href="#">
-												<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+												<img src="/Public/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
 												<span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">政府机票采购:</span>
@@ -109,7 +109,7 @@
 
 										<li>
 											<a href="#">
-												<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/avatar2.png" class="msg-photo" alt="Kate's Avatar" />
+												<img src="/Public/assets/avatars/avatar2.png" class="msg-photo" alt="Kate's Avatar" />
 												<span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">B2B:</span>
@@ -126,7 +126,7 @@
 
 										<li>
 											<a href="#">
-												<img src="/gitkunl/kl/kuluncom/Public/assets/avatars/avatar5.png" class="msg-photo" alt="Fred's Avatar" />
+												<img src="/Public/assets/avatars/avatar5.png" class="msg-photo" alt="Fred's Avatar" />
 												<span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">货运系统:</span>
@@ -155,7 +155,7 @@
 						<!-- #section:basics/navbar.user_menu -->
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle" style="background-color: red">
-								<img class="nav-user-photo" src="/gitkunl/kl/kuluncom/Public/assets/avatars/user.jpg" alt="Jason's Photo" />
+								<img class="nav-user-photo" src="/Public/assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									欢迎您<br />
 									陈子昂
@@ -236,7 +236,7 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
+<!-- 							<li class="">
 								<a href="buttons.html">
 									<i class="menu-icon fa fa-caret-right"></i>
 									人员列表
@@ -251,7 +251,7 @@
 								</a>
 
 								<b class="arrow"></b>
-							</li>
+							</li> -->
 						</ul>
 					</li>
 					<li class="">
@@ -619,7 +619,7 @@
 	</body>
 </html>			
 			<script type="text/javascript">
-				window.jQuery || document.write("<script src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.min.js'>"+"<"+"/script>");
+				window.jQuery || document.write("<script src='/Public/assets/js/jquery.min.js'>"+"<"+"/script>");
 			</script>
 		<!-- <![endif]-->
 		<!--[if IE]>
@@ -628,27 +628,27 @@
 			</script>
 		<![endif]-->
 		<script type="text/javascript">
-			if('ontouchstart' in document.documentElement) document.write("<script src='/gitkunl/kl/kuluncom/Public/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+			if('ontouchstart' in document.documentElement) document.write("<script src='/Public/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 		</script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/bootstrap.min.js"></script>
+		<script src="/Public/assets/js/bootstrap.min.js"></script>
 		<!--[if lte IE 8]>
 		  <script src="assets/js/excanvas.min.js"></script>
 		<![endif]-->
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery-ui.custom.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/ace-elements.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/ace.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/chosen.jquery.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/fuelux/fuelux.spinner.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/bootstrap-datepicker.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/bootstrap-timepicker.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/moment.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/daterangepicker.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/date-time/bootstrap-datetimepicker.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/bootstrap-colorpicker.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.knob.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.autosize.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.inputlimiter.1.3.1.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/jquery.maskedinput.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/bootstrap-tag.min.js"></script>
-		<script src="/gitkunl/kl/kuluncom/Public/assets/js/typeahead.jquery.min.js"></script>
+		<script src="/Public/assets/js/jquery-ui.custom.min.js"></script>
+		<script src="/Public/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="/Public/assets/js/ace-elements.min.js"></script>
+		<script src="/Public/assets/js/ace.min.js"></script>
+		<script src="/Public/assets/js/chosen.jquery.min.js"></script>
+		<script src="/Public/assets/js/fuelux/fuelux.spinner.min.js"></script>
+		<script src="/Public/assets/js/date-time/bootstrap-datepicker.min.js"></script>
+		<script src="/Public/assets/js/date-time/bootstrap-timepicker.min.js"></script>
+		<script src="/Public/assets/js/date-time/moment.min.js"></script>
+		<script src="/Public/assets/js/date-time/daterangepicker.min.js"></script>
+		<script src="/Public/assets/js/date-time/bootstrap-datetimepicker.min.js"></script>
+		<script src="/Public/assets/js/bootstrap-colorpicker.min.js"></script>
+		<script src="/Public/assets/js/jquery.knob.min.js"></script>
+		<script src="/Public/assets/js/jquery.autosize.min.js"></script>
+		<script src="/Public/assets/js/jquery.inputlimiter.1.3.1.min.js"></script>
+		<script src="/Public/assets/js/jquery.maskedinput.min.js"></script>
+		<script src="/Public/assets/js/bootstrap-tag.min.js"></script>
+		<script src="/Public/assets/js/typeahead.jquery.min.js"></script>
