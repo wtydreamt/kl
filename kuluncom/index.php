@@ -15,6 +15,7 @@ define('DEFAULT_CONTROLLER','Login');
 define('DEFAULT_ACTION','index');
 define('COOKIT_PATH',substr($_SERVER['PHP_SELF'],0,strpos($_SERVER['PHP_SELF'],"/index.php"."/Home")));	
 }
+print_r($_SERVER);die;
 echo COOKIT_PATH;die;
 require './ThinkPHP/ThinkPHP.php';
 
