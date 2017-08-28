@@ -8,14 +8,12 @@ if($SERVER_NAME=="klcf.ffcka.com"){
 define('DEFAULT_MODULE','Web');  
 define('DEFAULT_CONTROLLER','Index'); 
 define('DEFAULT_ACTION','index');
-define('COOKIT_PATH',substr($_SERVER['PHP_SELF'],0,strpos($_SERVER['PHP_SELF'],"/index.php"."/Web")));	
+define('COOKIT_PATH',substr($_SERVER['SCRIPT_FILENAME'],0,strpos($_SERVER['PHP_SELF'],"/index.php"."/Web")));	
 }else{
 define('DEFAULT_MODULE','Home');  
 define('DEFAULT_CONTROLLER','Login');
 define('DEFAULT_ACTION','index');
-define('COOKIT_PATH',substr($_SERVER['PHP_SELF'],0,strpos($_SERVER['PHP_SELF'],"/index.php"."/Home")));	
+define('COOKIT_PATH',substr($_SERVER['SCRIPT_FILENAME'],0,strpos($_SERVER['PHP_SELF'],"/index.php"."/Home")));	
 }
-print_r($_SERVER);die;
-echo COOKIT_PATH;die;
 require './ThinkPHP/ThinkPHP.php';
 
