@@ -71,7 +71,23 @@
             $('.carousel-indicators').find('li:first').addClass("active");
 
         });
+        if(window.location.pathname == "{:U('Index/index')}"){
+                $(".navbar-nav li:nth-child(1)").addClass("active");
+               }else if(window.location.pathname == "{:U('Lecturer/index')}"){
+                    $(".navbar-nav li:nth-child(2)").addClass("active");
+               }else if(window.location.pathname == "{:U('Review/index')}"){
+                    $(".navbar-nav li:nth-child(3)").addClass("active");
+  
+               }else if(window.location.pathname == "{:U('Curriculum/index')}"){
+                    $(".navbar-nav li:nth-child(4)").addClass("active");
+               }else if(window.location.pathname == "{:U('Activity/index')}"){
+                    $(".navbar-nav li:nth-child(5)").addClass("active");
+               }else if(window.location.pathname == "{:U('Strategy/index')}"){
+                    $(".navbar-nav li:nth-child(6)").addClass("active");
+               }else if(window.location.pathname == "{:U('Curriculum/info')}"){
+                    $(".navbar-nav li:nth-child(4)").addClass("active");
+               }                
     </script>
 </body>
 
-</html>
+</html>           
