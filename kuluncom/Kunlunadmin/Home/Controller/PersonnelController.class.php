@@ -39,4 +39,31 @@ class PersonnelController extends Controller {
     		echo "账号已存在";die;
     	}
     }
+    public function personnellist(){
+        $data=I();
+        $Offset="2";
+        $page=isset($data['page'])?$data['page']:1;
+        if($page>1){
+            $start=($page-1)*$Offset;
+        }else{
+            $start=0;
+        }
+        $count=M("admin_user")
+             ->join("kl_role_user_derive as r ON kl_admin_user.u_id=r.u_id")
+             ->join("kl_role ON r.r_id=kl_role.r_id")
+             ->count();
+        $arr=M("admin_user")
+             ->join("kl_role_user_derive as r ON kl_admin_user.u_id=r.u_id")
+             ->join("kl_role ON r.r_id=kl_role.r_id")
+             ->field("kl_role.name,kl_admin_user.u_id,kl_admin_user.nickname,number")
+             ->limit($start,$Offset)
+             ->select();
+        $datainfo=array();
+        $datainfo['data']=$arr;
+        $datainfo['page']=$page;
+        $datainfo['pagenumer']=ceil($count/$Offset);
+        // print_r($datainfo);die;
+        $this->assign("listdata",$datainfo);
+        $this->display("personnellist");
+    }
 }
