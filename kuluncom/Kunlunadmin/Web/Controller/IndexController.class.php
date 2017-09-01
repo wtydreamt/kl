@@ -3,11 +3,14 @@ namespace Web\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
+    $menu = C('MENU');
+    // print_r($menu);die;
     $banner=$this->banner();
     $content=$this->hots();
     $chief=$this->chief();
     $this->assign("chief",$chief);
     $this->assign("banner",$banner);
+    $this->assign("active","1");
     $this->assign("content",$content);
 	$this->display();
     }
