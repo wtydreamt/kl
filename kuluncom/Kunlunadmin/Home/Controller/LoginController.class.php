@@ -11,7 +11,7 @@ class LoginController extends Controller {
     	$where=array("number"=>$data['number']);
     	$user=D("Common")->generalquery("admin_user",$where,"u_id",$type="ONE");
     	if($user['status']=="true"){
-    		cookie("u_id",$user['message']['u_id'],array('expire'=>3600));
+    		cookie("u_id",$user['message']['u_id'],array('expire'=>3600*12));
     	}
     	$this->redirect('Index/index', "", 0, '');
     }

@@ -26,7 +26,9 @@ class LecturerController extends Controller {
     }
 
     public function edit(){
-		$data=I();
+		$data=I('post.');
+		$id=I('get.uid');
+		$u_id=$id?$id:$this->u_id;
 		if($data && isset($data)){
 			if(!empty($data['labe'])){
 				$data['labe']=implode($data['labe'], ",");
@@ -36,15 +38,15 @@ class LecturerController extends Controller {
 			if($arr['msg']=="1"){
 				$data['head_img']=$arr['success'];
 			}
-			$res=D("Common")->generasave("admin_user",array("u_id"=>$this->u_id),$data);
+			$res=D("Common")->generasave("admin_user",array("u_id"=>$data['uid']),$data);
 			if($res){
-				$this->redirect('Lecturer/index', "", 0, '');
+				$this->redirect('Lecturer/edit?uid='.$data['uid'], "", 0, '');
 			}else{
-				$this->redirect('Lecturer/edit', "", 0, '');
+				$this->redirect('Lecturer/edit?uid='.$data['uid'], "", 0, '');
 			}
 		}else{
 	    	$label=D("Common")->generalquery("label",true,true,"all");
-	    	$admin_user=D("Common")->generalquery("admin_user",array("u_id"=>$this->u_id),true,"one");
+	    	$admin_user=D("Common")->generalquery("admin_user",array("u_id"=>$u_id),true,"one");
 	    	$label=$label['status']=="true"?$label['message']:"";
 	    	$this->assign("label",$label);
 	    	$this->assign("admin_user",$admin_user['message']);		

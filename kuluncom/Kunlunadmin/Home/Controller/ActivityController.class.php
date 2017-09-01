@@ -19,10 +19,8 @@ class ActivityController extends Controller {
 			$data['content']=$_POST['content'];
 			$res=D("Common")->adddata("activity",$data);
 			if($res['status']=="true"){
-				// echo "添加成功";
 				$this->redirect('Activity/index', "", 0, '');
 			}else{
-				// echo "添加失败稍后再试";
 				$this->redirect('Activity/index', "", 0, '');
 			}			
 		}else{
