@@ -41,7 +41,7 @@ class PersonnelController extends Controller {
     }
     public function personnellist(){
         $data=I();
-        $Offset="2";
+        $Offset="10";
         $page=isset($data['page'])?$data['page']:1;
         if($page>1){
             $start=($page-1)*$Offset;

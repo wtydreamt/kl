@@ -35,12 +35,12 @@
 															编号
 															</label>
 														</th>
-														<th>部门</th>
-														<th>操作</th>
+														<th>标签</th>
 													</tr>
 												</thead>
 
 												<tbody>
+												<foreach name="label" item="v">
 													<tr>
 														<td class="center">
 															<label class="position-relative">
@@ -49,18 +49,19 @@
 															</label>
 														</td>
 
-														<td>商务研发部</td>
-														<td>
+														<td>{$v.name}</td>
+<!-- 														<td>
 															<div class="hidden-sm hidden-xs btn-group">
 																<button class="btn btn-xs btn-danger">
 																	<i class="ace-icon fa fa-trash-o bigger-120"></i>
 																</button>
 															</div>
-														</td>
+														</td> -->
 													</tr>
+												</foreach>
 												</tbody>
 											</table>
-
+<!-- 
 											<div class="modal-footer no-margin-top">
 
 												<ul class="pagination pull-right no-margin">
@@ -88,7 +89,7 @@
 														</a>
 													</li>
 												</ul>
-											</div>
+											</div> -->
 
 										</div>
 

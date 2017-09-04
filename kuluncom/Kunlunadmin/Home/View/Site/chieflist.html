@@ -36,16 +36,15 @@
 																<span class="lbl"></span>
 															</label>
 														</th>
-														<th>图片</th>
-														<th>banner描述</th>
-				                                        <th>关联连接</th>
+														<th>推荐图片</th>
+														<th>推荐奖位置</th>
 				                                        <th>是否显示</th>
 				                                        <th>操作</th>
 													</tr>
 												</thead>
 
 												<tbody>
-												<foreach name="listdata.data" item="v">
+												<foreach name="chief" item="v">
 												<tbody>
 													<tr id="del_{$v.id}">
 														<td class="center">
@@ -54,9 +53,8 @@
 																<span class="lbl"></span>
 															</label>
 														</td>
-														<td style="width: 220px;"><img src="__ROOT__/{$v.banner_img}" style="width: 100px;height:50px" alt=""></td>
-														<td>{$v.descs}</td>
-				                                        <td>{$v.url}</td>
+														<td style="width: 220px;"><img src="__ROOT__/{$v.cover_img}" style="width: 100px;height:50px" alt=""></td>
+														<td>位置{$v.position}</td>
 				                                        <td class="hidden-480" >
 				                                        <if condition=" $v.is_show == 1 ">
 				                                        <span style="cursor:pointer;" class="label label-sm label-success" data="{$v.is_show}" onclick="isshow(this)">是</span>

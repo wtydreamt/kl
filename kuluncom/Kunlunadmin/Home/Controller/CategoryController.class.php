@@ -7,6 +7,8 @@ class CategoryController extends Controller {
     }
 
     public function viewpoint(){
+    $arr=M("viewpoint")->select();
+    $this->assign("viewpoint",$arr);  	
     $this->display("viewpoint");
     }
 
@@ -24,6 +26,8 @@ class CategoryController extends Controller {
 		}    	
     }
     public function labe(){
+    $arr=M("label")->select();
+     $this->assign("label",$arr);  	    	
      $this->display("labe");
     }
     public function labeadd(){
