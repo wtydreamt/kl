@@ -78,4 +78,33 @@ class StrategyController extends Controller {
     	}
 
     }
+    public function del(){
+    	$id=I("id");
+    	$res=M("curriculum")->where(array('id'=>$id))->delete();
+    	echo $res;
+    }
+
+    public function csave(){
+       	$id=I("id");
+    	$res=M("curriculum")->where(array('id'=>$id))->find();
+    	$this->assign("arr",$res);
+    	$this->display("csave");
+    }
+
+    public function csaves(){
+    		$data=I();
+    		$id=$data['id'];
+    		unset($data['id']);
+    		$data['desc']=$_POST['desc'];
+			$arr=D("Common")->fileUpload("img",'img');
+			if($arr['msg']=="1"){
+				$data['img']=$arr['success'];
+			}
+			$res=M("curriculum")->where(array("id"=>$id))->save($data);
+			if($res===false){
+				$this->redirect('Strategy/clist', "", 3, '修改失败');
+			}else{
+				$this->redirect('Strategy/clist', "", 3, '修改成功');
+			}
+    }
 }

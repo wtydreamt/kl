@@ -45,10 +45,9 @@
 														<th>操作</th>
 													</tr>
 												</thead>
-
 												<tbody>
 												<foreach name="curriculum" item="v">
-													<tr>
+													<tr id="del_{$v.id}">
 														<td class="center">
 															<label class="position-relative">
 																<input type="checkbox" class="ace" />
@@ -56,14 +55,20 @@
 															</label>
 														</td>
 
-														<td>{$v.name}</td>
-				                                        <td><a href="#"  class="yuangongBtn" rel="#yuangong">{$v.ketime}</a></td>
+														<td>
+														{$v.name}
+														</td>
+				                                        <td>
+				                                        {$v.ketime}
+				                                        </td>
 				                                        <td class="hidden-480">{$v.starttime}</td>
 				                                        <td class="hidden-480"><span class="label label-sm label-warning">{$v.kegrade}</span></td>
 				                                        <td>{$v.fxrade}</td>
 														<td>
 															<div class="hidden-sm hidden-xs btn-group">
-																	<a href="{:U('Strategy/kmenu')}?id={$v.id}">添加课程目录</a>
+																	<a href="{:U('Strategy/kmenu')}?id={$v.id}">添加课程目录</a>&nbsp&nbsp&nbsp
+																	<a href="javascript:;" data="{$v.id}" onclick="del(this)">删除</a>&nbsp&nbsp&nbsp
+																	<a href="{:U('Strategy/csave')}?id={$v.id}" data="{$v.id}" >编辑</a>
 															</div>
 														</td>
 													</tr>
@@ -101,12 +106,36 @@
 											</div>
 
 										</div>
-
-										
-
-
 									</div>
-
 					</div><!-- /.page-content-area -->
 				</div><!-- /.page-content -->
 			</div><!-- /.main-content -->
+<script type="text/javascript" src='__PUBLIC__/assets/js/jquery.min.js'></script>
+<script>
+	function isshow(obj){
+		var data=obj.getAttribute("data");
+		if(data==1){
+		obj.setAttribute("class","label label-sm label-warning");
+		obj.innerHTML="否";
+		obj.setAttribute("data","0");			
+	}else{
+		obj.setAttribute("class","label label-sm label-success");
+		obj.innerHTML="是";
+		obj.setAttribute("data","1");
+	}
+
+	}
+	function del(obj){
+		var id=obj.getAttribute("data");
+		var send={id:id}
+		var url="{:U('Strategy/del')}"
+			$.post(url,send,function(msg){
+				if(msg){
+					$("#del_"+id).remove();
+				}else{
+					alert('网络繁忙');
+				}
+			    
+			})
+		}
+</script>
