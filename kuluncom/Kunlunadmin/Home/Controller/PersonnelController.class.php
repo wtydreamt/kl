@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class PersonnelController extends Controller {
+class PersonnelController extends CommonController {
     public function index(){
     	$role=D("Common")->generalquery("role",true,true,"all");
     	$role=$role['status']=="true"?$role['message']:"";

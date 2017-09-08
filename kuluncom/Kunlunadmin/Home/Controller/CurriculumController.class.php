@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class CurriculumController extends Controller {
+class CurriculumController extends CommonController {
 		private $u_id;
 		public function __construct(){
 			parent::__construct();

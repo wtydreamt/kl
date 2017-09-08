@@ -14,7 +14,9 @@ class LoginController extends Controller {
     		cookie("u_id",$user['message']['u_id'],array('expire'=>3600*12));
             $userinfo=array("nickanme"=>$user['message']['nickname'],"head_img"=>$user['message']['head_img']);
             cookie("userinfo",$userinfo,array('expire'=>3600*12));
-            // print_r(cookie("userinfo"));die;
+            $nodelist=$this->nodelist();
+            C("MENU",$nodelist);
+            // print_r(C("MENU"));die;
             $this->redirect('Index/index', "", 0, '');
     	}else{
             $this->redirect('Login/index', "", 0, '');
@@ -29,6 +31,18 @@ class LoginController extends Controller {
     }
 
     public function nodelist(){
-        
+        $arr=M("node")->field("id,pid,name")->select();
+        return $arr=$this->getSubTree($arr , $id = 0 , $lev = 0);
     }
+    /** * 获取子孙树 * @param array $data 待分类的数据 * @param int/string $id 要找的子节点id * @param int $lev 节点等级 */ 
+    public function getSubTree($data , $id = 0 , $lev = 0) { 
+        static $son = array(); 
+        foreach($data as $key => $value) { 
+            if($value['pid'] == $id){ 
+                  $value['lev'] = $lev; 
+                  $son[] = $value;
+                 $this->getSubTree($data , $value['id'] , $lev+1); } 
+            } 
+            return $son; 
+        }    
 }

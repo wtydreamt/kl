@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class ReviewController extends Controller {
+class ReviewController extends CommonController {
 		private $u_id;
 		public function __construct(){
 			parent::__construct();

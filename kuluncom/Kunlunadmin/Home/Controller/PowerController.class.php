@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class PowerController extends Controller {
+class PowerController extends CommonController {
     public function index(){
         $arr=M("node")->field("id,pid,name")->select();
         $arr=$this->getSubTree($arr , $id = 0 , $lev = 0);

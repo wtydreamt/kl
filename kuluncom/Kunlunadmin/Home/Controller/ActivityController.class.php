@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class ActivityController extends Controller {
+class ActivityController extends CommonController {
 		private $u_id;
 		public function __construct(){
 			parent::__construct();
