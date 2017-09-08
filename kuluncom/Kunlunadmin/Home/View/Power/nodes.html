@@ -1,3 +1,5 @@
+<include file="Public:header" />
+<include file="Public:menu" />
 			<div class="main-content">
 				<!-- #section:basics/content.breadcrumbs -->
 				<div class="breadcrumbs" id="breadcrumbs">
@@ -58,8 +60,8 @@
 											<div class="pos-rel">
 												<select class="form-control" id="form-field-select-1">
 																<option checked="checked" value="0">一级权限</option>
-																<if condition="!empty($arr)">
-																	<foreach name="arr" item="v">
+																<if condition="!empty($nodes)">
+																	<foreach name="nodes" item="v">
 																		<option value="{$v.id}">{$v.str}{$v.name}</option>
 																	</foreach>
 																</if>

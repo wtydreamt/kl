@@ -31,7 +31,8 @@ class PowerController extends Controller {
     public function nodes(){
         $arr=M("node")->field("id,pid,name")->select();
         $arr=$this->getSubTree($arr , $id = 0 , $lev = 0);
-       ;
+        // print_r($arr);die;
+        $this->assign("nodes",$arr);
         $this->display("nodes");
     }
     //权限授权
