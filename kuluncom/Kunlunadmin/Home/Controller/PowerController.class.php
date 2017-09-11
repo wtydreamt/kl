@@ -4,10 +4,10 @@ use Think\Controller;
 class PowerController extends CommonController {
     public function index(){
         $arr=M("node")->field("id,pid,name")->select();
-        $arr=$this->getSubTree($arr , $id = 0 , $lev = 0);
+        $arr=$this->nodelist;
         $arrs=$this->getSbuTrees($arr);
-        $this->assign("arr",$arrs);
-	    $this->display();
+        $this->assign("nodelist",$arrs);
+	    $this->display("index");
     }
     public function rolelist(){
            $res_role=M("role")->field("r_id,name")->select();
@@ -30,27 +30,10 @@ class PowerController extends CommonController {
     //节点控制器
     public function nodes(){
         $arr=M("node")->field("id,pid,name")->select();
-        $arr=$this->getSubTree($arr , $id = 0 , $lev = 0);
-        // print_r($arr);die;
+        $arr=$this->nodelist;
         $this->assign("nodes",$arr);
         $this->display("nodes");
     }
-    //权限授权
-    public function power(){
-
-    }
-    /** * 获取子孙树 * @param array $data 待分类的数据 * @param int/string $id 要找的子节点id * @param int $lev 节点等级 */ 
-    public function getSubTree($data , $id = 0 , $lev = 0) { 
-        static $son = array(); 
-        foreach($data as $key => $value) { 
-            if($value['pid'] == $id){ 
-                  $value['lev'] = $lev; 
-                  $value['str'] =str_repeat('---', $lev);
-                  $son[] = $value;
-                 $this->getSubTree($data , $value['id'] , $lev+1); } 
-            } 
-            return $son; 
-        }
     public function addnode(){
         $data=I();
         echo $res=M("node")->add($data);
