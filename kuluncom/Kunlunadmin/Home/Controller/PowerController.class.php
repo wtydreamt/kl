@@ -55,9 +55,9 @@ class PowerController extends CommonController {
         $data=I();
         echo $res=M("node")->add($data);
     }
-    public function nodelist(){
+    public function listnode(){
         $list=M("node")->field("id,action,controller,name")->select();
-        $this->assign("arr",$list);
+        $this->assign("arrs",$list);
         $this->display("nodelist");
     }
 
