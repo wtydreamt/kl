@@ -33,7 +33,7 @@
 		       <foreach name="curriculum" item="v">
 				<li>
 		         <div class="clay_ulbox">
-		           	<div class="clay_imgs"><a href="{:U('Curriculum/info')}?id={$v.id}"><img onerror="showImgDelay(this);" src="__ROOT__/{$v.img}" alt="图片加载中"></a></div>
+		           	<div class="clay_imgs"><a href="{:U('Curriculum/info')}?id={$v.id}"><img onerror="showImgDelay(this);" style="height:200px" src="__ROOT__/{$v.img}" alt="图片加载中"></a></div>
 		           	<div class="section_less"><em><a href="课程培训详情.html" target="_blank">{$v.name}</a></em><p class="author"><a href="javascript:;">{$v.nickname}</a></p><p><span class="collect float_right f_col_Red  f_bold">
 		           	{$v.price}元</span><span class="icon icon-user out-left-0"></span>0人购买</p></div>
 				</div>
