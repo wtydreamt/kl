@@ -30,9 +30,9 @@ class IndexController extends Controller {
     	return $res;
     }
     public function chief(){
-        $chief1=D("Common")->generalquery("chief",array("position"=>1),true,"find");
-        $chief3=D("Common")->generalquery("chief",array("position"=>3),true,"find");
-        $chief2=D("Common")->generalquery("chief",array("position"=>2),true,"all");
+        $chief1=D("Common")->generalquery("chief",array("position"=>1,"is_show"=>1),true,"find");
+        $chief3=D("Common")->generalquery("chief",array("position"=>3,"is_show"=>1),true,"find");
+        $chief2=D("Common")->generalquery("chief",array("position"=>2,"is_show"=>1),true,"all");
         return array("1"=>$chief1['message'],"2"=>$chief2['message'],"3"=>$chief3['message']);
     }
     public function info(){
