@@ -23,6 +23,7 @@ class CurriculumController extends Controller {
     	$data=I();
     	$res=M("curriculum")->where(array("id"=>$data['id']))->field("u_id,name,ketime,fxrade,starttime,price,desc,kegrade,img,link")->find();
         $evaluate=M("evaluate")->where(array("u_id"=>$res['u_id']))->select();
+        echo M("evaluate")->getLastSql();die;
     	$user=M("admin_user")->where(array("u_id"=>$res['u_id']))->field("nickname")->find();
     	$lists=D("Common")->queryjoin("curriculum","kl_admin_user","u_id","u_id",array("kl_admin_user.u_id"=>$res['u_id']),"id,kl_admin_user.nickname,kl_admin_user.u_id,kl_curriculum.name,ketime,price,kl_curriculum.img",$type="all");
     	$menu=M("menu")->where(array("kid"=>$data['id']))->field("title,link,shi")->select();
