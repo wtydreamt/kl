@@ -101,7 +101,7 @@
   					<li>学员评价</li>
   					<li>购买记录</li>
   				</ul>
-  				<div class="kl_kctabcom">
+          <div class="kl_kctabcom">
             <div class="kl_lsgo" style="display: block;">
               <if condition=" $res.link ">
                 <video id="my-video" class="video-js" controls preload="auto" style="width: 100%;margin-bottom: 10px;" height="400" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
@@ -113,81 +113,250 @@
                </video>
                </if>
                {$res.desc}
+             <!-- <img alt="" src="http://sf.yxcps.cn/banner/B0324526_20170719143246727.jpg" style="width: 100%;"> -->
             </div>
-  					<div class="kl_lsgo">
-  					<div class="task-chapter">
-							<div class="task-part-list">
-								<div class="task-part-item">
-								<foreach name="menu" item="m">
-									<div class="task-task-list">
-										<a class="task-task-item task-item-jump js-expr-video-link js-task-without-login js-expr-item" href=""  data-position="0" data-toggle="modal" data-target="#myModal"><i class="icon-play item-icon"></i>
-										<p class="task-tt">
-											<span class="task-tt-text" title="【模拟盘点评-当下行情下的操作策略">{$m.title}</span><span class="tt-suffix">({$m.shi})</span>
-										</p>
-										</a><!-- end for -->
-								</foreach>
-									</div>
-								</div>
-						</div>
-  					</div>
-  					</div>
-  					<div class="kl_lsgo">
-  						<ul class="kl_comments_ul">
-<!--   							 <li>
-								<div class="user_comments_li">
-							 	<div class="user_comments_li_lt float_left "><div class="user_comments_photo"><a href="#"><img  src="__PUBLIC__/index/images/head_sculpture.png"></a></div></div>
-								<div class="user_comments_li_rt float_left">
-								  	<div class="user_comments_id">
-								  		<span><a href="javascript:void(0);"><strong class="f_s16">
-								  		176****7841
-								  		</strong></a></span>
-							       		<span><img src="images/small-star-on.png" title="非常满意"><img src="images/small-star-on.png" title="非常满意"><img src="images/small-star-on.png" title="非常满意"><img src="images/small-star-on.png" title="非常满意"><img src="images/small-star-on.png" title="非常满意"></span>
-								  	</div>
-								  	<div class="user_comments_date"><span><a class="other" href="javascript:;">高级培训课季课</a></span><span class="inner_20_l">2017-07-12 16:38:17</span></div>
-								  	<div class="user_comments_type ">
-								   	<p>近期指数有点怕怕的，但是看了师的收评，心里还是比较有底，吴老师最近特别分析雄安概念股，今日出现了异动，真准，信服吴老师！</p>
-								  	</div>
-								</div>
-							  </div>
-							
-						  </li>
-						  <hr /> -->
-  						</ul>
-  					</div>
-  					<div class="kl_lsgo">
-  						<div class="gm-jl">
-  							<!-- <table class="table_style_ae mb_20">
-								<thead>
-									<tr>
-										<th>学员</th>
-										<th>用户名</th>
-										<th>课程</th>
-										<th>价格</th>
-										<th>成交时间</th>
-									</tr>
-								</thead>
-								<tbody>
-									
-									
-											<tr>
-												<td>
-													<div class="table_ae_photo float_left">
-														<a href="javascript:void(0);"> 
-														<img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
-														</a>
-													</div>
-												</td>
-												<td>133****5875</td>
-												<td>￥￥￥高级培训课季课(2016年12月)</td>
-							
-												<td>2016-12-08 18:13:38</td>
-											</tr>
-								</tbody>
-							</table> -->
-  						</div>
-  					</div>
-  					
-  				</div>
+            <div class="kl_lsgo">
+            <div class="task-chapter">
+  
+              <div class="task-part-list">
+              <foreach name="menu" item="m">
+                <div class="task-part-item">
+                  <div class="task-part-hd">
+                    <span class="tt-prefix"></span>
+                    <h3 class="part-tt">{$m.title}</h3>
+                  </div>
+                  <div class="task-task-list">
+                    <a class="task-task-item task-item-jump js-expr-video-link js-task-without-login js-expr-item" href=""  data-position="0" data-toggle="modal" data-target="#myModal"><i class="icon-play item-icon"></i>
+                    <p class="task-tt">
+                      <span class="task-tt-text" title="{$m.title}">{$m.title}</span><span class="tt-suffix">(8分钟)</span>
+                    </p>
+                    </a><!-- end for -->
+                  </div>
+                </div>
+              </foreach>
+            </div>
+            </div> 
+            </div>
+            <div class="kl_lsgo">
+              <ul class="kl_comments_ul">
+                 <li>
+                <div class="user_comments_li">
+                <div class="user_comments_li_lt float_left "><div class="user_comments_photo"><a href="#"><img  src="__PUBLIC__/index/images/head_sculpture.png"></a></div><!--user_comments_photo end--></div><!--user_comments_li_lt end-->
+                <div class="user_comments_li_rt float_left">
+                    <div class="user_comments_id">
+                      <span><a href="javascript:void(0);"><strong class="f_s16">
+                      
+                      176****7841
+                      
+                      
+                      </strong></a></span>
+                        <span><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"></span>
+                    </div><!--user_comments_id end-->
+                    <div class="user_comments_date"><span><a class="other" href="javascript:;">高级培训课季课</a></span><span class="inner_20_l">2017-07-12 16:38:17</span></div><!--user_comments_date end-->
+                    <div class="user_comments_type ">
+                    <p>近期指数有点怕怕的，但是看了师的收评，心里还是比较有底，吴老师最近特别分析雄安概念股，今日出现了异动，真准，信服吴老师！</p>
+                    </div><!--user_comments_type end-->
+                    
+                    
+            
+                  
+                </div><!--user_comments_li_rt end-->
+                </div><!--user_comments_li end-->
+              
+              </li>
+              <hr />
+               <li>
+                <div class="user_comments_li">
+                <div class="user_comments_li_lt float_left "><div class="user_comments_photo"><a href="#"><img  src="__PUBLIC__/index/images/head_sculpture.png"></a></div><!--user_comments_photo end--></div><!--user_comments_li_lt end-->
+                <div class="user_comments_li_rt float_left">
+                    <div class="user_comments_id">
+                      <span><a href="javascript:void(0);"><strong class="f_s16">
+                      
+                      176****7841
+                      
+                      
+                      </strong></a></span>
+                        <span><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"></span>
+                    </div><!--user_comments_id end-->
+                    <div class="user_comments_date"><span><a class="other" href="javascript:;">高级培训课季课</a></span><span class="inner_20_l">2017-07-12 16:38:17</span></div><!--user_comments_date end-->
+                    <div class="user_comments_type ">
+                    <p>近期指数有点怕怕的，但是看了师的收评，心里还是比较有底，吴老师最近特别分析雄安概念股，今日出现了异动，真准，信服吴老师！</p>
+                    </div><!--user_comments_type end-->
+                    
+                    
+            
+                  
+                </div><!--user_comments_li_rt end-->
+                </div><!--user_comments_li end-->
+              
+              </li>
+              <hr />
+              </ul>
+            
+            </div>
+            <div class="kl_lsgo">
+              <div class="gm-jl">
+                <table class="table_style_ae mb_20">
+                <thead>
+                  <tr>
+                    <th>学员</th>
+                    <th>用户名</th>
+                    <th>课程</th>
+              <!--      <th>价格</th> -->
+                    <th>成交时间</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                  
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>133****5875</td>
+                        <td>￥￥￥高级培训课季课(2016年12月)</td>
+              
+                        <td>2016-12-08 18:13:38</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>慧云</td>
+                        <td>￥￥￥高级培训课季课(2016年12月-上拽)</td>
+              
+                        <td>2016-12-07 13:51:16</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>138****3670</td>
+                        <td>￥￥￥高级培训课季课(2016年12月-上拽)</td>
+              
+                        <td>2016-12-06 10:13:09</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>133****8993</td>
+                        <td>￥￥￥高级培训课季课(2016年12月-上拽O)</td>
+              
+                        <td>2016-12-05 18:19:19</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>137****1488</td>
+                        <td>￥￥￥高级培训课季课(2016年12月)</td>
+              
+                        <td>2016-12-02 16:23:09</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>186****3229</td>
+                        <td>￥￥￥高级培训课季课(2016年12月)</td>
+              
+                        <td>2016-12-02 08:32:54</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>187****8185</td>
+                        <td>￥￥￥高级培训课季课(2016年12月)</td>
+              
+                        <td>2016-12-01 17:00:07</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>155****5671</td>
+                        <td>￥￥￥高级培训课季课(2016年12月)</td>
+              
+                        <td>2016-12-01 10:05:37</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://static.yxcps.cn/images/head_sculpture.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>百威股皇</td>
+                        <td>￥￥￥高级培训课季课(2016年12月)</td>
+              
+                        <td>2016-12-01 08:49:53</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>
+                          <div class="table_ae_photo float_left">
+                            <a href="javascript:void(0);"> 
+                            <img onerror="showImgDelay(this,'http://static.yxcps.cn/images/head_sculpture.png');" src="http://sf.yxcps.cn///portrait/default_head_photo.png">
+                            </a>
+                          </div>
+                        </td>
+                        <td>139****3693</td>
+                        <td>￥￥￥高级培训课季课(2016年12月-上拽)</td>
+              
+                        <td>2016-11-30 22:16:02</td>
+                      </tr>
+                    
+                  
+                </tbody>
+              </table>
+              </div>
+            </div>
+            
+          </div>
   			</div>
   	</div>
   	<div class="modal fade" id="myModal">
