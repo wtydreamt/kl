@@ -73,4 +73,29 @@ class SiteController extends CommonController {
             $this->assign("chief",$arr);
             $this->display("chieflist");      
     }
+
+    public function delchief(){
+        $id=I("id");
+        $res=M("chief")->where(array("id"=>$id))->delete();
+        if($res){
+            echo "ok";
+        }else{
+            echo "no";
+        }
+    }
+
+    public function saveshow(){
+        $data=I();
+        if($data['is_show']=="1"){
+            $save=array("is_show"=>0);
+        }else{
+            $save=array("is_show"=>1);
+        }
+        $res=M("chief")->where(array("id"=>$data['id']))->save($save);
+        if($res!==false){
+            echo "ok";
+        }else{
+            echo "no";
+        }
+    }
 }

@@ -59,9 +59,9 @@
 														<td>位置{$v.position}</td>
 				                                        <td class="hidden-480" >
 				                                        <if condition=" $v.is_show == 1 ">
-				                                        <span style="cursor:pointer;" class="label label-sm label-success" data="{$v.is_show}" onclick="isshow(this)">是</span>
+				                                        <span style="cursor:pointer;" class="label label-sm label-success" datas="{$v.id}"  data="{$v.is_show}" onclick="isshow(this)">是</span>
 				                                        <else />
-				                                        <span style="cursor:pointer;" class="label label-sm label-warning" data="{$v.is_show}" onclick="isshow(this)">否</span>
+				                                        <span style="cursor:pointer;" class="label label-sm label-warning" datas="{$v.id}" data="{$v.is_show}" onclick="isshow(this)">否</span>
 				                                        </if>
 				                                        </td>
 				                                        <td class="hidden-480">
@@ -134,19 +134,38 @@
 <script>
 	function isshow(obj){
 		var data=obj.getAttribute("data");
-		if(data==1){
-		obj.setAttribute("class","label label-sm label-warning");
-		obj.innerHTML="否";
-		obj.setAttribute("data","0");			
-	}else{
-		obj.setAttribute("class","label label-sm label-success");
-		obj.innerHTML="是";
-		obj.setAttribute("data","1");
-	}
+		var id=obj.getAttribute("datas");
+		var send={id:id,is_show:data}
+		var url="{:U('Site/saveshow')}";		
+		$.post(url,send,function(msg){
+			if(msg=="ok"){
+				if(data==1){
+				obj.setAttribute("class","label label-sm label-warning");
+				obj.innerHTML="否";
+				obj.setAttribute("data","0");			
+				}else{
+					obj.setAttribute("class","label label-sm label-success");
+					obj.innerHTML="是";
+					obj.setAttribute("data","1");
+				}				
+			}else{
+				alert("网络繁忙稍后再试");
+			}
 
+		});		
 	}
 	function del(obj){
 		var id=obj.getAttribute("data");
-		    $("#del_"+id).remove();
+		var send={id:id}
+		var url="{:U('Site/delchief')}";
+		$.post(url,send,function(msg){
+			if(msg=="ok"){
+				$("#del_"+id).remove();
+			}else{
+				alert("网络繁忙稍后再试");
+			}
+		});
+		    
+		
 	}
 </script>
