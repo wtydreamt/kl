@@ -1,0 +1,110 @@
+<include file="Public:header" />
+<include file="Public:menu" />
+			<div class="main-content">
+				<!-- #section:basics/content.breadcrumbs -->
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="{:U('review/reviewlist')}">回顾列表</a>
+						</li>
+					</ul><!-- /.breadcrumb -->
+
+					<!-- #section:basics/content.searchbox -->
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+				<span class="input-icon">
+					<a href="{:U('Review/index')}" class="nav-search-input">实战回顾</a>
+				</span>
+						</form>
+					</div><!-- /.nav-search -->
+
+					<!-- /section:basics/content.searchbox -->
+				</div>
+
+				<div class="page-content">
+					<!-- /section:settings.box -->
+					<div class="page-content-area">
+									<div class="col-xs-12">
+
+										<div class="table-responsive">
+
+											<table id="sample-table-2" class="table table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+				                                        <th style="width: 300px;">数据</th>
+				                                        <th style="width: 100px;">操作</th>
+													</tr>
+												</thead>
+												<foreach name="reviewlist.data" item="v">
+												<tbody>
+													<tr>
+				                                        <td class="hidden-480"><img style="width: 300px;height: 200px" src="__ROOT__/{$v.review_img}" alt=""></td>
+				                                        <td class="hidden-480">
+				                                        <a href="{:U('review/delreview')}?id={$v.id}">															
+				                                        <button class="btn btn-xs btn-danger">
+															<i class="ace-icon fa fa-trash-o bigger-120"></i>
+														</button>
+														</a>
+														</td>
+													</tr>
+												</foreach>
+												</tbody>
+											</table>
+
+											<div class="modal-footer no-margin-top">
+
+												<ul class="pagination pull-right no-margin">
+    										<if condition="$reviewlist.page == 1 ">
+													<li class="prev disabled">
+														<a href="#">
+															<i class="ace-icon fa fa-angle-double-left"></i>
+														</a>
+													</li>    
+        									    <else />
+													<li class="prev">
+														<a href="{:U('review/reviewlist')}?page=<?php echo $reviewlist['page']-1; ?>">
+															<i class="ace-icon fa fa-angle-double-left"></i>
+														</a>
+													</li>         									    
+    									    </if>												
+
+    											<for start="0" end="$reviewlist.pagenumer">
+    												<if condition="$reviewlist.page == $i+1 ">
+														<li class="active">
+															<a href="{:U('review/reviewlist')}?page={$i+1}">{$i+1}</a>
+														</li>
+													<else />
+														<li>
+															<a href="{:U('review/reviewlist')}?page={$i+1}">{$i+1}</a>
+														</li>													
+													</if>
+    											</for>
+
+
+    										<if condition=" $reviewlist.page == $reviewlist.pagenumer ">
+													<li class="next disabled">
+														<a href="#">
+															<i class="ace-icon fa fa-angle-double-right"></i>
+														</a>
+													</li>    
+        									    <else />
+													<li class="next">
+														<a href="{:U('review/reviewlist')}?page=<?php echo $reviewlist['page']+1; ?>">
+															<i class="ace-icon fa fa-angle-double-right"></i>
+														</a>
+													</li>         									    
+    									    </if>
+												</ul>
+											</div>
+
+										</div>
+
+										
+
+
+									</div>
+
+					</div><!-- /.page-content-area -->
+				</div><!-- /.page-content -->
+			</div><!-- /.main-content -->
