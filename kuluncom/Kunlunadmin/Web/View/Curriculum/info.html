@@ -119,6 +119,7 @@
             <div class="task-chapter">
   
               <div class="task-part-list">
+              <if condition=" $res.link ">
               <foreach name="menu" item="m">
                 <div class="task-part-item">
                   <div class="task-part-hd">
@@ -134,6 +135,9 @@
                   </div>
                 </div>
               </foreach>
+              <else />
+              暂无详细目录结构
+              </if>
             </div>
             </div> 
             </div>
