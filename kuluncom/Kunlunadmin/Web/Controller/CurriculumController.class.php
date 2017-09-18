@@ -40,6 +40,6 @@ class CurriculumController extends Controller {
     $page=$data['page']?$data['page']:1;
     $where=$data['uid']?array("kl_curriculum.u_id"=>$data['uid']):true;
     $res=D("Common")->queryjoin("curriculum","kl_admin_user","u_id","u_id",$where,"id,kl_admin_user.nickname,kl_admin_user.u_id,kl_curriculum.name,ketime,price,kl_curriculum.img",$type="all",array("yes","5",$page));
-    print_r($page);       
+    print_r($res);       
     }
 }
