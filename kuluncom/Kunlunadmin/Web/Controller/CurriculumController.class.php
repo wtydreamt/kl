@@ -27,6 +27,7 @@ class CurriculumController extends Controller {
     	
     	$menu=M("menu")->where(array("kid"=>$data['id']))->field("title,link,shi")->select();
         $evaluate=M("evaluate")->where(array("u_id"=>$res['u_id']))->select();
+        print_r($evaluate);die;
     	$this->assign("res",$res);
         $this->assign("evaluate",$evaluate);
     	$this->assign("user",$user);

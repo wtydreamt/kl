@@ -3,7 +3,8 @@ namespace Web\Controller;
 use Think\Controller;
 class LecturerController extends Controller {
     public function index(){
-    $lecturer=D("Common")->generalquery("admin_user",true,"u_id,nickname,autograph,describe,head_img","all");
+    // $lecturer=D("Common")->generalquery("admin_user",true,"u_id,nickname,autograph,describe,head_img","all");
+    $lecturer=M("admin_user")->field("u_id,nickname,autograph,describe,head_img")->order("sort_s desc")->select()
     $this->assign("lecturer",$lecturer['message']);
 	$this->display('index');
     }
