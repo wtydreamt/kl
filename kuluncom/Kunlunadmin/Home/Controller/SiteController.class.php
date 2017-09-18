@@ -35,9 +35,9 @@ class SiteController extends CommonController {
 			}
 			$banner=D("Common")->adddata("banner",$data);
     		if($banner['status']=="true"){
-    			echo "添加成功";
+    			$this->success("添加成功","banneradd");
     		}else{
-    			echo "添加失败";
+    			$this->success("添加失败","banneradd");
     		}			
 		}else{
 			$this->display("banneradd");
@@ -98,4 +98,29 @@ class SiteController extends CommonController {
             echo "no";
         }
     }
+
+    public function delbanner(){
+        $id=I("id");
+        $res=M("banner")->where(array("id"=>$id))->delete();
+        if($res){
+            echo "ok";
+        }else{
+            echo "no";
+        }        
+    }
+    public function savebanner(){
+        $data=I();
+        // print_r($data);
+        if($data['is_show']=="1"){
+            $save=array("is_show"=>0);
+        }else{
+            $save=array("is_show"=>1);
+        }
+        $res=M("banner")->where(array("id"=>$data['id']))->save($save);
+        if($res!==false){
+            echo "ok";
+        }else{
+            echo "no";
+        }
+    }    
 }
