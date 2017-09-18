@@ -25,8 +25,8 @@ class LoginController extends Controller {
     }
 
     public function loginout(){
-        cookie("u_id","");
-        cookie("userinfo","");
+        cookie("u_id","0",array('expire'=>0));
+        cookie("userinfo","0",array('expire'=>0));
         $this->redirect('Login/index', "", 0, '');
     }
 

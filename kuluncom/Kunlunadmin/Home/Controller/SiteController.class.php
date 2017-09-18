@@ -53,9 +53,9 @@ class SiteController extends CommonController {
 			}
 			$banner=D("Common")->adddata("chief",$data);
     		if($banner['status']=="true"){
-    			echo "添加成功";
+    			$this->success("添加成功","chief");
     		}else{
-    			echo "添加失败";
+    			$this->success("添加失败","chief");
     		}
 		}else{
 			$admin_user=D("Common")->generalquery("admin_user",true,"u_id,nickname","all");

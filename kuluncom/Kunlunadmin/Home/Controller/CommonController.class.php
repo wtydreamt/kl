@@ -5,6 +5,10 @@ class CommonController extends Controller {
     public $nodelist;
     public function __construct(){
                 parent::__construct();
+                $user=cookie("u_id");
+                if(!$user){
+                    $this->redirect('Login/index', "", 0, '');
+                }
                 $arr=$this->user_role_node();               
                 $this->nodelist=$arr;
                 $list=$this->nodelist($arr);
