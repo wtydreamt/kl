@@ -34,4 +34,10 @@ class CurriculumController extends Controller {
    		$this->assign("lists",$lists);    	    	
     	$this->display('info');
     }
+
+    public function curriculum(){
+    $page=$data['page']?$data['page']:1;
+    $res=D("Common")->queryjoin("curriculum","kl_admin_user","u_id","u_id",$where,"id,kl_admin_user.nickname,kl_admin_user.u_id,kl_curriculum.name,ketime,price,kl_curriculum.img",$type="all",array("yes","5",$page));
+    return $res['data'];       
+    }
 }
