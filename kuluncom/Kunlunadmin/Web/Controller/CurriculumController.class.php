@@ -26,7 +26,7 @@ class CurriculumController extends Controller {
     	$user=M("admin_user")->where(array("u_id"=>$res['u_id']))->field("nickname")->find();
     	$lists=D("Common")->queryjoin("curriculum","kl_admin_user","u_id","u_id",array("kl_admin_user.u_id"=>$res['u_id']),"id,kl_admin_user.nickname,kl_admin_user.u_id,kl_curriculum.name,ketime,price,kl_curriculum.img",$type="all");
     	$menu=M("menu")->where(array("kid"=>$data['id']))->field("title,link,shi")->select();
-        print_r($evaluate);die;
+        // print_r($evaluate);die;
     	$this->assign("res",$res);
         $this->assign("evaluate",$evaluate);
     	$this->assign("user",$user);
