@@ -132,6 +132,7 @@ class SiteController extends CommonController {
 
     public function addevaluate(){
         $arr=I();
+        $arr['datetimes']=date("Y-m-d H:i:s");
         $res=M("evaluate")->add($arr);
         if($res){
             echo "添加成功";
