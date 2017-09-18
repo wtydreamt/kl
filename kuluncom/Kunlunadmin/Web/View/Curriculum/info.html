@@ -143,58 +143,31 @@
             </div>
             <div class="kl_lsgo">
               <ul class="kl_comments_ul">
+              <if condition=" $res.link ">
+               <foreach name="evaluate" item="eva">
                  <li>
                 <div class="user_comments_li">
                 <div class="user_comments_li_lt float_left "><div class="user_comments_photo"><a href="#"><img  src="__PUBLIC__/index/images/head_sculpture.png"></a></div><!--user_comments_photo end--></div><!--user_comments_li_lt end-->
                 <div class="user_comments_li_rt float_left">
                     <div class="user_comments_id">
                       <span><a href="javascript:void(0);"><strong class="f_s16">
-                      
-                      176****7841
-                      
-                      
+                      {$eva.user}
                       </strong></a></span>
                         <span><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"></span>
                     </div><!--user_comments_id end-->
-                    <div class="user_comments_date"><span><a class="other" href="javascript:;">高级培训课季课</a></span><span class="inner_20_l">2017-07-12 16:38:17</span></div><!--user_comments_date end-->
+                    <div class="user_comments_date"><span>{$res.name}&nbsp&nbsp&nbsp</span><span class="inner_20_l">{$eva.datetimes}</span></div><!--user_comments_date end-->
                     <div class="user_comments_type ">
-                    <p>近期指数有点怕怕的，但是看了师的收评，心里还是比较有底，吴老师最近特别分析雄安概念股，今日出现了异动，真准，信服吴老师！</p>
+                    <p>{$eva.content}</p>
                     </div><!--user_comments_type end-->
-                    
-                    
-            
-                  
                 </div><!--user_comments_li_rt end-->
                 </div><!--user_comments_li end-->
               
               </li>
               <hr />
-               <li>
-                <div class="user_comments_li">
-                <div class="user_comments_li_lt float_left "><div class="user_comments_photo"><a href="#"><img  src="__PUBLIC__/index/images/head_sculpture.png"></a></div><!--user_comments_photo end--></div><!--user_comments_li_lt end-->
-                <div class="user_comments_li_rt float_left">
-                    <div class="user_comments_id">
-                      <span><a href="javascript:void(0);"><strong class="f_s16">
-                      
-                      176****7841
-                      
-                      
-                      </strong></a></span>
-                        <span><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"><img src="__PUBLIC__/index/images/small-star-on.png" title="非常满意"></span>
-                    </div><!--user_comments_id end-->
-                    <div class="user_comments_date"><span><a class="other" href="javascript:;">高级培训课季课</a></span><span class="inner_20_l">2017-07-12 16:38:17</span></div><!--user_comments_date end-->
-                    <div class="user_comments_type ">
-                    <p>近期指数有点怕怕的，但是看了师的收评，心里还是比较有底，吴老师最近特别分析雄安概念股，今日出现了异动，真准，信服吴老师！</p>
-                    </div><!--user_comments_type end-->
-                    
-                    
-            
-                  
-                </div><!--user_comments_li_rt end-->
-                </div><!--user_comments_li end-->
-              
-              </li>
-              <hr />
+              </foreach>
+              <else />
+              暂无评价
+              </if>              
               </ul>
             
             </div>

@@ -122,5 +122,21 @@ class SiteController extends CommonController {
         }else{
             echo "no";
         }
-    }    
+    } 
+
+    public function evaluate(){
+            $admin_user=D("Common")->generalquery("admin_user",true,"u_id,nickname","all");
+            $this->assign("admin_user",$admin_user['message']);
+            $this->display("evaluate");
+    }
+
+    public function addevaluate(){
+        $arr=I();
+        $res=M("evaluate")->add($arr);
+        if($res){
+            echo "添加成功";
+        }else{
+            echo "添加失败";
+        }
+    }   
 }

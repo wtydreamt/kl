@@ -1,0 +1,92 @@
+<include file="Public:header" />
+<include file="Public:menu" />
+			<div class="main-content">
+				<!-- #section:basics/content.breadcrumbs -->
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="{:U('Site/evaluate')}">评价讲师</a>
+						</li>
+					</ul><!-- /.breadcrumb -->
+
+					<!-- #section:basics/content.searchbox -->
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<a href="{:U('Site/evaluate')}" class="nav-search-input">评价讲师</a>
+							</span>
+						</form>
+					</div><!-- /.nav-search -->
+
+					<!-- /section:basics/content.searchbox -->
+				</div>
+
+				<div class="page-content">
+					<div class="page-content-area">
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<form class="form-horizontal" role="form" action="{:U('Site/addevaluate')}"  enctype="multipart/form-data" method="post">
+									<!-- #section:elements.form -->
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 学员名字：</label>
+
+										<div class="col-sm-9">
+											<input type="text" name="user" id="form-field-1" placeholder="评价内容" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 评价内容：</label>
+
+										<div class="col-sm-9">
+											<input type="text" name="content" id="form-field-1" placeholder="评价内容" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-tags">选择推荐讲师：</label>
+										<div class="col-sm-2">
+											<div class="pos-rel">
+												<select class="form-control" id="form-field-select-1" name="u_id">
+																<option value="0">选择讲师</option>
+																<if condition="!empty($admin_user)">
+																	<foreach name="admin_user" item="v">
+																		<option value="{$v.u_id}">{$v.nickname}</option>
+																	</foreach>
+																</if>
+															</select>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<input class="btn btn-info" type="button" value="立即提交">
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+
+								</form>
+
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content-area -->
+				</div><!-- /.page-content -->
+			</div><!-- /.main-content -->
+<script type="text/javascript" src='__PUBLIC__/assets/js/jquery.min.js'></script>
+		<script type="text/javascript">
+			$("[type='button']").click(function(){
+				var url="{:U('Site/addevaluate')}";
+				var content=$("[name='content'").val();
+				var user=$("[name='user'").val();
+				var u_id=$("[name='u_id'").find("option:selected").val();
+				var send={content:content,u_id:u_id,user:user}
+				$.post(url,send,function(message){
+					alert(message);
+				})
+			})
+		</script>
