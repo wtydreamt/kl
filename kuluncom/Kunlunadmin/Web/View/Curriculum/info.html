@@ -46,7 +46,13 @@
   								</dl>
   								<dl class="col-md-4 ls_b">
   									<dt>学员评论</dt>
-  									<dd>0</dd>
+  									<dd>
+                    <if condition=" $count ">
+                    {$count}
+                    <else />
+                    0
+                    </if> 
+                    </dd>
   								</dl>
   								
   							</div>
