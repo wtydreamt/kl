@@ -44,4 +44,10 @@ class CurriculumController extends Controller {
     $res=D("Common")->queryjoin("curriculum","kl_admin_user","u_id","u_id",$where,"id,kl_admin_user.nickname,kl_admin_user.u_id,kl_curriculum.name,ketime,price,kl_curriculum.img",$type="all",array("yes","5",$page));
     echo  json_encode($res);      
     }
+    public function curriculuminfo(){
+        $data=I();
+        $res=M("curriculum")->where(array("id"=>$data['id']))->field("u_id,name,ketime,fxrade,starttime,price,desc,kegrade,img,link")->find();
+        $menu=M("menu")->where(array("kid"=>$data['id']))->field("title,link,shi")->select();
+        return array('data'=>$res,"menu"=>$menu); 
+    }
 }
