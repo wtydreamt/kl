@@ -48,6 +48,6 @@ class CurriculumController extends Controller {
         $data=I();
         $res=M("curriculum")->where(array("id"=>$data['id']))->field("u_id,name,ketime,fxrade,starttime,price,desc,kegrade,img,link")->find();
         $menu=M("menu")->where(array("kid"=>$data['id']))->field("title,link,shi")->select();
-        return array('data'=>$res,"menu"=>$menu); 
+      echo  json_encode(array('data'=>$res,"menu"=>$menu)); 
     }
 }
